@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: undertheme 1.0\n"
+"POT-Creation-Date: 2019-11-05 17:13-0300\n"
+"PO-Revision-Date: 2019-11-05 17:16-0300\n"
+"Last-Translator: Robson H Rodrigues <contato@robsonhrodrigues.com.br>\n"
+"Language-Team: Robson H Rodrigues\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: esc_html__;_e;__;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:59
+msgid "Message Widget"
+msgstr "Widget de Mensagem"
+
+#: functions.php:61
+msgid "Add some widget."
+msgstr "Adicione algum widget."
+
+#: inc/customizer.php:12
+msgid "Wallpaper"
+msgstr "Papel de parede"
+
+#: inc/customizer.php:13
+msgid "Image on the right side"
+msgstr "Imagem no lado direito"
+
+#: inc/customizer.php:20
+msgid "Image"
+msgstr "Imagem"
+
+#: inc/customizer.php:29
+msgid "Social networks"
+msgstr "Redes Sociais"
+
+#: index.php:53
+msgid "Created by"
+msgstr "Criado por"

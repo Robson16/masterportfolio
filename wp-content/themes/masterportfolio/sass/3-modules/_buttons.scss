@@ -1,0 +1,14 @@
+/* Buttons */
+
+.btn-outline {
+    color: $color1;
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid $color1;
+    border-radius: 0;
+
+    &:hover {
+        background-color: $color1;
+        color: #fff;
+    }
+}

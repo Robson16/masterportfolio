@@ -1,0 +1,7 @@
+/* Intro */
+
+.intro-right {
+    min-height: 500px;
+    background: center center no-repeat;
+    @include background-cover;
+}

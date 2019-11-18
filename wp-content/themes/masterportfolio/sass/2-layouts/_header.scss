@@ -1,0 +1,44 @@
+.header-home {
+    color: #fff;
+    background-position: center;
+    background-attachment: fixed;
+
+    @include background-cover;
+
+    .header-content {
+        transform: translateY(15%);
+    }
+
+    .header-photo {
+        padding: 16px;
+        background-color: rgba(#fff, 0.8);
+    }
+
+
+    .header-content {
+        margin-top: -80px;
+    }
+
+    .header-titles {
+        font-size: $font-size-1;
+
+        .title {
+            font-size: 0.9em;
+
+            @media (min-width: 576px) {
+                font-size: 1.8em;
+            }
+        }
+
+        .sub-title {
+            font-size: 0.8em;
+        }
+    }
+}
+
+.header-pages {
+    .title {
+        font-size: $font-size-1;
+        color: $color1;
+    }
+}

@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/*
+    Theme Name: Master Portfolio
+    Theme URI: https://bitbucket.org/robsonhr16/wp-portfolio/
+    Author: Robson H. Rodrigues
+    Author URI: https://www.robsonhrodrigues.com.br/
+    Description: Tema para Portfólio
+    Requires at least: WordPress 4.9.6
+    Version: 1.0
+    License: 
+    License URI: LICENSE
+    Text Domain: masterportfolio
+    Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, translation-ready
+*/
+/* BASE STYLES */
+/* Base */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #148f77;
+}
+a:hover, a:active, a:focus {
+  color: #17a689;
+}
+
+/* LAYOUTS */
+/* Navbar */
+.active > .nav-link {
+  color: #1abc9c !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #55e7ca !important;
+}
+
+.header-home {
+  color: #fff;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header-home .header-content {
+  transform: translateY(15%);
+}
+.header-home .header-photo {
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.header-home .header-content {
+  margin-top: -80px;
+}
+.header-home .header-titles {
+  font-size: 2.5rem;
+}
+.header-home .header-titles .title {
+  font-size: 0.9em;
+}
+@media (min-width: 576px) {
+  .header-home .header-titles .title {
+    font-size: 1.8em;
+  }
+}
+.header-home .header-titles .sub-title {
+  font-size: 0.8em;
+}
+
+.header-pages .title {
+  font-size: 2.5rem;
+  color: #1abc9c;
+}
+
+.footer {
+  border-top: 5px solid #0b4c3f;
+  color: #fff;
+  background-color: #0e6252;
+}
+.footer a {
+  color: #fff;
+}
+
+.footer-darken {
+  background-color: #0b4c3f;
+}
+
+/* MODULES */
+/* Titles */
+.title-cursive {
+  font-family: "Gochi Hand", cursive;
+}
+
+/* Text Colors */
+.text-color-one {
+  color: #1abc9c;
+}
+
+/* Text Shadow */
+.text-shadow {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* Text Font */
+.text-cursive {
+  font-family: "Gochi Hand", cursive;
+}
+
+/* Buttons */
+.btn-outline {
+  color: #1abc9c;
+  background-color: transparent;
+  background-image: none;
+  border: 2px solid #1abc9c;
+  border-radius: 0;
+}
+.btn-outline:hover {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+/* Horizontal Ruler */
+hr.sm-line {
+  border-color: #1abc9c;
+  border-width: 3px;
+  max-width: 50px;
+}
+
+hr.sm-line-darken {
+  border-color: #148f77;
+}
+
+/* Boxes */
+.box-shadow {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* Social Links */
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.social a {
+  margin: 5px;
+  color: #1abc9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  vertical-align: bottom;
+  border: solid 2px #1abc9c;
+}
+.social a:hover {
+  background: transparent;
+  text-decoration: none;
+}
+.social a:hover.facebook {
+  color: #4460ae;
+  border-color: #4460ae;
+}
+.social a:hover.instagram {
+  color: #cd4378;
+  border-color: #cd4378;
+}
+.social a:hover.twitter {
+  color: #1da1f2;
+  border-color: #1da1f2;
+}
+.social a:hover.youtube {
+  color: #FF0000;
+  border-color: #FF0000;
+}
+.social a:hover.linkedin {
+  color: #008891;
+  border-color: #008891;
+}
+.social a:hover.pinterest {
+  color: #BD081C;
+  border-color: #BD081C;
+}
+.social a:hover.wordpress {
+  color: #00749C;
+  border-color: #00749C;
+}
+.social a:hover.github {
+  color: #4078c0;
+  border-color: #4078c0;
+}
+.social a:hover.gitlab {
+  color: #fc6d26;
+  border-color: #fc6d26;
+}
+.social a:hover.bitbucket {
+  color: #2684FF;
+  border-color: #2684FF;
+}
+.social a:hover.whatsapp {
+  color: #25D366;
+  border-color: #25D366;
+}
+.social a:hover.phone {
+  color: #ffbf00;
+  border-color: #ffbf00;
+}
+.social a:hover.email {
+  color: #4a7f45;
+  border-color: #4a7f45;
+}
+.social a:hover.link {
+  color: #871AFF;
+  border-color: #871AFF;
+}
+
+/* Progress Bar */
+.progress-bar-primary {
+  background-color: #1abc9c;
+}
+
+.progress-square {
+  border-radius: 0;
+}
+
+/* Backgrounds Colors */
+.bg-color-one {
+  background-color: #1abc9c;
+}
+
+/* Strate */
+/* Theme */
+
+/*# sourceMappingURL=style.css.map */

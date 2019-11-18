@@ -1,0 +1,11 @@
+/* Horizontal Ruler */
+
+hr.sm-line {
+    border-color: $color1;
+    border-width: 3px;
+    max-width: 50px;
+}
+
+hr.sm-line-darken {
+    border-color: darken($color1, 10%);
+}

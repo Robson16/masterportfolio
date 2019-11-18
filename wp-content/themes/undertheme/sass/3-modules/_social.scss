@@ -1,0 +1,59 @@
+/* Social */
+ 
+.social {
+    text-align: left;
+    margin-top: 40px;
+
+    a {
+        margin: 0 10px 0 0;
+        color: #333;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        line-height: 40px;
+        font-size: 13px;
+        text-align: center;
+        transition: all .2s ease-out;
+        border: solid 1px #333;
+
+        i {
+            vertical-align: bottom;
+            line-height: 40px;
+        }
+
+        &:hover {
+            background: 0 0;
+
+            &.facebook {
+                color: #4460ae;
+                border-color: #4460ae;
+            }
+
+            &.youtube {
+                color: #c21f25;
+                border-color: #c21f25;
+            }
+
+            &.twitter {
+                color: #3cf;
+                border-color: #3cf;
+            }
+
+            &.instagram {
+                color: #cd4378;
+                border-color: #cd4378;
+            }
+
+            &.email {
+                color: #4a7f45;
+                border-color: #4a7f45;
+            }
+
+            &.link {
+                color: #871aff;
+                border-color: #871aff;
+            }
+        }
+    }
+}

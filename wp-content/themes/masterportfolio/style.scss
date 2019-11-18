@@ -1,0 +1,21 @@
+/*
+    Theme Name: Master Portfolio
+    Theme URI: https://bitbucket.org/robsonhr16/wp-portfolio/
+    Author: Robson H. Rodrigues
+    Author URI: https://www.robsonhrodrigues.com.br/
+    Description: Tema para Portfólio
+    Requires at least: WordPress 4.9.6
+    Version: 1.0
+    License: 
+    License URI: LICENSE
+    Text Domain: masterportfolio
+    Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, translation-ready
+*/
+
+// import your directories
+@import "./sass/0-plugins/plugins-dir";
+@import "./sass/1-base/base-dir";
+@import "./sass/2-layouts/layouts-dir";
+@import "./sass/3-modules/modules-dir";
+@import "./sass/4-state/state-dir";
+@import "./sass/5-theme/theme-dir";

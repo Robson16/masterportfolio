@@ -1,0 +1,15 @@
+/* Navbar */
+
+.active > .nav-link {
+    color: $color1 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+
+.nav-link {
+    &:hover, &:focus {
+        color: lighten($color1, 20%) !important;
+    }
+}
