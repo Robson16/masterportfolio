@@ -24,8 +24,9 @@
         <!-- /.container -->
     </section>
 
-    <?php get_template_part('template-parts/frontpage/frontpage', 'skills'); ?>
     <?php get_template_part('template-parts/frontpage/frontpage', 'widget'); ?>
+    <?php get_template_part('template-parts/frontpage/frontpage', 'skills'); ?>
+    <?php get_template_part('template-parts/frontpage/frontpage', 'resume'); ?>
 </main>
 
 <?php get_footer(); ?>

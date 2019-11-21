@@ -16,9 +16,8 @@ if (!function_exists('masterportfolio_setup')) {
      */
     function masterportfolio_setup() {
         // Enabling translation support
-        $textdomain = 'masterportfolio';
-        load_theme_textdomain($textdomain, get_stylesheet_directory() . '/languages/');
-        load_theme_textdomain($textdomain, get_template_directory() . '/languages/');
+        load_theme_textdomain('masterportfolio', get_stylesheet_directory() . '/languages/');
+        load_theme_textdomain('masterportfolio', get_template_directory() . '/languages/');
 
         // Menu registration
         register_nav_menus(array(
@@ -180,6 +179,16 @@ require_once get_template_directory() . '/inc/required-plugins.php';
  * Extra functions, filters, and actions for the theme
  */
 require get_template_directory() . '/inc/template-functions.php';
+
+/**
+ *  Custom Post Types
+ */
+require_once get_template_directory() . '/inc/post-type.php';
+
+/**
+ *  Custom Taxonomy
+ */
+require_once get_template_directory() . '/inc/taxonomy.php';
 
 /**
  *  Meta-Box Framework Fields

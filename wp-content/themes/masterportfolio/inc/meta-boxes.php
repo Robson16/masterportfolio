@@ -9,6 +9,7 @@
 function masterportfolio_meta_box($meta_boxes) {
     $prefix = '_masterportfolio_';
 
+    // Pages and posts additional informations meta-box fields
     $meta_boxes[] = array(
         'id' => 'additional_information',
         'title' => esc_html__('Additional Information', 'masterportfolio'),
@@ -27,6 +28,35 @@ function masterportfolio_meta_box($meta_boxes) {
                 'type' => 'text',
                 'name' => esc_html__('Subtitle', 'masterportfolio'),
                 'size' => 200,
+            ),
+        ),
+    );
+
+    // Custom Post Type Degree Details meta-box fields 
+    $meta_boxes[] = array(
+        'id' => 'degree_details',
+        'title' => esc_html__('Degree Details', 'masterportfolio'),
+        'post_types' => array('education'),
+        'context' => 'after_title',
+        'priority' => 'default',
+        'autosave' => 'true',
+        'fields' => array(
+            array(
+                'id' => $prefix . 'degree_start',
+                'type' => 'date',
+                'name' => esc_html__('Beginning of the course', 'masterportfolio'),
+                'timestamp' => 'true',
+            ),
+            array(
+                'id' => $prefix . 'degree_end',
+                'type' => 'date',
+                'name' => esc_html__('End of the course', 'masterportfolio'),
+                'timestamp' => 'true',
+            ),
+            array(
+                'id' => $prefix . 'degree_institution',
+                'type' => 'text',
+                'name' => esc_html__('Educational Institution', 'masterportfolio'),
             ),
         ),
     );
