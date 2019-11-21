@@ -18,7 +18,7 @@
         ?>
 
         <header class="header-pages">
-            <img class="img-fluid" src="<?php echo $header_img['url'] ?>" alt="<?php _e('Page Banner', 'masterportfolio'); ?>" />
+            <img class="img-fluid" src="<?php echo ($header_img['url']) ? $header_img['url'] : '//via.placeholder.com/2560x450'; ?>" alt="<?php _e('Page Banner', 'masterportfolio'); ?>" />
             <div class="container py-3">
                 <div class="row">
                     <div class="col">
