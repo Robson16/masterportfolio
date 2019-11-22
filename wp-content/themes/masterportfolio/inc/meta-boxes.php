@@ -32,7 +32,7 @@ function masterportfolio_meta_box($meta_boxes) {
         ),
     );
 
-    // Custom Post Type Degree Details meta-box fields 
+    // Custom Post Type Education Degree Details meta-box fields 
     $meta_boxes[] = array(
         'id' => 'degree_details',
         'title' => esc_html__('Degree Details', 'masterportfolio'),
