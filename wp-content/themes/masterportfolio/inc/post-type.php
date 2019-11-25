@@ -58,7 +58,7 @@ function masterportfolio_education_post_type() {
 add_action('init', 'masterportfolio_education_post_type', 0);
 
 // Register Custom Post Type
-function masterportfolio_workexperience_post_type() {
+function masterportfolio_experience_post_type() {
 
     $labels = array(
         'name' => _x('Experiences', 'Experiences', 'masterportfolio'),
@@ -94,7 +94,7 @@ function masterportfolio_workexperience_post_type() {
         'description' => __('Works experiences of your life', 'masterportfolio'),
         'labels' => $labels,
         'supports' => array('title', 'editor'),
-        'taxonomies' => array('l'),
+        'taxonomies' => array(),
         'hierarchical' => false,
         'public' => true,
         'show_ui' => true,
@@ -109,7 +109,7 @@ function masterportfolio_workexperience_post_type() {
         'publicly_queryable' => true,
         'capability_type' => 'post',
     );
-    register_post_type('workexperience', $args);
+    register_post_type('experience', $args);
 }
 
-add_action('init', 'masterportfolio_workexperience_post_type', 0);
+add_action('init', 'masterportfolio_experience_post_type', 0);
