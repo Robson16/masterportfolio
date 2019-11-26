@@ -13,6 +13,21 @@
     Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, translation-ready
 */
 /* BASE STYLES */
+/* Placeholders */
+form textarea, form select, form input[type=text], form input[type=email], form input[type=tel] {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 100%;
+  height: calc(1.5em);
+  padding: 20px 10px;
+  border: none;
+  border-bottom: 2px solid #1abc9c;
+  border-radius: 0;
+  background: transparent;
+  background-clip: padding-box;
+}
+
 /* Base */
 body {
   font-family: "Open Sans", sans-serif;
@@ -23,6 +38,69 @@ a {
 }
 a:hover, a:active, a:focus {
   color: #17a689;
+}
+
+form p {
+  margin-bottom: 1rem;
+}
+form label {
+  margin: 0;
+  width: 100%;
+}
+form select {
+  width: 33.333%;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  background-image: linear-gradient(45deg, transparent 50%, #fff 50%), linear-gradient(135deg, #fff 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
+  background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+}
+form textarea {
+  min-height: 130px;
+}
+form input[type=submit] {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #1abc9c;
+  border: 2px solid #1abc9c;
+  border-radius: 0;
+  background-image: none;
+  background-color: transparent;
+}
+form input[type=submit]:hover {
+  background-color: #1abc9c;
+  color: #fff;
+}
+form input:-webkit-autofill,
+form input:-webkit-autofill:hover,
+form input:-webkit-autofill:focus textarea:-webkit-autofill,
+form textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+form select:-webkit-autofill,
+form select:-webkit-autofill:hover,
+form select:-webkit-autofill:focus {
+  transition: background-color 5000s ease-in-out 0s;
+  border: none;
+  border-bottom: 2px solid #1abc9c;
+  -webkit-box-shadow: 0 0 0 1000px transparent inset;
+  -webkit-text-fill-color: #000;
+}
+form ::placeholder {
+  color: #AAA;
+  opacity: 1;
+  font-style: italic;
+}
+form :-ms-input-placeholder {
+  color: #AAA;
+  font-style: italic;
+}
+form ::-ms-input-placeholder {
+  color: #AAA;
+  font-style: italic;
 }
 
 /* LAYOUTS */
@@ -92,6 +170,25 @@ a:hover, a:active, a:focus {
   background-color: #0b4c3f;
 }
 
+/* Contact */
+#contact {
+  position: relative;
+  color: white;
+  background-color: #191919;
+}
+#contact .social a i {
+  margin: 10px 10px 10px 0;
+}
+#contact input:-webkit-autofill,
+#contact input:-webkit-autofill:hover,
+#contact input:-webkit-autofill:focus textarea:-webkit-autofill,
+#contact textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+#contact select:-webkit-autofill,
+#contact select:-webkit-autofill:hover,
+#contact select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #FFF;
+}
+
 /* MODULES */
 /* Titles */
 .title-cursive {
@@ -148,28 +245,26 @@ hr.sm-line-darken {
 }
 
 /* Social Links */
-.social {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
 .social a {
-  margin: 5px;
+  display: flex;
+  align-items: center;
   color: #1abc9c;
+}
+.social a i {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 5px;
   width: 3rem;
   height: 3rem;
-  border-radius: 50%;
+  vertical-align: bottom;
   font-size: 1.5rem;
   text-align: center;
+  border-radius: 50%;
+  border: solid 2px #1abc9c;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  vertical-align: bottom;
-  border: solid 2px #1abc9c;
 }
 .social a:hover {
   background: transparent;
@@ -177,58 +272,86 @@ hr.sm-line-darken {
 }
 .social a:hover.facebook {
   color: #4460ae;
+}
+.social a:hover.facebook i {
   border-color: #4460ae;
 }
 .social a:hover.instagram {
   color: #cd4378;
+}
+.social a:hover.instagram i {
   border-color: #cd4378;
 }
 .social a:hover.twitter {
   color: #1da1f2;
+}
+.social a:hover.twitter i {
   border-color: #1da1f2;
 }
 .social a:hover.youtube {
   color: #FF0000;
+}
+.social a:hover.youtube i {
   border-color: #FF0000;
 }
 .social a:hover.linkedin {
   color: #008891;
+}
+.social a:hover.linkedin i {
   border-color: #008891;
 }
 .social a:hover.pinterest {
   color: #BD081C;
+}
+.social a:hover.pinterest i {
   border-color: #BD081C;
 }
 .social a:hover.wordpress {
   color: #00749C;
+}
+.social a:hover.wordpress i {
   border-color: #00749C;
 }
 .social a:hover.github {
   color: #4078c0;
+}
+.social a:hover.github i {
   border-color: #4078c0;
 }
 .social a:hover.gitlab {
   color: #fc6d26;
+}
+.social a:hover.gitlab i {
   border-color: #fc6d26;
 }
 .social a:hover.bitbucket {
   color: #2684FF;
+}
+.social a:hover.bitbucket i {
   border-color: #2684FF;
 }
 .social a:hover.whatsapp {
   color: #25D366;
+}
+.social a:hover.whatsapp i {
   border-color: #25D366;
 }
 .social a:hover.phone {
   color: #ffbf00;
+}
+.social a:hover.phone i {
   border-color: #ffbf00;
 }
 .social a:hover.email {
   color: #4a7f45;
+}
+.social a:hover.email i {
   border-color: #4a7f45;
 }
 .social a:hover.link {
   color: #871AFF;
+}
+.social a:hover.link i {
   border-color: #871AFF;
 }
 
@@ -241,7 +364,22 @@ hr.sm-line-darken {
   border-radius: 0;
 }
 
-/* Backgrounds Colors */
+/* Backgrounds */
+.bg-google-map {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.bg-google-map::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: rgba(25, 25, 25, 0.8);
+}
+
 .bg-color-one {
   background-color: #1abc9c;
 }

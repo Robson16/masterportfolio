@@ -70,6 +70,15 @@ function masterportfolio_scripts() {
     wp_enqueue_script('bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', array('jquery'), '4.3.1', true);
     wp_enqueue_script('webfontloader', '//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js', NULL, '1.6.26', true);
     wp_enqueue_script('fontawesome', '//kit.fontawesome.com/1cb1a8d503.js', NULL, '5.10.2', false);
+
+    // Enqueue only if the api key is available
+    if (get_theme_mod('setting_googlemaps_apikey')) {
+        wp_enqueue_script('maps-googleapi', '//maps.googleapis.com/maps/api/js?key=' . get_theme_mod('setting_googlemaps_apikey'), NULL, '1.0', true);
+    }
+    // Enqueue only if the api key is available AND is specific template files
+    if (get_theme_mod('setting_googlemaps_apikey') && is_template('template-frontpage-1')) {
+        wp_enqueue_script('init-map', get_template_directory_uri() . '/js/initmap.js', array('maps-googleapi'), '1.0', true);
+    }
 }
 
 add_action('wp_enqueue_scripts', 'masterportfolio_scripts');

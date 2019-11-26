@@ -11,3 +11,99 @@ a {
         color: darken($color1, 5%);
     }
 }
+
+form {
+    p {
+        margin-bottom: 1rem;
+    }
+
+    label {
+        margin: 0;
+        width: 100%;
+    }
+
+    input {
+        &[type="text"],
+        &[type="email"],
+        &[type="tel"] {
+            @extend %form-fields;
+        }
+    }
+
+    select {
+        @extend %form-fields;
+        width: 33.333%;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0px;
+        background-image:
+            linear-gradient(45deg, transparent 50%, #fff 50%),
+            linear-gradient(135deg, #fff 50%, transparent 50%),
+            linear-gradient(to right, #ccc, #ccc);
+        background-position:
+            calc(100% - 20px) calc(1em + 2px),
+            calc(100% - 15px) calc(1em + 2px),
+            calc(100% - 2.5em) 0.5em;
+        background-size:
+            5px 5px,
+            5px 5px,
+            1px 1.5em;
+        background-repeat: no-repeat;
+    }
+
+    textarea {
+        @extend %form-fields;
+        min-height: 130px;
+    }
+
+    input[type="submit"] {
+        display: block;
+        margin: 0 auto;
+        padding: 12px 50px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: $color1;
+        border: 2px solid $color1;
+        border-radius: 0;
+        background-image: none;
+        background-color: transparent;
+
+        &:hover {
+            background-color: $color1;
+            color: #fff;
+        }
+    }
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus
+    textarea:-webkit-autofill,
+    textarea:-webkit-autofill:hover
+    textarea:-webkit-autofill:focus,
+    select:-webkit-autofill,
+    select:-webkit-autofill:hover,
+    select:-webkit-autofill:focus {
+        transition: background-color 5000s ease-in-out 0s;
+        border: none;
+        border-bottom: 2px solid $color1;
+        -webkit-box-shadow: 0 0 0 1000px transparent inset;
+        -webkit-text-fill-color: #000;
+    }
+
+
+    ::placeholder {
+        color: #AAA;
+        opacity: 1;
+        font-style: italic;
+    }
+
+    :-ms-input-placeholder {
+        color: #AAA;
+        font-style: italic;
+    }
+
+    ::-ms-input-placeholder {
+        color: #AAA;
+        font-style: italic;
+    }
+}

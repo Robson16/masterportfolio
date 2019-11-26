@@ -4,7 +4,7 @@
  */
 ?>
 
-<div class="social">
+<div class="social d-flex flex-wrap justify-content-center align-items-center">
     <?php if (get_theme_mod('setting_facebook')): ?>
         <a class="facebook" href="<?php echo get_theme_mod('setting_facebook') ?>" target="_black" rel="noopener" aria-label="Facebook">
             <i class="fab fa-facebook-f"></i>
