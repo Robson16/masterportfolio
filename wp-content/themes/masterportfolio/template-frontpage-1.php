@@ -27,6 +27,7 @@
     <?php get_template_part('template-parts/frontpage/frontpage', 'widget'); ?>
     <?php get_template_part('template-parts/frontpage/frontpage', 'skills'); ?>
     <?php get_template_part('template-parts/frontpage/frontpage', 'resume'); ?>
+    <?php get_template_part('template-parts/sections/section', 'contact'); ?>
 </main>
 
 <?php get_footer(); ?>
