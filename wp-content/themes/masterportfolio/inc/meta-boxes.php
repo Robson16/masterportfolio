@@ -104,7 +104,7 @@ function masterportfolio_meta_box($meta_boxes) {
                 'type' => 'post',
                 'name' => esc_html__('Portfolio', 'masterportfolio'),
                 'desc' => esc_html__('Portfolio works you did at this company', 'masterportfolio'),
-                'post_type' => 'education',
+                'post_type' => 'portfolio',
                 'field_type' => 'select_advanced',
                 'clone' => 'true',
             ),
