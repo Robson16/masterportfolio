@@ -22,7 +22,7 @@ form textarea, form select, form input[type=text], form input[type=email], form 
   height: calc(1.5em);
   padding: 20px 10px;
   border: none;
-  border-bottom: 2px solid #1abc9c;
+  border-bottom: 2px solid #1cc9a7;
   border-radius: 0;
   background: transparent;
   background-clip: padding-box;
@@ -34,10 +34,10 @@ body {
 }
 
 a {
-  color: #148f77;
+  color: #169c82;
 }
 a:hover, a:active, a:focus {
-  color: #17a689;
+  color: #19b394;
 }
 
 form p {
@@ -66,14 +66,14 @@ form input[type=submit] {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.2rem;
-  color: #1abc9c;
-  border: 2px solid #1abc9c;
+  color: #1cc9a7;
+  border: 2px solid #1cc9a7;
   border-radius: 0;
   background-image: none;
   background-color: transparent;
 }
 form input[type=submit]:hover {
-  background-color: #1abc9c;
+  background-color: #1cc9a7;
   color: #fff;
 }
 form input:-webkit-autofill,
@@ -85,7 +85,7 @@ form select:-webkit-autofill:hover,
 form select:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s;
   border: none;
-  border-bottom: 2px solid #1abc9c;
+  border-bottom: 2px solid #1cc9a7;
   -webkit-box-shadow: 0 0 0 1000px transparent inset;
   -webkit-text-fill-color: #000;
 }
@@ -106,7 +106,7 @@ form ::-ms-input-placeholder {
 /* LAYOUTS */
 /* Navbar */
 .active > .nav-link {
-  color: #1abc9c !important;
+  color: #1cc9a7 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -114,7 +114,7 @@ form ::-ms-input-placeholder {
 }
 
 .nav-link:hover, .nav-link:focus {
-  color: #55e7ca !important;
+  color: #62e9cf !important;
 }
 
 .header-home {
@@ -154,20 +154,14 @@ form ::-ms-input-placeholder {
 
 .header-pages .title {
   font-size: 2.5rem;
-  color: #1abc9c;
+  color: #1cc9a7;
 }
 
 .footer {
-  border-top: 5px solid #0b4c3f;
   color: #fff;
-  background-color: #0e6252;
 }
 .footer a {
   color: #fff;
-}
-
-.footer-darken {
-  background-color: #0b4c3f;
 }
 
 /* Contact */
@@ -202,7 +196,7 @@ form ::-ms-input-placeholder {
 
 /* Text Colors */
 .text-color-one {
-  color: #1abc9c;
+  color: #1cc9a7;
 }
 
 /* Text Shadow */
@@ -217,26 +211,26 @@ form ::-ms-input-placeholder {
 
 /* Buttons */
 .btn-outline {
-  color: #1abc9c;
+  color: #117d67;
   background-color: transparent;
   background-image: none;
-  border: 2px solid #1abc9c;
+  border: 2px solid #117d67;
   border-radius: 0;
 }
 .btn-outline:hover {
-  background-color: #1abc9c;
+  background-color: #117d67;
   color: #fff;
 }
 
 /* Horizontal Ruler */
 hr.sm-line {
-  border-color: #1abc9c;
+  border-color: #1cc9a7;
   border-width: 3px;
   max-width: 50px;
 }
 
 hr.sm-line-darken {
-  border-color: #148f77;
+  border-color: #169c82;
 }
 
 /* Boxes */
@@ -248,7 +242,7 @@ hr.sm-line-darken {
 .social a {
   display: flex;
   align-items: center;
-  color: #1abc9c;
+  color: #1cc9a7;
 }
 .social a i {
   display: flex;
@@ -261,7 +255,7 @@ hr.sm-line-darken {
   font-size: 1.5rem;
   text-align: center;
   border-radius: 50%;
-  border: solid 2px #1abc9c;
+  border: solid 2px #1cc9a7;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -357,7 +351,7 @@ hr.sm-line-darken {
 
 /* Progress Bar */
 .progress-bar-primary {
-  background-color: #1abc9c;
+  background-color: #1cc9a7;
 }
 
 .progress-square {
@@ -381,7 +375,23 @@ hr.sm-line-darken {
 }
 
 .bg-color-one {
-  background-color: #1abc9c;
+  background-color: #1cc9a7;
+}
+
+.bg-color-two {
+  background-color: #1abd9c;
+}
+
+.bg-color-three {
+  background-color: #17a387;
+}
+
+.bg-color-four {
+  background-color: #117d67;
+}
+
+.bg-color-five {
+  background-color: #093d33;
 }
 
 /* Strate */

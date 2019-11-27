@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer bg-color-four">
 
     <div class="container py-5">
         <div class="row flex-column flex-sm-row">
@@ -31,7 +31,7 @@
     </div>
     <!-- /.container -->
 
-    <div class="footer-darken">
+    <div class="bg-color-five">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12">
