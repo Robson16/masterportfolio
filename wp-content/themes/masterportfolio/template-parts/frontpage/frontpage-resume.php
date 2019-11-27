@@ -56,7 +56,7 @@ $experience = new WP_Query(array(
                 <div class="<?php echo ($experience->have_posts()) ? 'col-12 col-md-6' : 'col-12'; ?>">
                     <?php if ($education->have_posts()): ?>
                         <a class="btn btn-outline mb-3" href="">
-                            <h5 class="m-0">
+                            <h5 class="text-uppercase m-0">
                                 <?php _e('Education', 'masterportfolio'); ?>
                             </h5>
                         </a>
@@ -87,7 +87,7 @@ $experience = new WP_Query(array(
                 <div class="<?php echo ($education->have_posts()) ? 'col-12 col-md-6' : 'col-12'; ?>">
                     <?php if ($experience->have_posts()): ?>
                         <a class="btn btn-outline mb-3" href="">
-                            <h5 class="m-0">
+                            <h5 class="text-uppercase m-0">
                                 <?php _e('Work Experience', 'masterportfolio'); ?>
                             </h5>
                         </a>

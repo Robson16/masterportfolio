@@ -222,6 +222,18 @@ form ::-ms-input-placeholder {
   color: #fff;
 }
 
+.btn-outline-white {
+  color: white;
+  background-color: transparent;
+  background-image: none;
+  border: 2px solid white;
+  border-radius: 0;
+}
+.btn-outline-white:hover {
+  background-color: white;
+  color: #093d33;
+}
+
 /* Horizontal Ruler */
 hr.sm-line {
   border-color: #1cc9a7;
