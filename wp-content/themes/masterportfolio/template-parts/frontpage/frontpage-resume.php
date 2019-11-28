@@ -6,10 +6,10 @@ $education = new WP_Query(array(
     'meta_query' => array(
         'relation' => 'AND',
         'degree_end' => array(
-            'key' => '_masterportfolio_degree_end',
+            'key' => 'degree_end',
         ),
         'degree_ongoing' => array(
-            'key' => '_masterportfolio_degree_ongoing',
+            'key' => 'degree_ongoing',
         ),
     ),
     'orderby' => array(
@@ -25,10 +25,10 @@ $experience = new WP_Query(array(
     'meta_query' => array(
         'relation' => 'AND',
         'experience_end' => array(
-            'key' => '_masterportfolio_experience_end',
+            'key' => 'experience_end',
         ),
         'experience_current' => array(
-            'key' => '_masterportfolio_experience_current',
+            'key' => 'experience_current',
         ),
     ),
     'orderby' => array(
@@ -63,13 +63,13 @@ $experience = new WP_Query(array(
                     <?php endif; ?>
                     <?php while ($education->have_posts()): $education->the_post() ?>
                         <div class="border border-top-0 border-right-0 border-left-0 my-3">
-                            <p class="font-italic mb-0"><?php echo rwmb_meta('_masterportfolio_degree_institution'); ?></p>
+                            <p class="font-italic mb-0"><?php echo rwmb_meta('degree_institution'); ?></p>
                             <?php the_title('<h5 class="font-weight-bold text-uppercase mb-0">', '</h5>'); ?>
                             <p class="font-weight-light text-uppercase mb-3">
                                 <?php
-                                echo wp_date('F Y', rwmb_meta('_masterportfolio_degree_start'));
+                                echo wp_date('F Y', rwmb_meta('degree_start'));
                                 echo ' - ';
-                                echo (rwmb_meta('_masterportfolio_degree_ongoing')) ? _e('Ongoing', 'masterportfolio') : wp_date('F Y', rwmb_meta('_masterportfolio_degree_end'));
+                                echo (rwmb_meta('degree_ongoing')) ? _e('Ongoing', 'masterportfolio') : wp_date('F Y', rwmb_meta('degree_end'));
                                 ?>
                             </p>
                             <?php the_excerpt(); ?>
@@ -94,13 +94,13 @@ $experience = new WP_Query(array(
                     <?php endif; ?>
                     <?php while ($experience->have_posts()): $experience->the_post() ?>
                         <div class="border border-top-0 border-right-0 border-left-0 my-3">
-                            <p class="font-italic mb-0"><?php echo rwmb_meta('_masterportfolio_experience_company'); ?></p>
+                            <p class="font-italic mb-0"><?php echo rwmb_meta('experience_company'); ?></p>
                             <?php the_title('<h5 class="font-weight-bold text-uppercase mb-0">', '</h5>'); ?>
                             <p class="font-weight-light text-uppercase mb-3">
                                 <?php
-                                echo wp_date('F Y', rwmb_meta('_masterportfolio_experience_start'));
+                                echo wp_date('F Y', rwmb_meta('experience_start'));
                                 echo ' - ';
-                                echo (rwmb_meta('_masterportfolio_experience_current')) ? _e('Currently', 'masterportfolio') : wp_date('F Y', rwmb_meta('_masterportfolio_experience_end'));
+                                echo (rwmb_meta('experience_current')) ? _e('Currently', 'masterportfolio') : wp_date('F Y', rwmb_meta('experience_end'));
                                 ?>
                             </p>
                             <?php the_excerpt(); ?>

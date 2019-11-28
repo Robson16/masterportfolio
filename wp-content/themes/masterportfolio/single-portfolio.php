@@ -4,16 +4,16 @@
  */
 ?>
 
-<?php get_header(); ?>
+<?php get_header('portfolio'); ?>
 
 <main role="main">
     <?php while (have_posts()) : the_post(); ?>
         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-            <div class="container py-5">
+            <div class="container pb-5">
                 <div class="row">
                     <div class="col-12 col-lg-8">
                         <?php if (has_post_thumbnail()): ?>
-                            <figure title="<?php the_title_attribute(); ?>">
+                            <figure class="border" title="<?php the_title_attribute(); ?>">
                                 <?php
                                 the_post_thumbnail('medium_large', array(
                                     'class' => 'img-fluid',
@@ -25,16 +25,31 @@
                     </div>
                     <!--/.col-->
                     <div class="col-12 col-lg-4">
-                        <hr>
-                        <ul class="list-unstyled">
-                            <li><span class="font-weight-bold text-uppercase"><?php _e('Client:', 'masterportfolio'); ?></span> Lorem Ipsum </li>
-                            <li><span class="font-weight-bold text-uppercase"><?php _e('Design by:', 'masterportfolio'); ?></span> Lorem Ipsum </li>
+                        <?php if (has_term('', 'portfolio_category') || has_tag()): ?>
+                            <div class="border border-left-0 border-right-0 mb-3 py-3">
+                                <?php if (has_term('', 'portfolio_category')): ?>
+                                    <?php $categories = wp_get_post_terms($post->ID, 'portfolio_category', array('fields' => 'all')); ?>
+                                    <i class="fas fa-folder-open fa-sm"></i>
+                                    <?php foreach ($categories as $category): ?>
+                                        <a href="<?php echo get_term_link($category->term_id); ?>" class="small"><?php echo $category->name; ?></a>
+                                    <?php endforeach; ?>
+                                <?php endif; ?>
+                                <?php the_tags('<i class="fas fa-tag fa-sm"></i> <span class="small">', ', ', '</span>'); ?>
+                            </div>
+                        <?php endif; ?>
+                        <ul class="list-unstyled border border-left-0 border-right-0 border-top-0 pb-3">
+                            <li><span class="font-weight-bold text-uppercase"><?php _e('Client:', 'masterportfolio'); ?></span> <?php echo rwmb_meta('client'); ?> </li>
+                            <li><span class="font-weight-bold text-uppercase"><?php _e('Design by:', 'masterportfolio'); ?></span> <?php echo rwmb_meta('designer'); ?> </li>
                             <li><span class="font-weight-bold text-uppercase"><?php _e('Date:', 'masterportfolio'); ?></span> 10/10/2019 </li>
                         </ul>
-                        <hr>
                         <?php the_content(); ?>
-                        <hr>
-                        <a class="btn btn-outline" href="<?php ?>" target="_blank" rel="noopener"><?php _e('See Online', 'masterportfolio'); ?></a>
+                        <?php if (!empty(get_the_content())): ?>
+                            <hr>
+                        <?php endif; ?>
+                        <?php if (rwmb_meta('work_url')): ?>
+                            <a class="btn btn-outline" href="<?php echo rwmb_meta('work_url'); ?>" target="_blank" rel="noopener"><?php _e('See Online', 'masterportfolio'); ?></a>
+                        <?php endif; ?>
+
                     </div>
                     <!--/.col-->
                 </div>

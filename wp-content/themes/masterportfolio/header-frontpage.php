@@ -12,12 +12,12 @@
         <?php get_template_part('template-parts/navbar/main-menu'); ?>
 
         <?php
-        $header_img = rwmb_meta('_masterportfolio_header_img', array(
+        $header_img = rwmb_meta('header_img', array(
             'size' => (wp_is_mobile()) ? 'medium_large' : 'full',
         ));
         ?>
 
-        <header class="header-home" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(<?php echo ($header_img['url']) ? $header_img['url'] : '//via.placeholder.com/2560x1440' ?>);">
+        <header class="header-home" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(<?php echo (isset($header_img['url'])) ? $header_img['url'] : '//via.placeholder.com/2560x1440' ?>);">
             <div class="container text-center pt-md-5 pb-5 mb-5">
                 <div class="header-content">
 
@@ -33,7 +33,7 @@
                         <div class="col-sm-12">
                             <hgroup class="header-titles mb-5">
                                 <h1 class="title"><?php bloginfo('name'); ?></h1>
-                                <h2 class="sub-title"><?php echo rwmb_meta('_masterportfolio_subtitle'); ?></h2>
+                                <h2 class="sub-title"><?php echo rwmb_meta('subtitle'); ?></h2>
                             </hgroup>
                         </div>
                     </div>
