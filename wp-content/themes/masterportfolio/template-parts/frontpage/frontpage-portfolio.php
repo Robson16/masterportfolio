@@ -28,7 +28,7 @@ $portfolio_items = new WP_Query(array(
                     <div class="col-12 col-md-6 col-lg-4 my-3">
                         <?php if (has_post_thumbnail()): ?>
                             <figure title="<?php the_title_attribute(); ?>">
-                                <a href="<?php the_permalink(); ?>">
+                                <a class="thumbnail" href="<?php the_permalink(); ?>">
                                     <?php
                                     the_post_thumbnail('medium_large', array(
                                         'class' => 'img-fluid',
@@ -36,7 +36,7 @@ $portfolio_items = new WP_Query(array(
                                     ));
                                     ?>
                                 </a>
-                                <figcaption class="text-white mt-3"><?php echo get_the_title(); ?></figcaption>
+                                <figcaption class="text-center text-white mt-3"><?php echo get_the_title(); ?></figcaption>
                             </figure>
                         <?php endif; ?>
                     </div>
