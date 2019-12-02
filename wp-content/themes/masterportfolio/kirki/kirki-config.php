@@ -6,6 +6,7 @@ function masterportfolio_kirki() {
             'capability' => 'edit_theme_options',
             'option_type' => 'theme_mod',
         ));
+        require_once get_template_directory() . '/kirki/kirki-control-header.php';
         require_once get_template_directory() . '/kirki/kirki-control-skills.php';
         require_once get_template_directory() . '/kirki/kirki-control-networks.php';
         require_once get_template_directory() . '/kirki/kirki-control-contacts.php';

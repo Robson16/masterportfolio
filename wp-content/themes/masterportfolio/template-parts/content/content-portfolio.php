@@ -1,10 +1,10 @@
 <?php
 /**
- * Generic template part to display publication
+ * Template part to display portfolio custom post-type 
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('mb-4'); ?>>
 
     <?php if (has_post_thumbnail()): ?>
         <figure class="border" title="<?php the_title_attribute(); ?>">
@@ -20,19 +20,13 @@
     <?php endif; ?>
 
     <a class="" href="<?php the_permalink(); ?>">
-        <h3 class="text-uppercase font-weight-bold">
-            <?php the_title(); ?>
-        </h3>
+        <?php the_title('<h5 class="text-center my-3">', '</h5>'); ?>
     </a>
 
-    <p class="font-italic"><?php the_category(', '); ?> - <?php echo get_the_date(); ?> - <?php the_author_posts_link(); ?></p>
-
-    <?php the_excerpt(); ?>
-
-    <a class="btn text-uppercase font-weight-bold rounded-0 py-3 px-4" href="<?php the_permalink(); ?>">
+<!--    <a class="btn btn-outline" href="<?php the_permalink(); ?>">
         <?php _e('Read more', 'masterportfolio'); ?>
-    </a>
-
-    <hr class="my-5">
+    </a>-->
 
 </article><!-- #post-<?php the_ID(); ?> -->
+
+

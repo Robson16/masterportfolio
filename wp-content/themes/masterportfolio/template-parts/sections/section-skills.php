@@ -11,7 +11,7 @@
         #skills {
             color: #FFF;
             background-color: <?php echo $skills_bg['background-color']; ?>;
-            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(<?php echo $skills_bg['background-image']; ?>); 
+            background-image: linear-gradient(<?php echo $skills_bg['background-color']; ?>, <?php echo $skills_bg['background-color']; ?>), url(<?php echo $skills_bg['background-image']; ?>); 
             background-repeat: <?php echo $skills_bg['background-repeat']; ?>;
             background-position: <?php echo $skills_bg['background-position']; ?>;
             background-size: <?php echo $skills_bg['background-size']; ?>;

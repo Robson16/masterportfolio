@@ -5,10 +5,10 @@ body {
 }
 
 a {
-    color: darken($color1, 10%);
+    color: darken($color3, 10%);
 
     &:hover, &:active, &:focus {
-        color: darken($color1, 5%);
+        color: darken($color3, 5%);
     }
 }
 

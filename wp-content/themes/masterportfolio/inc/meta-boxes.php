@@ -18,11 +18,6 @@ function meta_box($meta_boxes) {
         'autosave' => 'false',
         'fields' => array(
             array(
-                'id' => 'header_img',
-                'type' => 'single_image',
-                'name' => esc_html__('Header Image', 'masterportfolio'),
-            ),
-            array(
                 'id' => 'subtitle',
                 'type' => 'text',
                 'name' => esc_html__('Subtitle', 'masterportfolio'),

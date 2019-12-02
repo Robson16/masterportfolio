@@ -34,10 +34,10 @@ body {
 }
 
 a {
-  color: #169c82;
+  color: #117662;
 }
 a:hover, a:active, a:focus {
-  color: #19b394;
+  color: #148d74;
 }
 
 form p {
@@ -117,44 +117,40 @@ form ::-ms-input-placeholder {
   color: #62e9cf !important;
 }
 
-.header-home {
+#header .header-wrap {
   color: #fff;
-  background-position: center;
+  background-position: center center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-.header-home .header-content {
+#header .header-content {
   transform: translateY(15%);
 }
-.header-home .header-photo {
+#header .header-photo {
   padding: 16px;
   background-color: rgba(255, 255, 255, 0.8);
 }
-.header-home .header-content {
+#header .header-content {
   margin-top: -80px;
 }
-.header-home .header-titles {
+#header .header-titles {
   font-size: 2.5rem;
 }
-.header-home .header-titles .title {
+#header .header-titles .title {
   font-size: 0.9em;
 }
 @media (min-width: 576px) {
-  .header-home .header-titles .title {
+  #header .header-titles .title {
     font-size: 1.8em;
   }
 }
-.header-home .header-titles .sub-title {
+#header .header-titles .sub-title {
   font-size: 0.8em;
   font-weight: lighter;
-}
-
-.header-pages .title {
-  font-size: 2.5rem;
-  color: #1cc9a7;
 }
 
 .footer {
@@ -187,11 +183,6 @@ form ::-ms-input-placeholder {
 /* Titles */
 .title-cursive {
   font-family: "Gochi Hand", cursive;
-}
-
-.sub-title {
-  font-weight: bolder;
-  text-transform: uppercase;
 }
 
 /* Text Colors */

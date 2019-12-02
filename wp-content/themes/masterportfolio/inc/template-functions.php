@@ -28,3 +28,15 @@ function is_template($template_name) {
 
     return ($template_current === $template_name) ? true : false;
 }
+
+/**
+ * Checks if the page is the blog page
+ * @global object $post
+ * @return boolean
+ */
+function is_blog() {
+    global $post;
+    $posttype = get_post_type($post);
+    return ( ((is_archive()) || (is_author()) || (is_category()) || (is_home()) || (is_single()) || (is_tag())) && ( $posttype == 'post') ) ? true : false;
+}
+

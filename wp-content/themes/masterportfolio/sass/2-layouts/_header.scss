@@ -1,9 +1,11 @@
-.header-home {
-    color: #fff;
-    background-position: center;
-    background-attachment: fixed;
-
-    @include background-cover;
+#header {
+    .header-wrap {
+        color: #fff;
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        @include background-cover;
+    }
 
     .header-content {
         transform: translateY(15%);
@@ -34,12 +36,5 @@
             font-size: 0.8em;
             font-weight: lighter;
         }
-    }
-}
-
-.header-pages {
-    .title {
-        font-size: $font-size-1;
-        color: $color1;
     }
 }

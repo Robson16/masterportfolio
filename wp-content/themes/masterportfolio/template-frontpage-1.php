@@ -16,8 +16,9 @@
     <section>
         <div class="container pb-5 pt-3">
             <hgroup class="text-center my-4">
-                <h2 class="title-cursive font-weight-bold"><?php echo get_the_title(); ?></h2>
+                <h3 class="title-cursive font-weight-bold"><?php echo get_the_title(); ?></h3>
                 <hr class="sm-line">
+                <h4 class="sub-title"><?php echo rwmb_meta('subtitle'); ?></h4>
             </hgroup>
             <?php the_content(); ?>
         </div>

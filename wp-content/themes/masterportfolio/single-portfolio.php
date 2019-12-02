@@ -4,7 +4,7 @@
  */
 ?>
 
-<?php get_header('portfolio'); ?>
+<?php get_header(); ?>
 
 <main role="main">
     <?php while (have_posts()) : the_post(); ?>
