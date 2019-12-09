@@ -5,6 +5,19 @@
  */
 
 /**
+ * Add custom post-types to default query loading on archive
+ * 
+ * @param type $query
+ */
+function archive_tag_post_types($query) {
+    if ($query->is_tag() && $query->is_main_query() && !is_admin()) {
+        $query->set('post_type', array('post', 'portfolio'));
+    }
+}
+
+add_action('pre_get_posts', 'archive_tag_post_types');
+
+/**
  * Get a phone number, and return it without any non-numeric characters
  * @param str $phone
  * @return str 
@@ -39,4 +52,3 @@ function is_blog() {
     $posttype = get_post_type($post);
     return ( ((is_archive()) || (is_author()) || (is_category()) || (is_home()) || (is_single()) || (is_tag())) && ( $posttype == 'post') ) ? true : false;
 }
-

@@ -37,7 +37,6 @@ if (!function_exists('masterportfolio_setup')) {
 
         // Custom image sizes
         add_image_size('navbar_logo', 25, 20, true);
-        add_image_size('post_header', 2560, 450, true);
     }
 
 }

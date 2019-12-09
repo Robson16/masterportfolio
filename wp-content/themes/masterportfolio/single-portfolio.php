@@ -57,7 +57,7 @@
             </div>
             <!--/.container-->
         </article>
-        <!--/.<?php echo 'post-' . get_the_ID(); ?>-->
+        <!-- #post-<?php the_ID(); ?> -->
     <?php endwhile; ?>
 </main>
 

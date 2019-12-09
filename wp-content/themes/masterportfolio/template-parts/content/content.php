@@ -26,6 +26,7 @@
     </a>
 
     <p class="font-italic"><?php the_category(', '); ?> - <?php echo get_the_date(); ?> - <?php the_author_posts_link(); ?></p>
+    <p><?php the_tags('<i class="fas fa-tag fa-sm"></i> <span class="small">', ', ', '</span>'); ?></p>
 
     <?php the_excerpt(); ?>
 
