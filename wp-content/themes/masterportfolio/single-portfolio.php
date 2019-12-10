@@ -25,8 +25,10 @@
                     </div>
                     <!--/.col-->
                     <div class="col-12 col-lg-4">
+
                         <?php if (has_term('', 'portfolio_category') || has_tag()): ?>
                             <div class="border border-left-0 border-right-0 mb-3 py-3">
+
                                 <?php if (has_term('', 'portfolio_category')): ?>
                                     <?php $categories = wp_get_post_terms($post->ID, 'portfolio_category', array('fields' => 'all')); ?>
                                     <i class="fas fa-folder-open fa-sm"></i>
@@ -34,18 +36,23 @@
                                         <a href="<?php echo get_term_link($category->term_id); ?>" class="small"><?php echo $category->name; ?></a>
                                     <?php endforeach; ?>
                                 <?php endif; ?>
+
                                 <?php the_tags('<i class="fas fa-tag fa-sm"></i> <span class="small">', ', ', '</span>'); ?>
                             </div>
                         <?php endif; ?>
+
                         <ul class="list-unstyled border border-left-0 border-right-0 border-top-0 pb-3">
                             <li><span class="font-weight-bold text-uppercase"><?php _e('Client:', 'masterportfolio'); ?></span> <?php echo rwmb_meta('client'); ?> </li>
                             <li><span class="font-weight-bold text-uppercase"><?php _e('Design by:', 'masterportfolio'); ?></span> <?php echo rwmb_meta('designer'); ?> </li>
                             <li><span class="font-weight-bold text-uppercase"><?php _e('Date:', 'masterportfolio'); ?></span> 10/10/2019 </li>
                         </ul>
+
                         <?php the_content(); ?>
+
                         <?php if (!empty(get_the_content())): ?>
                             <hr>
                         <?php endif; ?>
+
                         <?php if (rwmb_meta('work_url')): ?>
                             <a class="btn btn-outline" href="<?php echo rwmb_meta('work_url'); ?>" target="_blank" rel="noopener"><?php _e('See Online', 'masterportfolio'); ?></a>
                         <?php endif; ?>
