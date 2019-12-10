@@ -20,20 +20,31 @@
     <?php endif; ?>
 
     <a class="" href="<?php the_permalink(); ?>">
-        <h3 class="text-uppercase font-weight-bold">
+        <h3 class="text-uppercase font-weight-bold mb-1">
             <?php the_title(); ?>
         </h3>
     </a>
 
-    <p class="font-italic"><?php the_category(', '); ?> - <?php echo get_the_date(); ?> - <?php the_author_posts_link(); ?></p>
-    <p><?php the_tags('<i class="fas fa-tag fa-sm"></i> <span class="small">', ', ', '</span>'); ?></p>
+    <p class="mb-1">
+        <i class="far fa-calendar-alt"></i>
+        <?php echo get_the_date(); ?> 
+        &nbsp;
+        <i class="fas fa-user"></i>
+        <?php the_author_posts_link(); ?>
+        &nbsp;
+        <i class="fas fa-folder-open fa-sm"></i>
+        <?php the_category(', '); ?>
+        &nbsp;
+        <i class="fas fa-tag fa-sm"></i>
+        <?php the_tags('', ', ', ''); ?>
+    </p>
 
     <?php the_excerpt(); ?>
 
-    <a class="btn text-uppercase font-weight-bold rounded-0 py-3 px-4" href="<?php the_permalink(); ?>">
+    <a class="btn btn-outline text-uppercase font-weight-bold py-3 px-4" href="<?php the_permalink(); ?>">
         <?php _e('Read more', 'masterportfolio'); ?>
     </a>
 
     <hr class="my-5">
 
-</article><!-- #post-<?php the_ID(); ?> -->
+</article><!-- #post-<?php the_ID(); ?> 
