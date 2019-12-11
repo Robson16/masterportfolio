@@ -164,6 +164,17 @@ function masterportfolio_sidebars() {
         'before_title' => '<h3 class="widget-title">',
         'after_title' => '</h3>'
     ));
+    
+    // Blog
+    register_sidebar(array(
+        'name' => __('Blog Sidebar', 'masterportfolio'),
+        'id' => 'blog-sidebar-widgets',
+        'description' => __('Add some widget.', 'masterportfolio'),
+        'before_widget' => '<div class="widget-wrapper my-5">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="widget-title h2">',
+        'after_title' => '</h3>'
+    ));
 }
 
 add_action('widgets_init', 'masterportfolio_sidebars');

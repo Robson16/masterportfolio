@@ -7,13 +7,18 @@
 
         <h1 class="title title-cursive"><?php echo esc_html__('Category', 'masterportfolio') . ': ' . single_term_title('', false); ?></h1>
 
-    <?php elseif (is_tag() || is_category() || is_author()): ?>
+    <?php elseif (is_search()): ?>
 
-        <h1 class="title title-cursive"><?php the_archive_title(); ?></h1>
+        <h1 class="d-inline-block title title-cursive"><?php _e('Search results for:', 'masterportfolio'); ?></h1>
+        <span class="h3 title"><?php echo get_search_query(); ?></span>
+
+    <?php elseif (is_post_type_archive('portfolio')): ?>
+
+        <h1 class="title title-cursive"><?php echo post_type_archive_title('', false); ?></h1>
 
     <?php elseif (is_archive()): ?>
 
-        <h1 class="title title-cursive"><?php echo post_type_archive_title('', false); ?></h1>
+        <h1 class="title title-cursive"><?php the_archive_title(); ?></h1>
 
     <?php elseif (is_blog()): ?>
 
@@ -25,11 +30,11 @@
 
     <?php endif; ?>
 
-    <hr>
-
     <?php if (rwmb_meta('subtitle')): ?>
 
         <h2><?php echo rwmb_meta('subtitle'); ?></h2>
 
     <?php endif; ?>
 </hgroup>
+
+<hr class="mt-0">

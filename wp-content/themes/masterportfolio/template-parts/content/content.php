@@ -26,13 +26,30 @@
     <p class="mb-1">
         <i class="far fa-calendar-alt"></i>
         <?php echo get_the_date(); ?> 
+
         &nbsp;
+
         <i class="fas fa-user"></i>
         <?php the_author_posts_link(); ?>
+
         &nbsp;
+
         <i class="fas fa-folder-open fa-sm"></i>
-        <?php the_category(', '); ?>
+        <?php
+        if (get_post_type() == 'post') {
+            the_category(', ');
+        } elseif (get_post_type() == 'portfolio' && has_term('', 'portfolio_category')) {
+
+            $categories = wp_get_post_terms($post->ID, 'portfolio_category', array('fields' => 'all'));
+
+            foreach ($categories as $category) {
+                echo '<a href="' . get_term_link($category->term_id) . '">' . $category->name . '</a>';
+            }
+        }
+        ?>
+
         &nbsp;
+
         <i class="fas fa-tag fa-sm"></i>
         <?php the_tags('', ', ', ''); ?>
     </p>

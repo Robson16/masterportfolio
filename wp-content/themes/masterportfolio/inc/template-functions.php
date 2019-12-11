@@ -5,7 +5,7 @@
  */
 
 /**
- * Add custom post-types to default query loading on archive
+ * Add custom post-types to default query loading on tags archive
  * 
  * @param type $query
  */

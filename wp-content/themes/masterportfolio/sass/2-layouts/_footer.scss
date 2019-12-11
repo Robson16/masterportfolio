@@ -2,6 +2,20 @@
     color: #fff;
 
     a {
-        color: #fff;
+        color: #fff !important;
+    }
+
+    li {
+        border-color: rgba(white, 0.3) !important;
+    }
+
+    .tag-cloud-link {
+        border: 2px solid white !important;
+        color: white !important;
+
+        &:hover {
+            background-color: white !important;
+            color: $color3 !important;
+        }
     }
 }
