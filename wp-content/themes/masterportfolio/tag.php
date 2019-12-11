@@ -14,7 +14,7 @@ get_header();
 
             <?php if (have_posts()) : ?>
                 <?php while (have_posts()) : the_post(); ?>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6">
                         <?php get_template_part('template-parts/content/content'); ?>
                     </div>
                     <!-- /.col -->
