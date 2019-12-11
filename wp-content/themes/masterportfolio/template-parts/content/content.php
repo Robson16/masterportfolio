@@ -10,7 +10,7 @@
         <figure class="border" title="<?php the_title_attribute(); ?>">
             <a class="thumbnail" href="<?php the_permalink(); ?>">
                 <?php
-                the_post_thumbnail('medium_large', array(
+                the_post_thumbnail('large_narrow', array(
                     'class' => 'img-fluid',
                     'alt' => get_the_title(),
                 ));
@@ -20,9 +20,7 @@
     <?php endif; ?>
 
     <a class="" href="<?php the_permalink(); ?>">
-        <h3 class="text-uppercase font-weight-bold mb-1">
-            <?php the_title(); ?>
-        </h3>
+        <?php the_title('<h4 class="text-uppercase font-weight-bold mb-1">', '</h4>'); ?>
     </a>
 
     <p class="mb-1">
@@ -47,4 +45,4 @@
 
     <hr class="my-5">
 
-</article><!-- #post-<?php the_ID(); ?> 
+</article><!-- #post-<?php the_ID(); ?> -->

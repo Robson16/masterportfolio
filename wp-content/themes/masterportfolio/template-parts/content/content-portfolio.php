@@ -23,10 +23,6 @@
         <?php the_title('<h5 class="text-center my-3">', '</h5>'); ?>
     </a>
 
-<!--    <a class="btn btn-outline" href="<?php the_permalink(); ?>">
-        <?php _e('Read more', 'masterportfolio'); ?>
-    </a>-->
-
 </article><!-- #post-<?php the_ID(); ?> -->
 
 

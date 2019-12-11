@@ -37,6 +37,7 @@ if (!function_exists('masterportfolio_setup')) {
 
         // Custom image sizes
         add_image_size('navbar_logo', 25, 20, true);
+        add_image_size('large_narrow', 1200, 500, true);
     }
 
 }
@@ -60,13 +61,13 @@ add_action('admin_menu', 'remove_metaboxes');
  */
 function masterportfolio_scripts() {
     // CSS
-    wp_enqueue_style('bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', NULL, '4.3.1', 'all');
+    wp_enqueue_style('bootstrap', '//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css', NULL, '4.4.1', 'all');
     wp_enqueue_style('masterportfolio-style', get_stylesheet_uri(), array('bootstrap'), '1.0', 'all');
     // Js
     wp_deregister_script('jquery');
     wp_register_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js', false, '3.4.1');
     wp_enqueue_script('jquery');
-    wp_enqueue_script('bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', array('jquery'), '4.3.1', true);
+    wp_enqueue_script('bootstrap', '//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js', array('jquery'), '4.4.1', true);
     wp_enqueue_script('webfontloader', '//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js', NULL, '1.6.26', true);
     wp_enqueue_script('fontawesome', '//kit.fontawesome.com/1cb1a8d503.js', NULL, '5.10.2', false);
 
