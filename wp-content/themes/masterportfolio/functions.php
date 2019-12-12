@@ -170,7 +170,7 @@ function masterportfolio_sidebars() {
         'name' => __('Blog Sidebar', 'masterportfolio'),
         'id' => 'blog-sidebar-widgets',
         'description' => __('Add some widget.', 'masterportfolio'),
-        'before_widget' => '<div class="widget-wrapper my-5">',
+        'before_widget' => '<div class="widget-wrapper mb-5">',
         'after_widget' => '</div>',
         'before_title' => '<h3 class="widget-title h2">',
         'after_title' => '</h3>'
