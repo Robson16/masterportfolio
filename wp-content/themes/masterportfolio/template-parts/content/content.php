@@ -19,8 +19,11 @@
         </figure>
     <?php endif; ?>
 
-    <a class="" href="<?php the_permalink(); ?>">
-        <?php the_title('<h4 class="text-uppercase font-weight-bold mb-1">', '</h4>'); ?>
+    <a href="<?php the_permalink(); ?>">
+        <h4 class="d-flex mb-1">
+            <span class="badge badge-secondary text-capitalize font-weight-light rounded-0 bg-color-three mr-2"><?php echo get_post_type(); ?></span>
+            <span class="text-uppercase font-weight-bold"><?php echo get_the_title(); ?></span>
+        </h4>
     </a>
 
     <p class="mb-1">
