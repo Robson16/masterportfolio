@@ -13,3 +13,16 @@
         color: lighten($color1, 20%) !important;
     }
 }
+
+.dropdown-menu {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background-color: $color3;
+}
+
+.dropdown-item {
+    padding: .75rem 1.5rem;
+    color: white;
+    border-bottom: 1px solid $color4;
+}

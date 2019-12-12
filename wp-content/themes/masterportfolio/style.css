@@ -104,19 +104,6 @@ form ::-ms-input-placeholder {
 }
 
 /* LAYOUTS */
-/* Navbar */
-.active > .nav-link {
-  color: #1cc9a7 !important;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-  color: white;
-}
-
-.nav-link:hover, .nav-link:focus {
-  color: #62e9cf !important;
-}
-
 #header .header-wrap {
   color: #fff;
   background-position: center center;
@@ -191,6 +178,32 @@ form ::-ms-input-placeholder {
 }
 
 /* MODULES */
+/* Navbar */
+.active > .nav-link {
+  color: #1cc9a7 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #62e9cf !important;
+}
+
+.dropdown-menu {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background-color: #17a387;
+}
+
+.dropdown-item {
+  padding: 0.75rem 1.5rem;
+  color: white;
+  border-bottom: 1px solid #117d67;
+}
+
 /* Titles */
 .title-cursive {
   font-family: "Gochi Hand", cursive;
