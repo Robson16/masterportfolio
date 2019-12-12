@@ -3,10 +3,6 @@
 
         <h1 class="title title-cursive"><?php echo get_the_title(); ?></h1>
 
-    <?php elseif (is_tax()): ?>
-
-        <h1 class="title title-cursive"><?php echo esc_html__('Category', 'masterportfolio') . ': ' . single_term_title('', false); ?></h1>
-
     <?php elseif (is_search()): ?>
 
         <h1 class="d-inline-block title title-cursive"><?php _e('Search results for:', 'masterportfolio'); ?></h1>
