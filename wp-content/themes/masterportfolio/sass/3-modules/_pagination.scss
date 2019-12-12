@@ -1,0 +1,37 @@
+.pagination {
+    margin: 0;
+
+    .page-item {
+        .page-link {
+            color: $color4;
+            border-width: 2px 2px 2px 1px;
+            border-color: $color4;
+            border-radius: 0;
+            background-color: transparent;
+        }
+
+        &:first-child { 
+            .page-link {
+                border-left-width: 2px;
+            }
+        }
+
+        &:hover {
+            background-color: lighten($color4, 5%);
+
+            .page-link {
+                color: white !important;
+            }
+        }
+
+        &.active{
+
+            background-color: $color4;
+
+            .page-link {
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+}

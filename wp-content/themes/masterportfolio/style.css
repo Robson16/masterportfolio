@@ -473,6 +473,33 @@ hr.sm-line-darken {
   transition: 0.5s ease;
 }
 
+.pagination {
+  margin: 0;
+}
+.pagination .page-item .page-link {
+  color: #117d67;
+  border-width: 2px 2px 2px 1px;
+  border-color: #117d67;
+  border-radius: 0;
+  background-color: transparent;
+}
+.pagination .page-item:first-child .page-link {
+  border-left-width: 2px;
+}
+.pagination .page-item:hover {
+  background-color: #149379;
+}
+.pagination .page-item:hover .page-link {
+  color: white !important;
+}
+.pagination .page-item.active {
+  background-color: #117d67;
+}
+.pagination .page-item.active .page-link {
+  color: white;
+  font-weight: bold;
+}
+
 /* Backgrounds */
 .bg-google-map {
   position: absolute;
