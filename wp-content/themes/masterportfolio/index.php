@@ -21,7 +21,7 @@
                     <?php if (have_posts()) : ?>
                         <?php while (have_posts()) : the_post(); ?>
                             <div class="col-12">
-                                <?php get_template_part('template-parts/content/content'); ?>
+                                <?php get_template_part('template-parts/content/content', 'excerpt'); ?>
                             </div>
                             <!-- /.col -->
                         <?php endwhile; ?>

@@ -152,7 +152,7 @@ function portfolio_post_type() {
         'label' => __('Portfolio', 'masterportfolio'),
         'description' => __('Portfolio Works', 'masterportfolio'),
         'labels' => $labels,
-        'supports' => array('title', 'editor', 'thumbnail'),
+        'supports' => array('title', 'editor', 'thumbnail', 'comments'),
         'taxonomies' => array('post_tag'),
         'hierarchical' => false,
         'public' => true,

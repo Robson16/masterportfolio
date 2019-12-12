@@ -4,6 +4,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
 a {
     color: darken($color3, 10%);
 
@@ -75,14 +79,14 @@ form {
     }
 
     input:-webkit-autofill,
-    input:-webkit-autofill:hover,
-    input:-webkit-autofill:focus
-    textarea:-webkit-autofill,
-    textarea:-webkit-autofill:hover
-    textarea:-webkit-autofill:focus,
-    select:-webkit-autofill,
-    select:-webkit-autofill:hover,
-    select:-webkit-autofill:focus {
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:focus
+        textarea:-webkit-autofill,
+        textarea:-webkit-autofill:hover
+        textarea:-webkit-autofill:focus,
+        select:-webkit-autofill,
+        select:-webkit-autofill:hover,
+        select:-webkit-autofill:focus {
         transition: background-color 5000s ease-in-out 0s;
         border: none;
         border-bottom: 2px solid $color1;

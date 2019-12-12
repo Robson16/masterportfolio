@@ -79,6 +79,10 @@ function masterportfolio_scripts() {
     if (get_theme_mod('setting_googlemaps_apikey') && is_template('template-frontpage-1')) {
         wp_enqueue_script('init-map', get_template_directory_uri() . '/js/initmap.js', array('maps-googleapi'), '1.0', true);
     }
+    // Enqueue Comment-Reply Scrypt if is Single Page
+    if (is_singular()) {
+        wp_enqueue_script('comment-reply');
+    }
 }
 
 add_action('wp_enqueue_scripts', 'masterportfolio_scripts');

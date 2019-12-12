@@ -52,3 +52,31 @@ function is_blog() {
     $posttype = get_post_type($post);
     return ( ((is_archive()) || (is_author()) || (is_category()) || (is_home()) || (is_single()) || (is_tag())) && ( $posttype == 'post') ) ? true : false;
 }
+
+/**
+ * Add Alt and Title to the user avatar
+ * 
+ */
+function gravatar_alt($gravatar) {
+    if (have_comments()) {
+        $alt = get_comment_author();
+    } else {
+        $alt = get_the_author_meta('display_name');
+    }
+
+    return str_replace('alt=\'\'', 'alt=\'' . $alt . '\' title=\'' . $alt . '\'', $gravatar);
+}
+
+add_filter('get_avatar', 'gravatar_alt');
+
+/**
+ * Remove website field from comment form
+ * 
+ */
+function website_remove($fields) {
+    if (isset($fields['url']))
+        unset($fields['url']);
+    return $fields;
+}
+
+add_filter('comment_form_default_fields', 'website_remove');

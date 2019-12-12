@@ -1,0 +1,33 @@
+/* Comments */
+
+.comments {
+
+    .comment-list {
+        padding: 0;
+    }
+
+    .comment-body {
+        padding: 15px;
+        margin-bottom: 1rem;
+        background-color: #eee;
+    }
+
+    .comment-reply-link {
+        display: inline-block;
+        padding: 0.75rem 1.2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        border: 2px solid $color3;
+        background-color: transparent;
+        color: $color3;
+
+        &:hover {
+            background-color: $color3;
+            color: white;
+        }        
+    }
+
+    .reply {
+        height: auto;
+    }
+}

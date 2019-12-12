@@ -33,6 +33,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 a {
   color: #117662;
 }
@@ -446,7 +450,6 @@ hr.sm-line-darken {
 
 /* Widgets */
 .widget-wrapper ul {
-  list-style: none;
   padding: 0;
 }
 .widget-wrapper ul li {
@@ -511,6 +514,32 @@ hr.sm-line-darken {
 .pagination .page-item.active .page-link {
   color: white;
   font-weight: bold;
+}
+
+/* Comments */
+.comments .comment-list {
+  padding: 0;
+}
+.comments .comment-body {
+  padding: 15px;
+  margin-bottom: 1rem;
+  background-color: #eee;
+}
+.comments .comment-reply-link {
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid #17a387;
+  background-color: transparent;
+  color: #17a387;
+}
+.comments .comment-reply-link:hover {
+  background-color: #17a387;
+  color: white;
+}
+.comments .reply {
+  height: auto;
 }
 
 /* Backgrounds */
