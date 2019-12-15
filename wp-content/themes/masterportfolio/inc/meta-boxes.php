@@ -142,6 +142,13 @@ function meta_box($meta_boxes) {
                 'name' => esc_html__('This Work\'s URL', 'masterportfolio'),
                 'desc' => esc_html__('Link to this work in production site', 'masterportfolio'),
             ),
+            array(
+                'id' => 'date',
+                'type' => 'date',
+                'name' => esc_html__('Date', 'masterportfolio'),
+                'desc' => esc_html__('Job Creation Date', 'masterportfolio'),
+                'timestamp' => 'true',
+            ),
         ),
     );
 

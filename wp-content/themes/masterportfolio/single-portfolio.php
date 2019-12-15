@@ -42,9 +42,32 @@
                         <?php endif; ?>
 
                         <ul class="list-unstyled border border-left-0 border-right-0 border-top-0 pb-3">
-                            <li><span class="font-weight-bold text-uppercase"><?php _e('Client:', 'masterportfolio'); ?></span> <?php echo rwmb_meta('client'); ?> </li>
-                            <li><span class="font-weight-bold text-uppercase"><?php _e('Design by:', 'masterportfolio'); ?></span> <?php echo rwmb_meta('designer'); ?> </li>
-                            <li><span class="font-weight-bold text-uppercase"><?php _e('Date:', 'masterportfolio'); ?></span> 10/10/2019 </li>
+                            <li>
+                                <span class="font-weight-bold text-uppercase"><?php _e('Client:', 'masterportfolio'); ?></span>
+                                <?php
+                                if (rwmb_meta('client_url')) {
+                                    echo sprintf("<a href='%s' target='_blank' rel='noopener'>%s</a>", rwmb_meta('client_url'), rwmb_meta('client'));
+                                } else {
+                                    echo rwmb_meta('client');
+                                }
+                                ?>
+                            </li>
+                            <li>
+                                <span class="font-weight-bold text-uppercase"><?php _e('Design by:', 'masterportfolio'); ?></span>
+                                <?php
+                                if (rwmb_meta('designer_url')) {
+                                    echo sprintf("<a href='%s' target='_blank' rel='noopener'>%s</a>", rwmb_meta('designer_url'), rwmb_meta('designer'));
+                                } else {
+                                    echo rwmb_meta('designer');
+                                }
+                                ?>
+                            </li>
+                            <li>
+                                <span class="font-weight-bold text-uppercase"><?php _e('Created in:', 'masterportfolio'); ?></span>
+                                <?php echo date_i18n( get_option( 'date_format' ), rwmb_meta('date'), current_time('timestamp') ) ; ?>
+                                
+                                
+                            </li>
                         </ul>
 
                         <?php the_content(); ?>
@@ -65,6 +88,16 @@
             <!--/.container-->
         </article>
         <!-- #post-<?php the_ID(); ?> -->
+
+        <div class="container">
+            <?php
+            if (comments_open() || get_comments_number()) {
+                comments_template();
+            }
+            ?>
+        </div>
+        <!--/.container-->
+
     <?php endwhile; ?>
 </main>
 

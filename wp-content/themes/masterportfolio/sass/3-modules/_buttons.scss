@@ -5,12 +5,8 @@
     background-color: transparent;
     background-image: none;
     border: 2px solid $color4;
-    border-radius: 0;
-
-    &:hover {
-        background-color: $color4;
-        color: #fff;
-    }
+    border-radius: 0;    
+    @include btn-hover($color4, white);
 }
 
 .btn-outline-white {
@@ -19,9 +15,5 @@
     background-image: none;
     border: 2px solid white;
     border-radius: 0;
-
-    &:hover {
-        background-color: white;
-        color: $color5;
-    }
+    @include btn-hover(white, $color5);
 }

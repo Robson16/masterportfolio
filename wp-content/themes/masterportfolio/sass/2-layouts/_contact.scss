@@ -8,6 +8,28 @@
     .social a i {
         margin: 10px 10px 10px 0;
     }
+    
+    input, textarea {
+        color: white;
+    }
+    
+    select {
+        color: white; // color of the selected option
+
+        option {
+            color: black; // color of all the other options
+        }
+    }
+    
+    input, select, textarea {
+        border-bottom: 2px solid $color1;
+    }
+    
+    input[type="submit"] {
+        color: $color1;
+        border: 2px solid $color1;
+        @include btn-hover($color1, white);
+    }
 
     input:-webkit-autofill,
     input:-webkit-autofill:hover,

@@ -20,9 +20,8 @@ form textarea, form select, form input[type=text], form input[type=email], form 
   line-height: 1.5;
   width: 100%;
   height: calc(1.5em);
-  padding: 20px 10px;
   border: none;
-  border-bottom: 2px solid #1cc9a7;
+  border-bottom: 2px solid #117d67;
   border-radius: 0;
   background: transparent;
   background-clip: padding-box;
@@ -51,8 +50,12 @@ form label {
   margin: 0;
   width: 100%;
 }
+form input[type=text], form input[type=email], form input[type=tel] {
+  padding: 20px 10px;
+}
 form select {
-  width: 33.333%;
+  width: 100%;
+  height: 2.5em;
   -webkit-appearance: none;
   -webkit-border-radius: 0px;
   background-image: linear-gradient(45deg, transparent 50%, #fff 50%), linear-gradient(135deg, #fff 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
@@ -62,6 +65,7 @@ form select {
 }
 form textarea {
   min-height: 130px;
+  padding: 20px 10px;
 }
 form input[type=submit] {
   display: block;
@@ -70,15 +74,16 @@ form input[type=submit] {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.2rem;
-  color: #1cc9a7;
-  border: 2px solid #1cc9a7;
+  color: #117d67;
+  border: 2px solid #117d67;
   border-radius: 0;
   background-image: none;
   background-color: transparent;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 form input[type=submit]:hover {
-  background-color: #1cc9a7;
-  color: #fff;
+  background-color: #117d67;
+  color: white;
 }
 form input:-webkit-autofill,
 form input:-webkit-autofill:hover,
@@ -171,6 +176,27 @@ form ::-ms-input-placeholder {
 #contact .social a i {
   margin: 10px 10px 10px 0;
 }
+#contact input, #contact textarea {
+  color: white;
+}
+#contact select {
+  color: white;
+}
+#contact select option {
+  color: black;
+}
+#contact input, #contact select, #contact textarea {
+  border-bottom: 2px solid #1cc9a7;
+}
+#contact input[type=submit] {
+  color: #1cc9a7;
+  border: 2px solid #1cc9a7;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+#contact input[type=submit]:hover {
+  background-color: #1cc9a7;
+  color: white;
+}
 #contact input:-webkit-autofill,
 #contact input:-webkit-autofill:hover,
 #contact input:-webkit-autofill:focus textarea:-webkit-autofill,
@@ -235,10 +261,11 @@ form ::-ms-input-placeholder {
   background-image: none;
   border: 2px solid #117d67;
   border-radius: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .btn-outline:hover {
   background-color: #117d67;
-  color: #fff;
+  color: white;
 }
 
 .btn-outline-white {
@@ -247,6 +274,7 @@ form ::-ms-input-placeholder {
   background-image: none;
   border: 2px solid white;
   border-radius: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .btn-outline-white:hover {
   background-color: white;
@@ -530,12 +558,13 @@ hr.sm-line-darken {
   padding: 0.75rem 1.2rem;
   text-transform: uppercase;
   font-weight: bold;
-  border: 2px solid #17a387;
+  border: 2px solid #117d67;
   background-color: transparent;
-  color: #17a387;
+  color: #117d67;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .comments .comment-reply-link:hover {
-  background-color: #17a387;
+  background-color: #117d67;
   color: white;
 }
 .comments .reply {

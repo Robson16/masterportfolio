@@ -27,14 +27,14 @@
     <?php endif; ?>
  
     <p class="mb-1">
-        <i class="far fa-calendar-alt"></i>
-        <?php echo get_the_date(); ?> 
-
-        &nbsp;
-
         <i class="fas fa-user"></i>
         <?php the_author_posts_link(); ?>
+        
+        &nbsp;
 
+        <i class="fas fa-calendar-alt"></i>
+        <?php echo get_the_date(); ?> 
+        
         &nbsp;
 
         <i class="fas fa-folder-open fa-sm"></i>
@@ -55,6 +55,11 @@
 
         <i class="fas fa-tag fa-sm"></i>
         <?php the_tags('', ', ', ''); ?>
+        
+        &nbsp;
+        
+        <i class="fas fa-comments"></i>
+        <?php echo get_comments_number(); ?>
     </p>
 
     <?php the_excerpt(); ?>

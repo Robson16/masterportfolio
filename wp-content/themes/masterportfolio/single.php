@@ -13,8 +13,8 @@ get_header();
         <div class="row">
             <div class="col-12 col-md-8">
                 <?php while (have_posts()) : the_post(); ?>
-                    <?php get_template_part('template-parts/content/content'); ?>
                     <?php
+                    get_template_part('template-parts/content/content');
                     if (comments_open() || get_comments_number()) {
                         comments_template();
                     }

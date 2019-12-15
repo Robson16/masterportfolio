@@ -17,14 +17,10 @@
         padding: 0.75rem 1.2rem;
         text-transform: uppercase;
         font-weight: bold;
-        border: 2px solid $color3;
+        border: 2px solid $color4;
         background-color: transparent;
-        color: $color3;
-
-        &:hover {
-            background-color: $color3;
-            color: white;
-        }        
+        color: $color4;
+        @include btn-hover($color4, white);        
     }
 
     .reply {
