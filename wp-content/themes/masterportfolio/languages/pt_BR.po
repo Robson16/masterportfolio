@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Robson Portfolio 1.0\n"
-"POT-Creation-Date: 2019-12-15 12:40-0300\n"
-"PO-Revision-Date: 2019-12-15 13:12-0300\n"
+"POT-Creation-Date: 2019-12-16 14:12-0300\n"
+"PO-Revision-Date: 2019-12-16 14:36-0300\n"
 "Last-Translator: Robson H Rodrigues <contato@robsonhrodrigues.com.br>\n"
 "Language-Team: Robson\n"
 "Language: pt_BR\n"
@@ -17,11 +17,11 @@ msgstr ""
 
 #: class/class-tgm-plugin-activation.php:334 inc/required-plugins.php:70
 msgid "Install Required Plugins"
-msgstr "Instalar Plugins Requeridos"
+msgstr "Instalar plugins necessários"
 
 #: class/class-tgm-plugin-activation.php:335 inc/required-plugins.php:71
 msgid "Install Plugins"
-msgstr "Instalar Plugins"
+msgstr "Instalar plugins"
 
 #: class/class-tgm-plugin-activation.php:337 inc/required-plugins.php:72
 #, php-format
@@ -45,7 +45,7 @@ msgstr "Este tema requer o seguinte plug-in: %1$s ."
 #: class/class-tgm-plugin-activation.php:349 inc/required-plugins.php:76
 #, php-format
 msgid "This theme recommends the following plugin: %1$s."
-msgstr "Este tema recomenda o seguinte plug-in: %1$s."
+msgstr "Este tema recomenda o seguinte plugin: %1$s."
 
 #: class/class-tgm-plugin-activation.php:355 inc/required-plugins.php:77
 #, php-format
@@ -53,8 +53,8 @@ msgid ""
 "The following plugin needs to be updated to its latest version to ensure "
 "maximum compatibility with this theme: %1$s."
 msgstr ""
-"O seguinte plug-in precisa ser atualizado para sua versão mais recente para "
-"garantir a máxima compatibilidade com este tema: %1$s ."
+"O plugin a seguir precisa ser atualizado para sua versão mais recente para "
+"garantir compatibilidade máxima com este tema: %1$s."
 
 #: class/class-tgm-plugin-activation.php:361 inc/required-plugins.php:78
 #, php-format
@@ -69,7 +69,7 @@ msgstr "O plugin necessário seguinte está atualmente inativo: %1$s."
 #: class/class-tgm-plugin-activation.php:373 inc/required-plugins.php:80
 #, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
-msgstr "O seguinte plug-in recomendado está atualmente inativo: %1$s."
+msgstr "O seguinte plugin recomendado está inativo no momento: %1$s ."
 
 #: class/class-tgm-plugin-activation.php:378 inc/required-plugins.php:81
 msgid "Begin installing plugin"
@@ -77,7 +77,7 @@ msgstr "Comece a instalar o plug-in"
 
 #: class/class-tgm-plugin-activation.php:383 inc/required-plugins.php:82
 msgid "Begin updating plugin"
-msgstr "Iniciar atualização do plug-in"
+msgstr "Comece a atualizar o plugin"
 
 #: class/class-tgm-plugin-activation.php:388 inc/required-plugins.php:83
 msgid "Begin activating plugin"
@@ -294,41 +294,42 @@ msgstr "Ativar"
 
 #: class/class-tgm-plugin-activation.php:2842
 msgid "No plugins were selected to be installed. No action taken."
-msgstr ""
+msgstr "Nenhum plugin foi selecionado para ser instalado. Nenhuma ação tomada."
 
 #: class/class-tgm-plugin-activation.php:2844
 msgid "No plugins were selected to be updated. No action taken."
 msgstr ""
+"Nenhum plugin foi selecionado para ser atualizado. Nenhuma ação tomada."
 
 #: class/class-tgm-plugin-activation.php:2885
 msgid "No plugins are available to be installed at this time."
-msgstr ""
+msgstr "Nenhum plugin está disponível para ser instalado neste momento."
 
 #: class/class-tgm-plugin-activation.php:2887
 msgid "No plugins are available to be updated at this time."
-msgstr ""
+msgstr "Nenhum plugin está disponível para ser atualizado no momento."
 
 #: class/class-tgm-plugin-activation.php:2993
 msgid "No plugins were selected to be activated. No action taken."
-msgstr ""
+msgstr "Nenhum plugin foi selecionado para ser ativado. Nenhuma ação tomada."
 
 #: class/class-tgm-plugin-activation.php:3019
 msgid "No plugins are available to be activated at this time."
-msgstr ""
+msgstr "Nenhum plugin está disponível para ser ativado neste momento."
 
 #: class/class-tgm-plugin-activation.php:3243
 msgid "Plugin activation failed."
-msgstr ""
+msgstr "A ativação do plugin falhou."
 
 #: class/class-tgm-plugin-activation.php:3583
 #, php-format
 msgid "Updating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "Atualizando o Plugin %1$s (%2$d/%3$d)"
 
 #: class/class-tgm-plugin-activation.php:3586
 #, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr ""
+msgstr "Ocorreu um erro durante a instalação de %1$s: <strong>%2$s</ strong>."
 
 #: class/class-tgm-plugin-activation.php:3588
 #, php-format
@@ -340,36 +341,40 @@ msgid ""
 "The installation and activation process is starting. This process may take a "
 "while on some hosts, so please be patient."
 msgstr ""
+"O processo de instalação e ativação está sendo iniciado. Esse processo pode "
+"demorar um pouco em alguns hosts, então, por favor, seja paciente."
 
 #: class/class-tgm-plugin-activation.php:3594
 #, php-format
 msgid "%1$s installed and activated successfully."
-msgstr ""
+msgstr "%1$s instalado e ativado com sucesso."
 
 #: class/class-tgm-plugin-activation.php:3594
 #: class/class-tgm-plugin-activation.php:3602
 msgid "Show Details"
-msgstr ""
+msgstr "Mostrar detalhes"
 
 #: class/class-tgm-plugin-activation.php:3594
 #: class/class-tgm-plugin-activation.php:3602
 msgid "Hide Details"
-msgstr ""
+msgstr "Detalhes ocultos"
 
 #: class/class-tgm-plugin-activation.php:3595
 msgid "All installations and activations have been completed."
-msgstr ""
+msgstr "Todas as instalações e ativações foram concluídas."
 
 #: class/class-tgm-plugin-activation.php:3597
 #, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "Instalando e ativando o plug-in %1$s (%2$d/%3$d)"
 
 #: class/class-tgm-plugin-activation.php:3600
 msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
 msgstr ""
+"O processo de instalação está começando. Esse processo pode demorar um pouco "
+"em alguns hosts, então, por favor, seja paciente."
 
 #: class/class-tgm-plugin-activation.php:3602
 #, php-format
@@ -378,12 +383,12 @@ msgstr "%1$s instalado com sucesso."
 
 #: class/class-tgm-plugin-activation.php:3603
 msgid "All installations have been completed."
-msgstr ""
+msgstr "Todas as instalações foram concluídas."
 
 #: class/class-tgm-plugin-activation.php:3605
 #, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "Instalando o plug-in %1$s (%2$d/%3$d)"
 
 #: class/class-wp-bootstrap-navwalker.php:366
 msgid "Add a menu"
@@ -399,115 +404,111 @@ msgstr "Comentários estão fechados."
 
 #: comments.php:52
 msgid "Leave a comment."
-msgstr ""
+msgstr "Deixe um comentário."
 
 #: functions.php:24
 msgid "Main Menu"
 msgstr "Menu principal"
 
 #: functions.php:98
-#, fuzzy
 msgid "Footer Column One"
-msgstr "Menu de Rodapé"
+msgstr "Coluna Um do Rodapé"
 
 #: functions.php:100 functions.php:109 functions.php:118 functions.php:127
 #: functions.php:138 functions.php:147 functions.php:156 functions.php:165
 #: functions.php:176
 msgid "Add some widget."
-msgstr ""
+msgstr "Adicione algum widget."
 
 #: functions.php:107
-#, fuzzy
 msgid "Footer Column Two"
-msgstr "Menu de Rodapé"
+msgstr "Coluna Dois do Rodapé"
 
 #: functions.php:116
-#, fuzzy
 msgid "Footer Column Three"
-msgstr "Menu de Rodapé"
+msgstr "Coluna Três do Rodapé"
 
 #: functions.php:125
-#, fuzzy
 msgid "Footer Column Four"
-msgstr "Menu de Rodapé"
+msgstr "Coluna Quatro do Rodapé"
 
 #: functions.php:136
 msgid "Frontpage Widget One"
-msgstr "Widget Pagina Inicial - Um"
+msgstr "Coluna Um Página Inicial"
 
 #: functions.php:145
 msgid "Frontpage Widget Two"
-msgstr ""
+msgstr "Coluna Dois Página Inicial"
 
 #: functions.php:154
 msgid "Frontpage Widget Three"
-msgstr ""
+msgstr "Coluna Três Página Inicial"
 
 #: functions.php:163
 msgid "Frontpage Widget Four"
-msgstr ""
+msgstr "Coluna Quatro Página Inicial"
 
 #: functions.php:174
 msgid "Blog Sidebar"
-msgstr "Barra lateral do Blog"
+msgstr "Barra Lateral do Blog"
 
 #: header-frontpage.php:111 header.php:111 kirki/kirki-control-contacts.php:31
 #: template-parts/sections/section-contact.php:28
 msgid "Phone"
-msgstr ""
+msgstr "Telefone"
 
 #: header-frontpage.php:130
 msgid "My picture"
-msgstr ""
+msgstr "Minha Foto"
 
 #: inc/meta-boxes.php:14
 msgid "Additional Information"
-msgstr ""
+msgstr "Informações adicionais"
 
 #: inc/meta-boxes.php:23 kirki/kirki-control-header.php:26
 #: kirki/kirki-control-skills.php:26
 msgid "Subtitle"
-msgstr ""
+msgstr "Subtítulos"
 
 #: inc/meta-boxes.php:32
 msgid "Degree Details"
-msgstr ""
+msgstr "Detalhes do Diploma"
 
 #: inc/meta-boxes.php:41
 msgid "Beginning of the course"
-msgstr ""
+msgstr "Inicio do Curso"
 
 #: inc/meta-boxes.php:47
 msgid "End of the course"
-msgstr ""
+msgstr "Fim do Curso"
 
 #: inc/meta-boxes.php:52 template-parts/sections/section-resume.php:72
 msgid "Ongoing"
-msgstr ""
+msgstr "Em andamento"
 
 #: inc/meta-boxes.php:54
 msgid "Is this course in progress?"
-msgstr ""
+msgstr "Este curso está em andamento?"
 
 #: inc/meta-boxes.php:59
 msgid "Educational Institution"
-msgstr ""
+msgstr "Instituição educacional"
 
 #: inc/meta-boxes.php:67
 msgid "Experience Details"
-msgstr ""
+msgstr "Detalhes da experiência"
 
 #: inc/meta-boxes.php:76
 msgid "Beginning of the experience"
-msgstr ""
+msgstr "Início da experiência"
 
 #: inc/meta-boxes.php:82
 msgid "End of the experience"
-msgstr ""
+msgstr "Fim da experiência"
 
 #: inc/meta-boxes.php:87
 msgid "Current Employment"
-msgstr ""
+msgstr "Emprego atual"
 
 #: inc/meta-boxes.php:89
 msgid "Is this your current job?"
@@ -515,57 +516,57 @@ msgstr "Este é seu emprego atual?"
 
 #: inc/meta-boxes.php:94
 msgid "Company Name"
-msgstr ""
+msgstr "Nome da empresa"
 
 #: inc/meta-boxes.php:99 inc/post-type.php:123 inc/post-type.php:124
 #: inc/post-type.php:125 inc/post-type.php:126 inc/post-type.php:152
 #: template-parts/sections/section-portfolio.php:21
 msgid "Portfolio"
-msgstr ""
+msgstr "Portfólio"
 
 #: inc/meta-boxes.php:100
 msgid "Portfolio works you did at this company"
-msgstr ""
+msgstr "Trabalhos do portfólio que você fez nesta empresa"
 
 #: inc/meta-boxes.php:110
 msgid "Portfolio Details"
-msgstr ""
+msgstr "Detalhes do portfólio"
 
 #: inc/meta-boxes.php:119
 msgid "Client"
-msgstr ""
+msgstr "Cliente"
 
 #: inc/meta-boxes.php:120
 msgid "Client's name"
-msgstr ""
+msgstr "Nome do cliente"
 
 #: inc/meta-boxes.php:125
 msgid "Client's URL"
-msgstr ""
+msgstr "URL do cliente"
 
 #: inc/meta-boxes.php:126
 msgid "Link to client website"
-msgstr ""
+msgstr "Link para o site do cliente"
 
 #: inc/meta-boxes.php:131
 msgid "Designer's Name"
-msgstr ""
+msgstr "Nome do Designer"
 
 #: inc/meta-boxes.php:136
 msgid "Designer's URL"
-msgstr ""
+msgstr "URL do designer"
 
 #: inc/meta-boxes.php:137
 msgid "Link to designer website or social network"
-msgstr ""
+msgstr "Link para site de designer ou rede social"
 
 #: inc/meta-boxes.php:142
 msgid "This Work's URL"
-msgstr ""
+msgstr "URL deste trabalho"
 
 #: inc/meta-boxes.php:143
 msgid "Link to this work in production site"
-msgstr ""
+msgstr "Link para este trabalho no site de produção"
 
 #: inc/meta-boxes.php:148
 msgid "Date"
@@ -577,242 +578,232 @@ msgstr "Data de criação do trabalho"
 
 #: inc/post-type.php:7
 msgid "Education Degrees"
-msgstr ""
+msgstr "Diplomas"
 
 #: inc/post-type.php:8 inc/post-type.php:9 inc/post-type.php:10
+#: inc/post-type.php:36
 msgid "Education Degree"
-msgstr ""
+msgstr "Diplomas"
 
 #: inc/post-type.php:11
 msgid "Education Degree Archives"
-msgstr ""
+msgstr "Arquivos de Diplomas"
 
 #: inc/post-type.php:12
 msgid "Education Degree Attributes"
-msgstr ""
+msgstr "Atributos do Diploma"
 
 #: inc/post-type.php:13
 msgid "Parent Education Degree:"
-msgstr ""
+msgstr "Diploma pai:"
 
 #: inc/post-type.php:14
 msgid "All Education Degree"
-msgstr "Todos Graus Educacionais"
+msgstr "Todos os Diplomas"
 
 #: inc/post-type.php:15
 msgid "Add New Education Degree"
-msgstr "Adicionar novo diploma de ensino"
+msgstr "Adicionar novo diploma"
 
 #: inc/post-type.php:16
 msgid "Add Education Degree"
-msgstr ""
+msgstr "Adicionar Diploma"
 
 #: inc/post-type.php:17
 msgid "New Education Degree"
-msgstr ""
+msgstr "Novo diploma"
 
 #: inc/post-type.php:18
 msgid "Edit Education Degree"
-msgstr ""
+msgstr "Editar diploma"
 
 #: inc/post-type.php:19
 msgid "Update Education Degree"
-msgstr ""
+msgstr "Atualizar diploma"
 
 #: inc/post-type.php:20
 msgid "View Education Degree"
-msgstr ""
+msgstr "Exibir Diploma"
 
 #: inc/post-type.php:21
-msgid "View Education Education Degrees"
-msgstr ""
+msgid "View Education Degrees"
+msgstr "Exibir os diplomas"
 
 #: inc/post-type.php:22
 msgid "Search Education Degree"
-msgstr "Pesquisar grau de educação"
+msgstr "Pesquisar diploma"
 
 #: inc/post-type.php:23 inc/post-type.php:81 inc/post-type.php:139
-#, fuzzy
 msgid "Not found"
-msgstr "Página não encontrada"
+msgstr "Não encontrado"
 
 #: inc/post-type.php:24 inc/post-type.php:82 inc/post-type.php:140
-#, fuzzy
 msgid "Not found in Trash"
-msgstr "Página não encontrada"
+msgstr "Não encontrado na lixeira"
 
 #: inc/post-type.php:25 inc/post-type.php:83 inc/post-type.php:141
 msgid "Featured Image"
-msgstr ""
+msgstr "Imagem em destaque"
 
 #: inc/post-type.php:26 inc/post-type.php:84 inc/post-type.php:142
 msgid "Set featured image"
-msgstr ""
+msgstr "Definir imagem em destaque"
 
 #: inc/post-type.php:27 inc/post-type.php:85 inc/post-type.php:143
 msgid "Remove featured image"
-msgstr ""
+msgstr "Remover imagem em destaque"
 
 #: inc/post-type.php:28 inc/post-type.php:86 inc/post-type.php:144
 msgid "Use as featured image"
-msgstr ""
+msgstr "Use como imagem em destaque"
 
 #: inc/post-type.php:29
-msgid "Insert into degree"
-msgstr ""
+msgid "Insert into education degree"
+msgstr "Inserir no diploma"
 
 #: inc/post-type.php:30
-msgid "Uploaded to this degree"
-msgstr ""
+msgid "Uploaded to this education degree"
+msgstr "Carregado para este diploma"
 
 #: inc/post-type.php:31
 msgid "Items list"
-msgstr ""
+msgstr "Lista de itens"
 
 #: inc/post-type.php:32
-msgid "Education Education Degrees list navigation"
-msgstr ""
+msgid "Education Degrees list navigation"
+msgstr "Navegação na lista de diplomas"
 
 #: inc/post-type.php:33
 msgid "Filter degrees list"
-msgstr ""
-
-#: inc/post-type.php:36
-msgid "Education Education Degree"
-msgstr ""
+msgstr "Filtrar lista de diplomas"
 
 #: inc/post-type.php:37
 msgid "Educational Background"
-msgstr ""
+msgstr "Experiência educacional"
 
 #: inc/post-type.php:65 inc/post-type.php:67
 msgid "Experiences"
-msgstr ""
+msgstr "Experiências"
 
-#: inc/post-type.php:66 inc/post-type.php:94
+#: inc/post-type.php:66 inc/post-type.php:68 inc/post-type.php:94
 msgid "Experience"
-msgstr ""
-
-#: inc/post-type.php:68
-msgid " Experience"
-msgstr ""
+msgstr "Experiência"
 
 #: inc/post-type.php:69
-msgid " Experiences Archives"
-msgstr ""
+msgid "Experiences Archives"
+msgstr "Arquivos das Experiências"
 
 #: inc/post-type.php:70
-msgid " Experiences Attributes"
-msgstr ""
+msgid "Experiences Attributes"
+msgstr "Atributos das Experiências"
 
 #: inc/post-type.php:71
 msgid "Parent  Experience:"
-msgstr ""
+msgstr "Experiência Pai:"
 
 #: inc/post-type.php:72
 msgid "All Experiences"
-msgstr ""
+msgstr "Todas Experiências"
 
 #: inc/post-type.php:73
 msgid "Add New Experience"
-msgstr ""
+msgstr "Adicionar nova Experiência"
 
 #: inc/post-type.php:74
 msgid "Add Experience"
-msgstr ""
+msgstr "Adicionar Experiência"
 
 #: inc/post-type.php:75
 msgid "New Experience"
-msgstr ""
+msgstr "Nova Experiência"
 
 #: inc/post-type.php:76
 msgid "Edit Experience"
-msgstr ""
+msgstr "Editar Experiência"
 
 #: inc/post-type.php:77
 msgid "Update Experience"
-msgstr ""
+msgstr "Atualizar Experiência"
 
 #: inc/post-type.php:78
 msgid "View Experience"
-msgstr ""
+msgstr "Exibir Experiência"
 
 #: inc/post-type.php:79
 msgid "View Experiences"
-msgstr ""
+msgstr "Exibir Experiências"
 
 #: inc/post-type.php:80
 msgid "Search Experience"
-msgstr "Pesquisar experiência de trabalho"
+msgstr "Pesquisar Experiência"
 
 #: inc/post-type.php:87
 msgid "Insert into item"
-msgstr ""
+msgstr "Inserir no item"
 
 #: inc/post-type.php:88
 msgid "Uploaded to this work experience"
-msgstr ""
+msgstr "Carregado para esta experiência de trabalho"
 
 #: inc/post-type.php:89
 msgid "Experiences list"
-msgstr ""
+msgstr "Lista de Experiências"
 
 #: inc/post-type.php:90
 msgid "Experiences list navigation"
-msgstr ""
+msgstr "Navegação na lista de experiências"
 
 #: inc/post-type.php:91
-msgid "Filter  Experiences list"
-msgstr ""
+msgid "Filter Experiences list"
+msgstr "Filtrar lista de experiências"
 
 #: inc/post-type.php:95
-msgid "Works experiences of your life"
-msgstr ""
+msgid "Career Experiences"
+msgstr "Experiências da Carreira"
 
 #: inc/post-type.php:127
 msgid "Portfolio Archives"
-msgstr ""
+msgstr "Arquivos do portfólio"
 
 #: inc/post-type.php:128
 msgid "Portfolio Attributes"
-msgstr ""
+msgstr "Atributos do portfólio"
 
 #: inc/post-type.php:129
 msgid "Portfolio Parent Item:"
-msgstr ""
+msgstr "Item pai do portfólio:"
 
 #: inc/post-type.php:130
-#, fuzzy
 msgid "All Portfolio Items"
-msgstr "Copyright X - Todos os direitos reservados"
+msgstr "Todos os itens do portfólio"
 
 #: inc/post-type.php:131
 msgid "Add New Portfolio Item"
-msgstr ""
+msgstr "Adicionar novo item de portfólio"
 
 #: inc/post-type.php:132
 msgid "Add New Item"
-msgstr ""
+msgstr "Adicionar novo item"
 
 #: inc/post-type.php:133
 msgid "New Portfolio Item"
-msgstr ""
+msgstr "Novo item de portfólio"
 
 #: inc/post-type.php:134
 msgid "Edit Portfolio Item"
-msgstr ""
+msgstr "Editar item de portfólio"
 
 #: inc/post-type.php:135
 msgid "Update Portfolio Item"
-msgstr ""
+msgstr "Atualizar item de portfólio"
 
 #: inc/post-type.php:136
 msgid "View Portfolio Item"
-msgstr ""
+msgstr "Exibir item do portfólio"
 
 #: inc/post-type.php:137
 msgid "View Portfolio Items"
-msgstr ""
+msgstr "Exibir Itens de portfólio"
 
 #: inc/post-type.php:138
 msgid "Search Portfolio Item"
@@ -820,67 +811,67 @@ msgstr "Pesquisar item de portfólio"
 
 #: inc/post-type.php:145
 msgid "Insert into portfolio item"
-msgstr ""
+msgstr "Inserir no item de portfólio"
 
 #: inc/post-type.php:146
 msgid "Uploaded to this portfolio item"
-msgstr ""
+msgstr "Carregar para esse item de portfólio"
 
 #: inc/post-type.php:147
 msgid "Portfolio Items list"
-msgstr ""
+msgstr "Lista de itens de portfólio"
 
 #: inc/post-type.php:148
 msgid "Portfolio Items list navigation"
-msgstr ""
+msgstr "Navegação na lista de itens do portfólio"
 
 #: inc/post-type.php:149
 msgid "Filter Portfolio items list"
-msgstr ""
+msgstr "Filtrar lista de itens do portfólio"
 
 #: inc/post-type.php:153
 msgid "Portfolio Works"
-msgstr ""
+msgstr "Trabalhos no Portfólio"
 
 #: inc/taxonomy.php:7 inc/taxonomy.php:9
 msgid "Education Categories"
-msgstr "Categorias de Educação"
+msgstr "Categorias de Diplomas"
 
 #: inc/taxonomy.php:8
 msgid "Education Category"
-msgstr ""
+msgstr "Categoria de Diploma"
 
 #: inc/taxonomy.php:10
 msgid "All Education Categories"
-msgstr "Todas as categorias de educação"
+msgstr "Todas Categorias de Diplomas"
 
 #: inc/taxonomy.php:11
 msgid "Parent Education Categories"
-msgstr "Categorias de Educação Pai"
+msgstr "Categorias de Diploma Pai"
 
 #: inc/taxonomy.php:12
 msgid "Parent Education Categories:"
-msgstr "Categorias de Educação Pai:"
+msgstr "Categorias de Diploma Pai:"
 
 #: inc/taxonomy.php:13
 msgid "New Education Category Name"
-msgstr ""
+msgstr "Nome da nova categoria de diploma"
 
 #: inc/taxonomy.php:14
 msgid "Add New Education Category"
-msgstr ""
+msgstr "Adicionar nova categoria educacional"
 
 #: inc/taxonomy.php:15
 msgid "Edit Education Category"
-msgstr ""
+msgstr "Editar categoria educacional"
 
 #: inc/taxonomy.php:16
 msgid "Update Education Category"
-msgstr ""
+msgstr "Atualizar categoria educacional"
 
 #: inc/taxonomy.php:17
 msgid "View Education Category"
-msgstr ""
+msgstr "Exibir categoria educacional"
 
 #: inc/taxonomy.php:18 inc/taxonomy.php:58
 msgid "Separate categories with commas"
@@ -892,20 +883,19 @@ msgstr "Adicionar ou remover categorias"
 
 #: inc/taxonomy.php:20 inc/taxonomy.php:60
 msgid "Choose from the most used"
-msgstr ""
+msgstr "Escolha entre os mais usados"
 
 #: inc/taxonomy.php:21
 msgid "Popular Education Categories"
-msgstr "Categorias populares de educação"
+msgstr "Categorias populares de diploma"
 
 #: inc/taxonomy.php:22
 msgid "Search Education Categories"
-msgstr "Pesquisar categorias de educação"
+msgstr "Pesquisar categorias de diploma"
 
 #: inc/taxonomy.php:23 inc/taxonomy.php:63
-#, fuzzy
 msgid "Not Found"
-msgstr "Página não encontrada"
+msgstr "Não encontrado"
 
 #: inc/taxonomy.php:24 inc/taxonomy.php:64
 msgid "No categories"
@@ -913,11 +903,11 @@ msgstr "Nenhuma categoria"
 
 #: inc/taxonomy.php:25
 msgid "Education Categories list"
-msgstr "Lista de categorias de educação"
+msgstr "Lista de categorias de diploma"
 
 #: inc/taxonomy.php:26
 msgid "Education Categories list navigation"
-msgstr ""
+msgstr "Navegação na lista Categorias de Diplomas"
 
 #: inc/taxonomy.php:47 inc/taxonomy.php:49
 msgid "Portfolio Categories"
@@ -925,11 +915,11 @@ msgstr "Categorias do portfólio"
 
 #: inc/taxonomy.php:48
 msgid "Portfolio Category"
-msgstr ""
+msgstr "Categoria de Portfólio"
 
 #: inc/taxonomy.php:50
 msgid "All Portfolio Categories"
-msgstr "Todas as categorias de portfólio"
+msgstr "Todas Categorias de Portfólio"
 
 #: inc/taxonomy.php:51
 msgid "Parent Portfolio Categories"
@@ -941,23 +931,23 @@ msgstr "Categorias pai do portfólio:"
 
 #: inc/taxonomy.php:53
 msgid "New Portfolio Category Name"
-msgstr ""
+msgstr "Nome da nova categoria de portfólio"
 
 #: inc/taxonomy.php:54
 msgid "Add New Portfolio Category"
-msgstr ""
+msgstr "Adicionar nova categoria de portfólio"
 
 #: inc/taxonomy.php:55
 msgid "Edit Portfolio Category"
-msgstr ""
+msgstr "Editar categoria do portfólio"
 
 #: inc/taxonomy.php:56
 msgid "Update Portfolio Category"
-msgstr ""
+msgstr "Atualizar categoria de portfólio"
 
 #: inc/taxonomy.php:57
 msgid "View Portfolio Category"
-msgstr ""
+msgstr "Exibir categoria de portfólio"
 
 #: inc/taxonomy.php:61
 msgid "Popular Portfolio Categories"
@@ -1279,7 +1269,7 @@ msgstr "Meus trabalhos mais recentes"
 
 #: template-parts/sections/section-portfolio.php:47
 msgid "See More"
-msgstr "Ver mais"
+msgstr "Ver Mais"
 
 #: template-parts/sections/section-resume.php:47
 msgid "Resume"
@@ -1295,8 +1285,14 @@ msgstr "Educação"
 
 #: template-parts/sections/section-resume.php:91
 msgid "Work Experience"
-msgstr "Experiência de trabalho"
+msgstr "Experiência"
 
 #: template-parts/sections/section-resume.php:103
 msgid "Currently"
 msgstr "Atualmente"
+
+#~ msgid " Experience"
+#~ msgstr "Experiência"
+
+#~ msgid "Work experiences of your life"
+#~ msgstr "Experiências de trabalho da sua vida"
