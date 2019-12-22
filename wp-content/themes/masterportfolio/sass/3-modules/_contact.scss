@@ -1,6 +1,6 @@
 /* Contact */
 
-#contact {
+.contact-over-map {
     position: relative;
     color: white;
     background-color: #191919;
@@ -22,7 +22,7 @@
     }
     
     input, select, textarea {
-        border-bottom: 2px solid $color1;
+        border-bottom: 2px solid $color1 !important;
     }
     
     input[type="submit"] {

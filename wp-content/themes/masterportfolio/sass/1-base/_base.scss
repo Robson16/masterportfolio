@@ -9,10 +9,11 @@ ul {
 }
 
 a {
-    color: darken($color3, 10%);
+    color: $color5;
 
     &:hover, &:active, &:focus {
-        color: darken($color3, 5%);
+        color: $color3;
+        text-decoration: none;
     }
 }
 

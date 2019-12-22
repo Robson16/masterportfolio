@@ -76,7 +76,7 @@ function masterportfolio_scripts() {
         wp_enqueue_script('maps-googleapi', '//maps.googleapis.com/maps/api/js?key=' . get_theme_mod('setting_googlemaps_apikey'), NULL, '1.0', true);
     }
     // Enqueue only if the api key is available AND is specific template files
-    if (get_theme_mod('setting_googlemaps_apikey') && is_template('template-frontpage-1')) {
+    if (get_theme_mod('setting_googlemaps_apikey') && (is_template('template-frontpage-1') || is_template('template-contact-over-map'))) {
         wp_enqueue_script('init-map', get_template_directory_uri() . '/js/initmap.js', array('maps-googleapi'), '1.0', true);
     }
     // Enqueue Comment-Reply Scrypt if is Single Page

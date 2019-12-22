@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Robson Portfolio 1.0\n"
 "POT-Creation-Date: 2019-12-16 14:12-0300\n"
-"PO-Revision-Date: 2019-12-16 14:36-0300\n"
+"PO-Revision-Date: 2019-12-22 17:37-0300\n"
 "Last-Translator: Robson H Rodrigues <contato@robsonhrodrigues.com.br>\n"
 "Language-Team: Robson\n"
 "Language: pt_BR\n"
@@ -1261,7 +1261,7 @@ msgstr "Contato"
 
 #: template-parts/sections/section-contact.php:9
 msgid "Get in touch!"
-msgstr "Entrar em contato!"
+msgstr "Entre em contato!"
 
 #: template-parts/sections/section-portfolio.php:23
 msgid "My Latest Works"

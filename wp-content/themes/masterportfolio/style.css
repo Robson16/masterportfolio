@@ -37,10 +37,11 @@ ul {
 }
 
 a {
-  color: #117662;
+  color: #093d33;
 }
 a:hover, a:active, a:focus {
-  color: #148d74;
+  color: #17a387;
+  text-decoration: none;
 }
 
 form p {
@@ -167,46 +168,6 @@ form ::-ms-input-placeholder {
   color: #17a387 !important;
 }
 
-/* Contact */
-#contact {
-  position: relative;
-  color: white;
-  background-color: #191919;
-}
-#contact .social a i {
-  margin: 10px 10px 10px 0;
-}
-#contact input, #contact textarea {
-  color: white;
-}
-#contact select {
-  color: white;
-}
-#contact select option {
-  color: black;
-}
-#contact input, #contact select, #contact textarea {
-  border-bottom: 2px solid #1cc9a7;
-}
-#contact input[type=submit] {
-  color: #1cc9a7;
-  border: 2px solid #1cc9a7;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-#contact input[type=submit]:hover {
-  background-color: #1cc9a7;
-  color: white;
-}
-#contact input:-webkit-autofill,
-#contact input:-webkit-autofill:hover,
-#contact input:-webkit-autofill:focus textarea:-webkit-autofill,
-#contact textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
-#contact select:-webkit-autofill,
-#contact select:-webkit-autofill:hover,
-#contact select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #FFF;
-}
-
 /* MODULES */
 /* Navbar */
 .active > .nav-link {
@@ -232,6 +193,46 @@ form ::-ms-input-placeholder {
   padding: 0.75rem 1.5rem;
   color: white;
   border-bottom: 1px solid #117d67;
+}
+
+/* Contact */
+.contact-over-map {
+  position: relative;
+  color: white;
+  background-color: #191919;
+}
+.contact-over-map .social a i {
+  margin: 10px 10px 10px 0;
+}
+.contact-over-map input, .contact-over-map textarea {
+  color: white;
+}
+.contact-over-map select {
+  color: white;
+}
+.contact-over-map select option {
+  color: black;
+}
+.contact-over-map input, .contact-over-map select, .contact-over-map textarea {
+  border-bottom: 2px solid #1cc9a7 !important;
+}
+.contact-over-map input[type=submit] {
+  color: #1cc9a7;
+  border: 2px solid #1cc9a7;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.contact-over-map input[type=submit]:hover {
+  background-color: #1cc9a7;
+  color: white;
+}
+.contact-over-map input:-webkit-autofill,
+.contact-over-map input:-webkit-autofill:hover,
+.contact-over-map input:-webkit-autofill:focus textarea:-webkit-autofill,
+.contact-over-map textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+.contact-over-map select:-webkit-autofill,
+.contact-over-map select:-webkit-autofill:hover,
+.contact-over-map select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #FFF;
 }
 
 /* Titles */
