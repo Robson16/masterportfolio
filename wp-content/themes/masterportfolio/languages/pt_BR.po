@@ -1,19 +1,27 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Robson Portfolio 1.0\n"
-"POT-Creation-Date: 2019-12-16 14:12-0300\n"
-"PO-Revision-Date: 2019-12-22 17:37-0300\n"
+"POT-Creation-Date: 2020-02-25 14:58-0300\n"
+"PO-Revision-Date: 2020-02-25 14:58-0300\n"
 "Last-Translator: Robson H Rodrigues <contato@robsonhrodrigues.com.br>\n"
 "Language-Team: Robson\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-KeywordsList: __;_e;_x;esc_html__;_n_noop\n"
 "X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:16
+msgid "This is somewhat embarrassing, isn’t it?"
+msgstr "Isso é um pouco embaraçoso, não é?"
+
+#: 404.php:17
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Parece que nada foi encontrado neste local. Tente uma pesquisa?"
 
 #: class/class-tgm-plugin-activation.php:334 inc/required-plugins.php:70
 msgid "Install Required Plugins"
@@ -410,50 +418,51 @@ msgstr "Deixe um comentário."
 msgid "Main Menu"
 msgstr "Menu principal"
 
-#: functions.php:98
+#: functions.php:99
 msgid "Footer Column One"
 msgstr "Coluna Um do Rodapé"
 
-#: functions.php:100 functions.php:109 functions.php:118 functions.php:127
-#: functions.php:138 functions.php:147 functions.php:156 functions.php:165
-#: functions.php:176
+#: functions.php:101 functions.php:110 functions.php:119 functions.php:128
+#: functions.php:139 functions.php:148 functions.php:157 functions.php:166
+#: functions.php:177
 msgid "Add some widget."
 msgstr "Adicione algum widget."
 
-#: functions.php:107
+#: functions.php:108
 msgid "Footer Column Two"
 msgstr "Coluna Dois do Rodapé"
 
-#: functions.php:116
+#: functions.php:117
 msgid "Footer Column Three"
 msgstr "Coluna Três do Rodapé"
 
-#: functions.php:125
+#: functions.php:126
 msgid "Footer Column Four"
 msgstr "Coluna Quatro do Rodapé"
 
-#: functions.php:136
+#: functions.php:137
 msgid "Frontpage Widget One"
 msgstr "Coluna Um Página Inicial"
 
-#: functions.php:145
+#: functions.php:146
 msgid "Frontpage Widget Two"
 msgstr "Coluna Dois Página Inicial"
 
-#: functions.php:154
+#: functions.php:155
 msgid "Frontpage Widget Three"
 msgstr "Coluna Três Página Inicial"
 
-#: functions.php:163
+#: functions.php:164
 msgid "Frontpage Widget Four"
 msgstr "Coluna Quatro Página Inicial"
 
-#: functions.php:174
+#: functions.php:175
 msgid "Blog Sidebar"
 msgstr "Barra Lateral do Blog"
 
 #: header-frontpage.php:111 header.php:111 kirki/kirki-control-contacts.php:31
-#: template-parts/sections/section-contact.php:28
+#: template-parts/sections/section-contact.php:29
+#: templates/template-contact-over-map.php:23
 msgid "Phone"
 msgstr "Telefone"
 
@@ -894,6 +903,7 @@ msgid "Search Education Categories"
 msgstr "Pesquisar categorias de diploma"
 
 #: inc/taxonomy.php:23 inc/taxonomy.php:63
+#: template-parts/header/header-hgroup.php:17
 msgid "Not Found"
 msgstr "Não encontrado"
 
@@ -1247,19 +1257,20 @@ msgstr "Leia mais"
 msgid "No content to display"
 msgstr "Nenhum conteúdo para exibir"
 
-#: template-parts/header/header-hgroup.php:8
+#: template-parts/header/header-hgroup.php:5
 msgid "Search results for:"
-msgstr "Buscar resultados para:"
+msgstr "Resultados da pesquisa por:"
 
-#: template-parts/header/header-hgroup.php:21
+#: template-parts/header/header-hgroup.php:13
 msgid "Blog"
 msgstr "Blog"
 
-#: template-parts/sections/section-contact.php:7
+#: template-parts/sections/section-contact.php:8
 msgid "Contact"
 msgstr "Contato"
 
-#: template-parts/sections/section-contact.php:9
+#: template-parts/sections/section-contact.php:10
+#: templates/template-contact-over-map.php:57
 msgid "Get in touch!"
 msgstr "Entre em contato!"
 
@@ -1290,6 +1301,9 @@ msgstr "Experiência"
 #: template-parts/sections/section-resume.php:103
 msgid "Currently"
 msgstr "Atualmente"
+
+#~ msgid "portfolio"
+#~ msgstr "portfólio"
 
 #~ msgid " Experience"
 #~ msgstr "Experiência"
