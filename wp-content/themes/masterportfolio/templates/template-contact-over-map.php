@@ -1,6 +1,7 @@
 <?php
-/*
+/**
  * Template Name: Contact Over Map
+ * Template Post Type: page
  * 
  * Global template for use in contact page,
  * you can make this template as the model of a page,

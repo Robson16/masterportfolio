@@ -1,6 +1,7 @@
 <?php
-/*
+/**
  * Template Name: Front-Page 1
+ * Template Post Type: page
  * 
  * Global template for use in front-page,
  * you can make this template as the model of a page,

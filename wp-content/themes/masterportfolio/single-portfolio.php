@@ -65,8 +65,6 @@
                             <li>
                                 <span class="font-weight-bold text-uppercase"><?php _e('Created in:', 'masterportfolio'); ?></span>
                                 <?php echo date_i18n( get_option( 'date_format' ), rwmb_meta('date'), current_time('timestamp') ) ; ?>
-                                
-                                
                             </li>
                         </ul>
 
