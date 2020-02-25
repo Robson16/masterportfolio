@@ -18,8 +18,8 @@
                     </div>
                     <!-- /.col -->
                 <?php endwhile; ?>
-                <div class="col-12 mt-5">
-                    <?php bootstrap_pagination(); ?>
+                <div class="col-12 py-5">
+                    <?php echo bootstrap_pagination(); ?>
                 </div>
                 <!-- /.col -->
             <?php else: ?>

@@ -22,7 +22,7 @@ get_header();
                             <!-- /.col -->
                         <?php endwhile; ?>
                         <div class="col-12">
-                            <?php bootstrap_pagination(); ?>
+                            <?php echo bootstrap_pagination(); ?>
                         </div>
                         <!--/.col-->
                     <?php else: ?>
