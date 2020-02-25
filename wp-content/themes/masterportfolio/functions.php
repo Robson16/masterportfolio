@@ -36,8 +36,9 @@ if (!function_exists('masterportfolio_setup')) {
         add_theme_support('post-thumbnails');
 
         // Custom image sizes
-        add_image_size('navbar_logo', 25, 20, true);
-        add_image_size('large_narrow', 1200, 500, true);
+        add_image_size( 'navbar_logo', 25, 20, true );
+        add_image_size( 'large_narrow', 1200, 500, true );
+        add_image_size( 'thumbnails_portfolio' , 348, 218, true );
     }
 
 }

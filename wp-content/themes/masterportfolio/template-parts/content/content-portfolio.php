@@ -10,7 +10,7 @@
         <figure class="border" title="<?php the_title_attribute(); ?>">
             <a class="thumbnail" href="<?php the_permalink(); ?>">
                 <?php
-                the_post_thumbnail('medium_large', array(
+                the_post_thumbnail('thumbnails_portfolio', array(
                     'class' => 'img-fluid',
                     'alt' => get_the_title(),
                 ));
