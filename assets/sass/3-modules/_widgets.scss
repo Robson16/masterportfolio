@@ -7,19 +7,18 @@
         li {
             padding-bottom: 4px;
             margin-bottom: 4px;
-            border-bottom: 1px solid rgba(0,0,0,.1);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
             font-weight: bold;
-            
+
             a {
                 color: $color3;
             }
         }
     }
-    
+
     .widget-title {
-        font-family: "Gochi Hand",cursive;
+        font-family: 'Merienda One', cursive;
         text-align: center;
         text-transform: uppercase;
     }
 }
-

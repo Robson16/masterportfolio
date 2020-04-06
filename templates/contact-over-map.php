@@ -28,7 +28,7 @@
                         <?php endif; ?>
 
                         <?php if (get_theme_mod('setting_whatsapp')): ?>
-                            <a class="d-flex flex-column text-dark py-3" href="<?php echo 'https://wa.me/' . clear_phones(get_theme_mod('setting_whatsapp')); ?>" aria-label="Whatsapp">
+                            <a class="d-flex flex-column text-dark py-3" href="<?php echo 'https://wa.me/' . clear_phones(get_theme_mod('setting_whatsapp')); ?>" aria-label="Whatsapp" target="_black" rel="noopener">
                                 <i class="fab fa-whatsapp fa-5x mb-3"></i>
                                 <strong><?php echo get_theme_mod('setting_whatsapp'); ?></strong>
                             </a>

@@ -1,42 +1,42 @@
 <section id="contact">
     <div class="contact-over-map">
-        <div id="map" class="bg-google-map" data-lat="<?php echo get_theme_mod('setting_latitude') ?>" data-lng="<?php echo get_theme_mod('setting_longitude') ?>"></div>
+        <div id="map" class="bg-google-map" data-lat="<?php echo get_theme_mod( 'setting_latitude' ) ?>" data-lng="<?php echo get_theme_mod( 'setting_longitude' ) ?>"></div>
         <div class="container py-5">
             <div class="row">
                 <div class="col-12">
                     <hgroup class="text-center mb-5">
-                        <h3 class="title title-cursive text-white"><?php _e('Contact', 'masterportfolio'); ?></h3>
+                        <h3 class="title text-cursive text-white"><?php _e( 'Contact', 'masterportfolio' ); ?></h3>
                         <hr class="sm-line">
-                        <h4 class="sub-title text-white"><?php _e('Get in touch!', 'masterportfolio'); ?></h4>
+                        <h4 class="sub-title text-white"><?php _e( 'Get in touch!', 'masterportfolio' ); ?></h4>
                     </hgroup>
                 </div>
                 <!-- /.col -->
                 <div class="col-12 col-lg-4">
                     <p>
-                        <?php echo get_theme_mod('setting_contact_text'); ?>
+                        <?php echo get_theme_mod( 'setting_contact_text' ); ?>
                     </p>
                     <ul class="list-unstyled social">
-                        <?php if (get_theme_mod('setting_whatsapp')): ?>
+                        <?php if ( get_theme_mod( 'setting_whatsapp' ) ): ?>
                             <li>
-                                <a class="whatsapp" href="<?php echo 'https://wa.me/' . clear_phones(get_theme_mod('setting_whatsapp')); ?>" target="_black" rel="noopener" aria-label="Whatsapp">
+                                <a class="whatsapp" href="<?php echo 'https://wa.me/' . clear_phones( get_theme_mod( 'setting_whatsapp' ) ); ?>" target="_black" rel="noopener" aria-label="Whatsapp">
                                     <i class="fab fa-whatsapp"></i>
                                     <span><?php echo get_theme_mod('setting_whatsapp'); ?></span>
                                 </a>
                             </li>
                         <?php endif; ?>
-                        <?php if (get_theme_mod('setting_phone')): ?>
+                        <?php if ( get_theme_mod( 'setting_phone' ) ): ?>
                             <li>
-                                <a class="phone" href="<?php echo 'tel:' . clear_phones(get_theme_mod('setting_phone')); ?>" aria-label="<?php _e('Phone', 'masterportfolio'); ?>">
+                                <a class="phone" href="<?php echo 'tel:' . clear_phones( get_theme_mod( 'setting_phone' ) ); ?>" aria-label="<?php _e( 'Phone', 'masterportfolio' ); ?>">
                                     <i class="fas fa-phone"></i>
-                                    <span><?php echo get_theme_mod('setting_phone'); ?></span>
+                                    <span><?php echo get_theme_mod( 'setting_phone' ); ?></span>
                                 </a>
                             </li>
                         <?php endif; ?>
-                        <?php if (get_theme_mod('setting_email')): ?>
+                        <?php if ( get_theme_mod( 'setting_email' ) ): ?>
                             <li>
-                                <a class="email" href="<?php echo 'mailto:' . get_theme_mod('setting_email'); ?>" target="_top" aria-label="Email">
+                                <a class="email" href="<?php echo 'mailto:' . get_theme_mod( 'setting_email' ); ?>" target="_top" aria-label="Email">
                                     <i class="far fa-envelope"></i>
-                                    <span><?php echo get_theme_mod('setting_email'); ?></span>
+                                    <span><?php echo get_theme_mod( 'setting_email' ); ?></span>
                                 </a>
                             </li>
                         <?php endif; ?>
@@ -44,7 +44,7 @@
                 </div>
                 <!-- /.col -->
                 <div class="col-12 col-lg-8">
-                    <?php echo do_shortcode(get_theme_mod('setting_contact_form')); ?>
+                    <?php echo do_shortcode( get_theme_mod( 'setting_contact_form' ) ); ?>
                 </div>
                 <!-- /.col -->
             </div>

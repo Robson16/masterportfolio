@@ -35,7 +35,9 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12">
-                    <p class="text-center font-weight-light py-3 m-0">&copy; Robson H. Rodrigues 2019 Todos os direitos reservados</p>
+                    <p class="text-center font-weight-light py-3 m-0">
+                        &copy; <?php echo date('Y') . ' ' . get_bloginfo('name') . ' - ' . __( 'All rights reserved.', 'masterportfolio' ); ?>
+                    </p>
                 </div>
                 <!-- /.col -->
             </div>
@@ -51,7 +53,7 @@
 <script>
     WebFont.load({
         google: {
-            families: ['Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i', 'Gochi+Hand']
+            families: ['Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i', 'Merienda+One']
         }
     });
 </script>

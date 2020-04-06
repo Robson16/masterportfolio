@@ -13,7 +13,7 @@ $portfolio_items = new WP_Query(array(
             <div class="row py-5">
                 <div class="col-12">
                     <hgroup class="text-center mb-5">
-                        <h3 class="title title-cursive text-white"><?php _e( 'Portfolio', 'masterportfolio' ); ?></h3>
+                        <h3 class="title text-cursive text-white"><?php _e( 'Portfolio', 'masterportfolio' ); ?></h3>
                         <hr class="sm-line">
                         <h4 class="sub-title text-white"><?php _e( 'My Latest Works', 'masterportfolio' ); ?></h4>
                     </hgroup>

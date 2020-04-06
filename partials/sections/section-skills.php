@@ -23,7 +23,7 @@
             <div class="row py-5">
                 <div class="col-sm-12">
                     <hgroup class="text-center mb-4">
-                        <h3 class="title title-cursive"><?php echo get_theme_mod('setting_skills_title', 'Skills'); ?></h3>
+                        <h3 class="title text-cursive"><?php echo get_theme_mod('setting_skills_title', 'Skills'); ?></h3>
                         <hr class="sm-line">
                         <h4 class="sub-title"><?php echo get_theme_mod('setting_skills_subtitle', 'What am i best!'); ?></h4>
                     </hgroup>

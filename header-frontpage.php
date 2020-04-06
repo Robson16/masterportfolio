@@ -9,9 +9,9 @@
 
     <body <?php body_class(); ?>>
 
-        <?php get_template_part('template-parts/navbar/main-menu'); ?>
+        <?php get_template_part( 'partials/navbar/main-menu' ); ?>
 
-        <?php $header_bg = get_theme_mod('setting_header_background'); ?>
+        <?php $header_bg = get_theme_mod( 'setting_header_background' ); ?>
         <style>
             .header-wrap {
                 color: #FFF;
@@ -41,8 +41,8 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <hgroup class="header-titles mb-5">
-                                    <h1 class="title"><?php echo get_theme_mod('setting_header_title', 'I Am A Customizable Title'); ?></h1>
-                                    <h2 class="sub-title"><?php echo get_theme_mod('setting_header_subtitle', 'I Am A Customizable Sub-Title'); ?></h2>
+                                    <h1 class="title"><?php echo get_theme_mod( 'setting_header_title', 'I Am A Customizable Title' ); ?></h1>
+                                    <h2 class="sub-title"><?php echo get_theme_mod( 'setting_header_subtitle', 'I Am A Customizable Sub-Title' ); ?></h2>
                                 </hgroup>
                             </div>
                             <!--/.col-->

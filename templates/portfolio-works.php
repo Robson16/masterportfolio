@@ -17,13 +17,15 @@ get_header();
 <main role="main">
     <div class="container">
 
-        <div class="row">
-            <div class="col-12">
-                <?php the_content(); ?>
+        <?php while( have_posts() ): the_post() ?>
+            <div class="row">
+                <div class="col-12">
+                    <?php the_content(); ?>
+                </div>
+                <!-- /.col -->
             </div>
-            <!-- /.col -->
-        </div>
-        <!-- /.row -->
+            <!-- /.row -->
+        <?php endwhile; ?>
 
         <?php
         $portfolio_items = new WP_Query( array(

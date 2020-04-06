@@ -44,7 +44,7 @@ $experience = new WP_Query(array(
             <div class="row py-5">
                 <div class="col-12">
                     <hgroup class="text-center mb-5">
-                        <h3 class="title title-cursive"><?php _e('Resume', 'masterportfolio'); ?></h3>
+                        <h3 class="title text-cursive"><?php _e('Resume', 'masterportfolio'); ?></h3>
                         <hr class="sm-line">
                         <h4 class="sub-title"><?php _e('Latest in my career', 'masterportfolio'); ?></h4>
                     </hgroup>

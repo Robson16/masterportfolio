@@ -17,7 +17,7 @@
  * @license    http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link       https://github.com/TGMPA/TGM-Plugin-Activation
  */
-require_once get_template_directory() . '/class/class-tgm-plugin-activation.php';
+require_once get_template_directory() . '/includes/classes/class-tgm-plugin-activation.php';
 
 add_action('tgmpa_register', 'masterportfolio_register_required_plugins');
 
@@ -39,11 +39,6 @@ function masterportfolio_register_required_plugins() {
             'name' => 'Classic Editor',
             'slug' => 'classic-editor',
             'required' => false,
-        ),
-        array(
-            'name' => 'Yoast SEO',
-            'slug' => 'wordpress-seo',
-            'required' => true,
         ),
         array(
             'name' => 'Contact Form 7',

@@ -9,48 +9,50 @@
  * more things with the custom post-types of the theme
  * 
  */
-?>
 
-<?php get_header('frontpage'); ?>
+get_header( 'frontpage' ); 
+?>
 
 <main role="main">
     <section>
-        <div class="container pb-5 pt-3">
-            <hgroup class="text-center my-4">
-                <h3 class="title-cursive font-weight-bold"><?php echo get_the_title(); ?></h3>
-                <hr class="sm-line">
-                <h4 class="sub-title"><?php echo rwmb_meta('subtitle'); ?></h4>
-            </hgroup>
-            <?php the_content(); ?>
-        </div>
-        <!-- /.container -->
+        <?php while( have_posts() ): the_post() ?>
+            <div class="container pb-5 pt-3">
+                <hgroup class="text-center my-4">
+                    <h3 class="text-cursive font-weight-bold"><?php echo get_the_title(); ?></h3>
+                    <hr class="sm-line">
+                    <h4 class="sub-title"><?php echo rwmb_meta( 'subtitle' ); ?></h4>
+                </hgroup>
+                <?php the_content(); ?>
+            </div>
+            <!-- /.container -->
+        <?php endwhile; ?>
 
         <div class="bg-light">
             <div class="container py-2 py-lg-5">
                 <div class="row flex-column flex-sm-row">
 
-                    <?php if (is_active_sidebar('frontpage-widget-one')) : ?> 
+                    <?php if (is_active_sidebar( 'frontpage-widget-one' ) ) : ?> 
                         <div class="col my-3">
                             <div class="h-100 bg-white p-3">
-                                <?php dynamic_sidebar('frontpage-widget-one'); ?>
+                                <?php dynamic_sidebar( 'frontpage-widget-one' ); ?>
                             </div>
                         </div>
                         <!-- /.col -->
                     <?php endif; ?>
 
-                    <?php if (is_active_sidebar('frontpage-widget-two')) : ?> 
+                    <?php if (is_active_sidebar( 'frontpage-widget-two' ) ) : ?> 
                         <div class="col my-3">
                             <div class="h-100 bg-white p-3">
-                                <?php dynamic_sidebar('frontpage-widget-two'); ?>
+                                <?php dynamic_sidebar( 'frontpage-widget-two' ); ?>
                             </div>
                         </div>
                         <!-- /.col -->
                     <?php endif; ?>
 
-                    <?php if (is_active_sidebar('frontpage-widget-three')) : ?> 
+                    <?php if ( is_active_sidebar( 'frontpage-widget-three' ) ) : ?> 
                         <div class="col my-3">
                             <div class="h-100 bg-white p-3">
-                                <?php dynamic_sidebar('frontpage-widget-three'); ?>
+                                <?php dynamic_sidebar( 'frontpage-widget-three' ); ?>
                             </div>
                         </div>
                         <!-- /.col -->
@@ -59,7 +61,7 @@
                     <?php if (is_active_sidebar('frontpage-widget-four')) : ?> 
                         <div class="col my-3">
                             <div class="h-100 bg-white p-3">
-                                <?php dynamic_sidebar('frontpage-widget-four'); ?>
+                                <?php dynamic_sidebar( 'frontpage-widget-four' ); ?>
                             </div>
                         </div>
                         <!-- /.col -->
@@ -72,10 +74,11 @@
         </div>
     </section>
 
-    <?php get_template_part('template-parts/sections/section', 'skills'); ?>
-    <?php get_template_part('template-parts/sections/section', 'resume'); ?>
-    <?php get_template_part('template-parts/sections/section', 'portfolio'); ?>
-    <?php get_template_part('template-parts/sections/section', 'contact'); ?>
+    <?php get_template_part( 'partials/sections/section', 'skills' ); ?>
+    <?php get_template_part( 'partials/sections/section', 'resume' ); ?>
+    <?php get_template_part( 'partials/sections/section', 'portfolio' ); ?>
+    <?php get_template_part( 'partials/sections/section', 'contact' ); ?>
 </main>
 
-<?php get_footer(); ?>
+<?php 
+get_footer(); 

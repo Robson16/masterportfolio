@@ -12,12 +12,10 @@ get_header();
     <div class="container pb-5 pt-3">
         <div class="row">
             <div class="col-12 col-md-8">
-                <?php while (have_posts()) : the_post(); ?>
+                <?php while ( have_posts() ) : the_post(); ?>
                     <?php
-                    get_template_part('template-parts/content/content');
-                    if (comments_open() || get_comments_number()) {
-                        comments_template();
-                    }
+                    get_template_part( 'partials/content/content' );
+                    if ( comments_open() || get_comments_number() ) comments_template();
                     ?>
                 <?php endwhile; ?>
             </div>

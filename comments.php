@@ -19,7 +19,7 @@ if (post_password_required()) {
     <div class="row my-5">
         <div class="col-12">
             <?php if (have_comments()) : ?>
-                <h3 class="title-cursive comments-title">
+                <h3 class="text-cursive comments-title">
                     <?php _e('Comments', 'masterportfolio'); ?>
                 </h3>
                 <?php the_comments_navigation(); ?>
@@ -48,7 +48,7 @@ if (post_password_required()) {
         <div class="col-12">
             <?php
             comment_form(array(
-                'title_reply_before' => '<h2 id="reply-title" class="title-cursive comment-reply-title">',
+                'title_reply_before' => '<h2 id="reply-title" class="text-cursive comment-reply-title">',
                 'title_reply' => __('Leave a comment.', 'masterportfolio'),
                 'title_reply_after' => '</h2>',
             ));

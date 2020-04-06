@@ -8,9 +8,9 @@
  * E.g., it puts together the home page when no home.php file exists.
  *
  */
-?>
 
-<?php get_header(); ?>
+get_header(); 
+?>
 
 <main role="main">
     <div class="container pb-5 pt-3">
@@ -18,10 +18,10 @@
             <div class="col-12 col-md-8">
 
                 <div class="row">
-                    <?php if (have_posts()) : ?>
-                        <?php while (have_posts()) : the_post(); ?>
+                    <?php if ( have_posts() ) : ?>
+                        <?php while ( have_posts() ) : the_post(); ?>
                             <div class="col-12">
-                                <?php get_template_part('template-parts/content/content', 'excerpt'); ?>
+                                <?php get_template_part( 'partials/content/content', 'excerpt' ); ?>
                             </div>
                             <!-- /.col -->
                         <?php endwhile; ?>
@@ -31,7 +31,7 @@
                         <!--/.col-->
                     <?php else: ?>
                         <div class="col-12">
-                            <?php get_template_part('template-parts/content/content', 'none'); ?>
+                            <?php get_template_part( 'partials/content/content', 'none' ); ?>
                         </div>
                         <!--/.col-->
                     <?php endif; ?>
@@ -50,5 +50,5 @@
     <!-- /.container -->
 </main>
 
-
-<?php get_footer(); ?>
+<?php 
+get_footer();

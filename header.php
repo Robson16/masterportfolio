@@ -9,9 +9,9 @@
 
     <body <?php body_class(); ?>>
 
-        <?php get_template_part('template-parts/navbar/main-menu'); ?>
+        <?php get_template_part( 'partials/navbar/main-menu' ); ?>
 
-        <?php $header_bg = get_theme_mod('setting_header_background'); ?>
+        <?php $header_bg = get_theme_mod( 'setting_header_background' ); ?>
         <style>
             .header-wrap {
                 color: #FFF;
@@ -132,13 +132,9 @@
 
             <div class="container py-3">
                 <?php
-                get_template_part('template-parts/header/header', 'hgroup');
-
-                if (function_exists('yoast_breadcrumb')) {
-                    yoast_breadcrumb('<p class="breadcrumbs m-0">', '</p>');
-                }
+                get_template_part( 'partials/header/header', 'hgroup' );
+                if ( function_exists( 'yoast_breadcrumb' ) ) yoast_breadcrumb( '<p class="breadcrumbs m-0">', '</p>' );
                 ?>
             </div>
             <!-- /.container -->
         </header>
-
