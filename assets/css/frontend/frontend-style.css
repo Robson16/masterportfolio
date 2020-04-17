@@ -540,23 +540,27 @@ hr.sm-line-darken {
 }
 
 /* Widgets */
-.widget-wrapper ul {
+.widget:not(:first-child) {
+  margin-top: 30px;
+}
+
+.widget ul {
   padding: 0;
 }
 
-.widget-wrapper ul li {
+.widget ul li {
   padding-bottom: 4px;
   margin-bottom: 4px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  font-weight: bold;
+  text-align: center;
 }
 
-.widget-wrapper ul li a {
+.widget ul li a {
   color: #17a387;
 }
 
-.widget-wrapper .widget-title {
-  font-family: 'Merienda One', cursive;
+.widget .widget-title {
+  margin-bottom: 15px;
+  font-weight: bold;
   text-align: center;
   text-transform: uppercase;
 }

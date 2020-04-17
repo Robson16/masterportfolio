@@ -1,14 +1,18 @@
 /* Widgets */
 
-.widget-wrapper {
+.widget {
+
+    &:not(:first-child) {
+        margin-top: 30px;
+    }
+
     ul {
         padding: 0;
 
         li {
             padding-bottom: 4px;
             margin-bottom: 4px;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-            font-weight: bold;
+            text-align: center;
 
             a {
                 color: $color3;
@@ -17,7 +21,8 @@
     }
 
     .widget-title {
-        font-family: 'Merienda One', cursive;
+        margin-bottom: 15px;
+        font-weight: bold;
         text-align: center;
         text-transform: uppercase;
     }
