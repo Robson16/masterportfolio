@@ -54,3 +54,34 @@ function website_remove($fields) {
 }
 
 add_filter( 'comment_form_default_fields', 'website_remove' );
+
+/**
+ * Using the Kirki Customizer Framework - Background Control, receive the settingName and elementTarget to output the styles tag in the DOM 
+ * @param str $settingName
+ * @param str $elementTarget
+ * @return none 
+ */
+function the_element_background( string $settingName, string $elementTarget ) {
+    $default = array(
+        'background-color'      => 'rgba(0,0,0,0.5)',
+        'background-image'      => 'http://via.placeholder.com/2560x1440/093D33/117D67%20?text=Placeholder%20Image',
+        'background-repeat'     => 'no-repeat',
+        'background-position'   => 'center center',
+        'background-size'       => 'cover',
+        'background-attachment' => 'scroll',
+    );
+
+    $backgroundStyles = get_theme_mod( $settingName, $default );
+
+    echo "<style>";
+    echo $elementTarget . "{";
+    echo "color: #FFFFFF; ";
+    echo sprintf( 'background-color: %s; ', $backgroundStyles['background-color'] );
+    echo sprintf( 'background-image: linear-gradient(%1$s, %1$s), url("%2$s"); ', $backgroundStyles['background-color'], $backgroundStyles['background-image'] ); 
+    echo sprintf( 'background-repeat: %s; ', $backgroundStyles['background-repeat'] );
+    echo sprintf( 'background-position: %s; ', $backgroundStyles['background-position'] );
+    echo sprintf( 'background-size: %s; ', $backgroundStyles['background-size'] );
+    echo sprintf( 'background-attachment: %s; ', $backgroundStyles['background-attachment'] );
+    echo "}";
+    echo "</style>";
+}

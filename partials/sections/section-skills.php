@@ -6,18 +6,8 @@
 
 <?php $skills_list = get_theme_mod('setting_skills_list'); ?>
 <?php if ($skills_list): ?>
-    <?php $skills_bg = get_theme_mod('setting_skills_background'); ?>
-    <style>
-        #skills {
-            color: #FFF;
-            background-color: <?php echo $skills_bg['background-color']; ?>;
-            background-image: linear-gradient(<?php echo $skills_bg['background-color']; ?>, <?php echo $skills_bg['background-color']; ?>), url(<?php echo $skills_bg['background-image']; ?>); 
-            background-repeat: <?php echo $skills_bg['background-repeat']; ?>;
-            background-position: <?php echo $skills_bg['background-position']; ?>;
-            background-size: <?php echo $skills_bg['background-size']; ?>;
-            background-attachment:<?php echo $skills_bg['background-attachment']; ?>;
-        }
-    </style>
+    <?php the_element_background( 'setting_skills_background', 'section#skills' ); ?>
+    
     <section id="skills">
         <div class="container">
             <div class="row py-5">

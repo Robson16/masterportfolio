@@ -16,7 +16,6 @@ get_header();
 
 <main role="main">
     <div class="container">
-
         <?php while( have_posts() ): the_post() ?>
             <div class="row">
                 <div class="col-12">
@@ -27,47 +26,32 @@ get_header();
             <!-- /.row -->
         <?php endwhile; ?>
 
-        <?php
+        <?php 
+        $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+
         $portfolio_items = new WP_Query( array(
-            'post_type' => 'portfolio',
-            'post_status' => 'publish',
+            'post_type'     => 'portfolio',
+            'post_status'   => 'publish',
+            'paged'         => $paged
         ) );
-
-        if ( $portfolio_items->have_posts() ) :
+        
+        if ( $portfolio_items->have_posts() ) : 
         ?>
-            <div class="row">
-
+            <div class="row">            
                 <?php while ( $portfolio_items->have_posts() ) : $portfolio_items->the_post() ?>
                     <div class="col-12 col-md-6 col-lg-4 my-3">
-
-                        <?php if ( has_post_thumbnail() ) : ?>
-                            <figure title="<?php the_title_attribute(); ?>">
-                                <a class="thumbnail" href="<?php the_permalink(); ?>">
-                                    <?php
-                                    the_post_thumbnail( 'thumbnails_portfolio', array(
-                                        'class' => 'img-fluid',
-                                        'alt' => get_the_title(),
-                                    ) );
-                                    ?>
-                                </a>
-                                <figcaption class="text-center mt-3"><?php echo get_the_title(); ?></figcaption>
-                            </figure>
-                        <?php endif; ?>
-
+                        <?php get_template_part('partials/content/content', 'portfolio'); ?>
                     </div>
                     <!-- /.col -->
                 <?php endwhile; ?>
-
                 <div class="col-12 py-5">
                     <?php echo bootstrap_pagination( $portfolio_items ); ?>
                 </div>
                 <!-- /.col -->
-
                 <?php wp_reset_postdata(); ?>
             </div>
             <!--/.row-->
         <?php endif; ?>
-
     </div>
     <!--/.container-->
 </main>

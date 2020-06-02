@@ -20,7 +20,7 @@
         border: 2px solid $color4;
         background-color: transparent;
         color: $color4;
-        @include btn-hover($color4, white);        
+        @include btn-hover($color4, white);
     }
 
     .reply {

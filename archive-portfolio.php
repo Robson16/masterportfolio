@@ -10,11 +10,10 @@
 <main role="main">
     <div class="container">
         <div class="row">
-
             <?php if (have_posts()) : ?>
                 <?php while (have_posts()) : the_post(); ?>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <?php get_template_part('template-parts/content/content', 'portfolio'); ?>
+                    <div class="col-12 col-md-6 col-lg-4 my-3">
+                        <?php get_template_part('partials/content/content', 'portfolio'); ?>
                     </div>
                     <!-- /.col -->
                 <?php endwhile; ?>
@@ -23,9 +22,8 @@
                 </div>
                 <!-- /.col -->
             <?php else: ?>
-                <?php get_template_part('template-parts/content/content', 'none'); ?>
+                <?php get_template_part('partials/content/content', 'none'); ?>
             <?php endif; ?>
-
         </div>
         <!-- /.row -->
     </div>

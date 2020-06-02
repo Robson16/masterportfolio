@@ -1,13 +1,7 @@
 /* Frondend Style */
-
 /* BASE STYLES */
-
 /* Placeholders */
-form input[type="text"],
-form input[type="email"],
-form input[type="tel"],
-form select,
-form textarea {
+form input[type="text"], form input[type="email"], form input[type="tel"], form select, form textarea {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -32,10 +26,7 @@ ul {
 a {
   color: #093d33;
 }
-
-a:hover,
-a:active,
-a:focus {
+a:hover, a:active, a:focus {
   color: #17a387;
   text-decoration: none;
 }
@@ -43,18 +34,13 @@ a:focus {
 form p {
   margin-bottom: 1rem;
 }
-
 form label {
   margin: 0;
   width: 100%;
 }
-
-form input[type="text"],
-form input[type="email"],
-form input[type="tel"] {
+form input[type="text"], form input[type="email"], form input[type="tel"] {
   padding: 20px 10px;
 }
-
 form select {
   width: 100%;
   height: 2.5em;
@@ -65,12 +51,10 @@ form select {
   background-size: 5px 5px, 5px 5px, 1px 1.5em;
   background-repeat: no-repeat;
 }
-
 form textarea {
   min-height: 130px;
   padding: 20px 10px;
 }
-
 form input[type="submit"] {
   display: block;
   margin: 0 auto;
@@ -85,16 +69,16 @@ form input[type="submit"] {
   background-color: transparent;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-
 form input[type="submit"]:hover {
   background-color: #117d67;
   color: white;
 }
-
 form input:-webkit-autofill,
 form input:-webkit-autofill:hover,
-form input:-webkit-autofill:focus textarea:-webkit-autofill,
-form textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+form input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+form textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
 form select:-webkit-autofill,
 form select:-webkit-autofill:hover,
 form select:-webkit-autofill:focus {
@@ -104,18 +88,15 @@ form select:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 1000px transparent inset;
   -webkit-text-fill-color: #000;
 }
-
 form ::placeholder {
   color: #AAA;
   opacity: 1;
   font-style: italic;
 }
-
 form :-ms-input-placeholder {
   color: #AAA;
   font-style: italic;
 }
-
 form ::-ms-input-placeholder {
   color: #AAA;
   font-style: italic;
@@ -124,64 +105,91 @@ form ::-ms-input-placeholder {
 /* LAYOUTS */
 #header .header-wrap {
   color: #fff;
-  background-position: center center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
-
 #header .header-content {
   transform: translateY(15%);
 }
-
 #header .header-photo {
   padding: 16px;
   background-color: rgba(255, 255, 255, 0.8);
 }
-
 #header .header-content {
   margin-top: -80px;
 }
-
 #header .header-titles {
   font-size: 2.5rem;
 }
-
 #header .header-titles .title {
   font-size: 0.9em;
 }
-
 @media (min-width: 576px) {
   #header .header-titles .title {
     font-size: 1.8em;
   }
 }
-
 #header .header-titles .sub-title {
   font-size: 0.8em;
   font-weight: lighter;
 }
 
+/* Contact */
+#contact {
+  position: relative;
+  color: white;
+  background-color: #191919;
+}
+#contact .social a i {
+  margin: 10px 10px 10px 0;
+}
+#contact input,
+#contact textarea {
+  color: white;
+}
+#contact select {
+  color: white;
+}
+#contact select option {
+  color: black;
+}
+#contact input,
+#contact select,
+#contact textarea {
+  border-bottom: 2px solid #1cc9a7 !important;
+}
+#contact input[type="submit"] {
+  color: #1cc9a7;
+  border: 2px solid #1cc9a7;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+#contact input[type="submit"]:hover {
+  background-color: #1cc9a7;
+  color: white;
+}
+#contact input:-webkit-autofill,
+#contact input:-webkit-autofill:hover,
+#contact input:-webkit-autofill:focus,
+#contact textarea:-webkit-autofill,
+#contact textarea:-webkit-autofill:hover,
+#contact textarea:-webkit-autofill:focus,
+#contact select:-webkit-autofill,
+#contact select:-webkit-autofill:hover,
+#contact select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #FFF;
+}
+
 .footer {
   color: #fff;
 }
-
 .footer a {
   color: #fff !important;
 }
-
 .footer li {
   border-color: rgba(255, 255, 255, 0.3) !important;
 }
-
 .footer .tag-cloud-link {
   border: 2px solid white !important;
   color: white !important;
 }
-
 .footer .tag-cloud-link:hover {
   background-color: white !important;
   color: #17a387 !important;
@@ -189,7 +197,7 @@ form ::-ms-input-placeholder {
 
 /* MODULES */
 /* Navbar */
-.active>.nav-link {
+.active > .nav-link {
   color: #1cc9a7 !important;
 }
 
@@ -197,8 +205,7 @@ form ::-ms-input-placeholder {
   color: white;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover, .nav-link:focus {
   color: #62e9cf !important;
 }
 
@@ -213,57 +220,6 @@ form ::-ms-input-placeholder {
   padding: .75rem 1.5rem;
   color: white;
   border-bottom: 1px solid #117d67;
-}
-
-/* Contact */
-.contact-over-map {
-  position: relative;
-  color: white;
-  background-color: #191919;
-}
-
-.contact-over-map .social a i {
-  margin: 10px 10px 10px 0;
-}
-
-.contact-over-map input,
-.contact-over-map textarea {
-  color: white;
-}
-
-.contact-over-map select {
-  color: white;
-}
-
-.contact-over-map select option {
-  color: black;
-}
-
-.contact-over-map input,
-.contact-over-map select,
-.contact-over-map textarea {
-  border-bottom: 2px solid #1cc9a7 !important;
-}
-
-.contact-over-map input[type="submit"] {
-  color: #1cc9a7;
-  border: 2px solid #1cc9a7;
-  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
-
-.contact-over-map input[type="submit"]:hover {
-  background-color: #1cc9a7;
-  color: white;
-}
-
-.contact-over-map input:-webkit-autofill,
-.contact-over-map input:-webkit-autofill:hover,
-.contact-over-map input:-webkit-autofill:focus textarea:-webkit-autofill,
-.contact-over-map textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
-.contact-over-map select:-webkit-autofill,
-.contact-over-map select:-webkit-autofill:hover,
-.contact-over-map select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #FFF;
 }
 
 /* Text Colors */
@@ -290,7 +246,6 @@ form ::-ms-input-placeholder {
   border-radius: 0;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-
 .btn-outline:hover {
   background-color: #117d67;
   color: white;
@@ -304,7 +259,6 @@ form ::-ms-input-placeholder {
   border-radius: 0;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-
 .btn-outline-white:hover {
   background-color: white;
   color: #093d33;
@@ -352,7 +306,6 @@ hr.sm-line-darken {
   align-items: center;
   color: #1cc9a7;
 }
-
 .social a i {
   display: flex;
   justify-content: center;
@@ -369,120 +322,91 @@ hr.sm-line-darken {
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-
 .social a:hover {
   background: transparent;
   text-decoration: none;
 }
-
 .social a:hover.facebook {
   color: #4460ae;
 }
-
 .social a:hover.facebook i {
   border-color: #4460ae;
 }
-
 .social a:hover.instagram {
   color: #cd4378;
 }
-
 .social a:hover.instagram i {
   border-color: #cd4378;
 }
-
 .social a:hover.twitter {
   color: #1da1f2;
 }
-
 .social a:hover.twitter i {
   border-color: #1da1f2;
 }
-
 .social a:hover.youtube {
   color: #FF0000;
 }
-
 .social a:hover.youtube i {
   border-color: #FF0000;
 }
-
 .social a:hover.linkedin {
   color: #008891;
 }
-
 .social a:hover.linkedin i {
   border-color: #008891;
 }
-
 .social a:hover.pinterest {
   color: #BD081C;
 }
-
 .social a:hover.pinterest i {
   border-color: #BD081C;
 }
-
 .social a:hover.wordpress {
   color: #00749C;
 }
-
 .social a:hover.wordpress i {
   border-color: #00749C;
 }
-
 .social a:hover.github {
   color: #4078c0;
 }
-
 .social a:hover.github i {
   border-color: #4078c0;
 }
-
 .social a:hover.gitlab {
   color: #fc6d26;
 }
-
 .social a:hover.gitlab i {
   border-color: #fc6d26;
 }
-
 .social a:hover.bitbucket {
   color: #2684FF;
 }
-
 .social a:hover.bitbucket i {
   border-color: #2684FF;
 }
-
 .social a:hover.whatsapp {
   color: #25D366;
 }
-
 .social a:hover.whatsapp i {
   border-color: #25D366;
 }
-
 .social a:hover.phone {
   color: #ffbf00;
 }
-
 .social a:hover.phone i {
   border-color: #ffbf00;
 }
-
 .social a:hover.email {
   color: #4a7f45;
 }
-
 .social a:hover.email i {
   border-color: #4a7f45;
 }
-
 .social a:hover.link {
   color: #871AFF;
 }
-
 .social a:hover.link i {
   border-color: #871AFF;
 }
@@ -501,7 +425,6 @@ hr.sm-line-darken {
   position: relative;
   display: block;
 }
-
 .thumbnail::before {
   content: "";
   position: absolute;
@@ -515,7 +438,6 @@ hr.sm-line-darken {
   -webkit-transition: all 0.3s ease 0s;
   opacity: 0;
 }
-
 .thumbnail::after {
   content: "\002B";
   position: absolute;
@@ -533,9 +455,7 @@ hr.sm-line-darken {
   background-color: rgba(255, 255, 255, 0.3);
   opacity: 0;
 }
-
-.thumbnail:hover::after,
-.thumbnail:hover::before {
+.thumbnail:hover::after, .thumbnail:hover::before {
   opacity: 1;
 }
 
@@ -543,21 +463,17 @@ hr.sm-line-darken {
 .widget:not(:first-child) {
   margin-top: 30px;
 }
-
 .widget ul {
   padding: 0;
 }
-
 .widget ul li {
   padding-bottom: 4px;
   margin-bottom: 4px;
   text-align: center;
 }
-
 .widget ul li a {
   color: #17a387;
 }
-
 .widget .widget-title {
   margin-bottom: 15px;
   font-weight: bold;
@@ -570,7 +486,6 @@ hr.sm-line-darken {
   display: flex;
   flex-wrap: wrap;
 }
-
 .tagcloud .tag-cloud-link {
   display: block;
   padding: 8px;
@@ -581,7 +496,6 @@ hr.sm-line-darken {
   font-weight: bold;
   color: #17a387;
 }
-
 .tagcloud .tag-cloud-link:hover {
   background-color: #17a387;
   color: white;
@@ -592,7 +506,6 @@ hr.sm-line-darken {
 .pagination {
   margin: 0;
 }
-
 .pagination .page-item .page-link {
   color: #117d67;
   border-width: 2px 2px 2px 1px;
@@ -600,23 +513,18 @@ hr.sm-line-darken {
   border-radius: 0;
   background-color: transparent;
 }
-
 .pagination .page-item:first-child .page-link {
   border-left-width: 2px;
 }
-
 .pagination .page-item:hover {
   background-color: #149379;
 }
-
 .pagination .page-item:hover .page-link {
   color: white !important;
 }
-
 .pagination .page-item.active {
   background-color: #117d67;
 }
-
 .pagination .page-item.active .page-link {
   color: white;
   font-weight: bold;
@@ -626,13 +534,11 @@ hr.sm-line-darken {
 .comments .comment-list {
   padding: 0;
 }
-
 .comments .comment-body {
   padding: 15px;
   margin-bottom: 1rem;
   background-color: #eee;
 }
-
 .comments .comment-reply-link {
   display: inline-block;
   padding: 0.75rem 1.2rem;
@@ -643,33 +549,15 @@ hr.sm-line-darken {
   color: #117d67;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-
 .comments .comment-reply-link:hover {
   background-color: #117d67;
   color: white;
 }
-
 .comments .reply {
   height: auto;
 }
 
 /* Backgrounds */
-.bg-google-map {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-
-.bg-google-map::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  background-color: #191919;
-}
-
 .bg-color-one {
   background-color: #1cc9a7;
 }

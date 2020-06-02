@@ -42,17 +42,17 @@ Kirki::add_field('masterportfolio_kirki_config', [
     'description' => esc_html__('Background image controls for skill section', 'masterportfolio'),
     'section' => 'section_skills_background',
     'default' => [
-        'background-color' => 'rgba(0,0,0,1)',
-        'background-image' => '',
-        'background-repeat' => 'repeat',
+        'background-color' => 'rgba(0,0,0,0.5)',
+        'background-image' => 'http://via.placeholder.com/2560x1440/093D33/117D67%20?text=Placeholder%20Image',
+        'background-repeat' => 'no-repeat',
         'background-position' => 'center center',
         'background-size' => 'cover',
         'background-attachment' => 'scroll',
     ],
-    'transport' => 'auto',
+    'transport' => 'refresh',
     'output' => [
         [
-            'element' => '#skills',
+            'element' => 'section#skills',
         ],
     ],
 ]);

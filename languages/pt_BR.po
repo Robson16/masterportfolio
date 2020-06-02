@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Robson Portfolio 1.0\n"
-"POT-Creation-Date: 2020-02-25 14:58-0300\n"
-"PO-Revision-Date: 2020-02-25 14:58-0300\n"
+"POT-Creation-Date: 2020-05-28 20:44-0300\n"
+"PO-Revision-Date: 2020-05-28 20:44-0300\n"
 "Last-Translator: Robson H Rodrigues <contato@robsonhrodrigues.com.br>\n"
 "Language-Team: Robson\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.3.1\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-KeywordsList: __;_e;_x;esc_html__;_n_noop\n"
@@ -23,385 +23,6 @@ msgstr "Isso é um pouco embaraçoso, não é?"
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr "Parece que nada foi encontrado neste local. Tente uma pesquisa?"
 
-#: class/class-tgm-plugin-activation.php:334 inc/required-plugins.php:70
-msgid "Install Required Plugins"
-msgstr "Instalar plugins necessários"
-
-#: class/class-tgm-plugin-activation.php:335 inc/required-plugins.php:71
-msgid "Install Plugins"
-msgstr "Instalar plugins"
-
-#: class/class-tgm-plugin-activation.php:337 inc/required-plugins.php:72
-#, php-format
-msgid "Installing Plugin: %s"
-msgstr "Instalando o Plugin: %s"
-
-#: class/class-tgm-plugin-activation.php:339 inc/required-plugins.php:73
-#, php-format
-msgid "Updating Plugin: %s"
-msgstr "Atualizando o Plugin: %s"
-
-#: class/class-tgm-plugin-activation.php:340 inc/required-plugins.php:74
-msgid "Something went wrong with the plugin API."
-msgstr "Algo deu errado com a API do plugin."
-
-#: class/class-tgm-plugin-activation.php:343 inc/required-plugins.php:75
-#, php-format
-msgid "This theme requires the following plugin: %1$s."
-msgstr "Este tema requer o seguinte plug-in: %1$s ."
-
-#: class/class-tgm-plugin-activation.php:349 inc/required-plugins.php:76
-#, php-format
-msgid "This theme recommends the following plugin: %1$s."
-msgstr "Este tema recomenda o seguinte plugin: %1$s."
-
-#: class/class-tgm-plugin-activation.php:355 inc/required-plugins.php:77
-#, php-format
-msgid ""
-"The following plugin needs to be updated to its latest version to ensure "
-"maximum compatibility with this theme: %1$s."
-msgstr ""
-"O plugin a seguir precisa ser atualizado para sua versão mais recente para "
-"garantir compatibilidade máxima com este tema: %1$s."
-
-#: class/class-tgm-plugin-activation.php:361 inc/required-plugins.php:78
-#, php-format
-msgid "There is an update available for: %1$s."
-msgstr "Existe uma atualização disponível para: %1$s."
-
-#: class/class-tgm-plugin-activation.php:367 inc/required-plugins.php:79
-#, php-format
-msgid "The following required plugin is currently inactive: %1$s."
-msgstr "O plugin necessário seguinte está atualmente inativo: %1$s."
-
-#: class/class-tgm-plugin-activation.php:373 inc/required-plugins.php:80
-#, php-format
-msgid "The following recommended plugin is currently inactive: %1$s."
-msgstr "O seguinte plugin recomendado está inativo no momento: %1$s ."
-
-#: class/class-tgm-plugin-activation.php:378 inc/required-plugins.php:81
-msgid "Begin installing plugin"
-msgstr "Comece a instalar o plug-in"
-
-#: class/class-tgm-plugin-activation.php:383 inc/required-plugins.php:82
-msgid "Begin updating plugin"
-msgstr "Comece a atualizar o plugin"
-
-#: class/class-tgm-plugin-activation.php:388 inc/required-plugins.php:83
-msgid "Begin activating plugin"
-msgstr "Comece a ativar o plug-in"
-
-#: class/class-tgm-plugin-activation.php:392 inc/required-plugins.php:84
-msgid "Return to Required Plugins Installer"
-msgstr "Voltar para instalador de Plugins necessários"
-
-#: class/class-tgm-plugin-activation.php:393
-#: class/class-tgm-plugin-activation.php:912
-#: class/class-tgm-plugin-activation.php:2618
-#: class/class-tgm-plugin-activation.php:3665
-msgid "Return to the Dashboard"
-msgstr "Retorne para o Dashboard"
-
-#: class/class-tgm-plugin-activation.php:394
-#: class/class-tgm-plugin-activation.php:3244 inc/required-plugins.php:85
-msgid "Plugin activated successfully."
-msgstr "Plugin ativado com sucesso."
-
-#: class/class-tgm-plugin-activation.php:395 inc/required-plugins.php:86
-msgid "The following plugin was activated successfully:"
-msgstr "O seguinte plugin foi ativado com sucesso:"
-
-#: class/class-tgm-plugin-activation.php:397 inc/required-plugins.php:87
-#, php-format
-msgid "No action taken. Plugin %1$s was already active."
-msgstr "Nenhuma ação tomada. O plug-in %1$s já estava ativo."
-
-#: class/class-tgm-plugin-activation.php:399 inc/required-plugins.php:88
-#, php-format
-msgid ""
-"Plugin not activated. A higher version of %s is needed for this theme. "
-"Please update the plugin."
-msgstr ""
-"Plugin não ativado. Uma versão superior do %s é necessária para este tema. "
-"Por favor, atualize o plugin."
-
-#: class/class-tgm-plugin-activation.php:401 inc/required-plugins.php:89
-#, php-format
-msgid "All plugins installed and activated successfully. %1$s"
-msgstr "Todos os plugins instalados e ativados com sucesso. %1$s"
-
-#: class/class-tgm-plugin-activation.php:402 inc/required-plugins.php:90
-msgid "Dismiss this notice"
-msgstr "Descartar essa notificação"
-
-#: class/class-tgm-plugin-activation.php:403 inc/required-plugins.php:91
-msgid ""
-"There are one or more required or recommended plugins to install, update or "
-"activate."
-msgstr ""
-"Existem um ou mais plugins necessários ou recomendados para instalar, "
-"atualizar ou ativar."
-
-#: class/class-tgm-plugin-activation.php:404 inc/required-plugins.php:92
-msgid "Please contact the administrator of this site for help."
-msgstr "Entre em contato com o administrador deste site para obter ajuda."
-
-#: class/class-tgm-plugin-activation.php:608
-msgid "Update Required"
-msgstr "Atualização necessária"
-
-#: class/class-tgm-plugin-activation.php:1019
-msgid ""
-"The remote plugin package does not contain a folder with the desired slug "
-"and renaming did not work."
-msgstr ""
-"O pacote de plug-in remoto não contém uma pasta com a lesma desejada e a "
-"renomeação não funcionou."
-
-#: class/class-tgm-plugin-activation.php:1019
-#: class/class-tgm-plugin-activation.php:1022
-msgid ""
-"Please contact the plugin provider and ask them to package their plugin "
-"according to the WordPress guidelines."
-msgstr ""
-"Entre em contato com o provedor do plug-in e solicite que empacote o plug-in "
-"de acordo com as diretrizes do WordPress."
-
-#: class/class-tgm-plugin-activation.php:1022
-msgid ""
-"The remote plugin package consists of more than one file, but the files are "
-"not packaged in a folder."
-msgstr ""
-"O pacote de plug-in remoto consiste em mais de um arquivo, mas os arquivos "
-"não são empacotados em uma pasta."
-
-#: class/class-tgm-plugin-activation.php:2067
-#, php-format
-msgid "TGMPA v%s"
-msgstr "TGMPA v%s"
-
-#: class/class-tgm-plugin-activation.php:2358
-msgid "Required"
-msgstr "Requeridos"
-
-#: class/class-tgm-plugin-activation.php:2361
-msgid "Recommended"
-msgstr "Recomendado"
-
-#: class/class-tgm-plugin-activation.php:2377
-msgid "WordPress Repository"
-msgstr "Repositório do WordPress"
-
-#: class/class-tgm-plugin-activation.php:2380
-msgid "External Source"
-msgstr "Fonte externa"
-
-#: class/class-tgm-plugin-activation.php:2383
-msgid "Pre-Packaged"
-msgstr "Pré-empacotado"
-
-#: class/class-tgm-plugin-activation.php:2400
-msgid "Not Installed"
-msgstr "Não instalado"
-
-#: class/class-tgm-plugin-activation.php:2404
-msgid "Installed But Not Activated"
-msgstr "Instalado, mas não ativado"
-
-#: class/class-tgm-plugin-activation.php:2406
-msgid "Active"
-msgstr "Ativado"
-
-#: class/class-tgm-plugin-activation.php:2412
-msgid "Required Update not Available"
-msgstr "Atualização necessária não disponível"
-
-#: class/class-tgm-plugin-activation.php:2415
-msgid "Requires Update"
-msgstr "Requer atualização"
-
-#: class/class-tgm-plugin-activation.php:2418
-msgid "Update recommended"
-msgstr "Atualização recomendada"
-
-#: class/class-tgm-plugin-activation.php:2427
-#, php-format
-msgid "%1$s, %2$s"
-msgstr "%1$s, %2$s"
-
-#: class/class-tgm-plugin-activation.php:2567
-msgid "unknown"
-msgstr "desconhecido"
-
-#: class/class-tgm-plugin-activation.php:2575
-msgid "Installed version:"
-msgstr "Versão instalada:"
-
-#: class/class-tgm-plugin-activation.php:2583
-msgid "Minimum required version:"
-msgstr "Versão mínima exigida:"
-
-#: class/class-tgm-plugin-activation.php:2595
-msgid "Available version:"
-msgstr "Versão disponível:"
-
-#: class/class-tgm-plugin-activation.php:2618
-msgid "No plugins to install, update or activate."
-msgstr "Não há plugins para instalar, atualizar ou ativar."
-
-#: class/class-tgm-plugin-activation.php:2632
-msgid "Plugin"
-msgstr "Plugin"
-
-#: class/class-tgm-plugin-activation.php:2633
-msgid "Source"
-msgstr "Fonte"
-
-#: class/class-tgm-plugin-activation.php:2634
-msgid "Type"
-msgstr "Tipo"
-
-#: class/class-tgm-plugin-activation.php:2638
-msgid "Version"
-msgstr "Versão"
-
-#: class/class-tgm-plugin-activation.php:2639
-msgid "Status"
-msgstr "Status"
-
-#: class/class-tgm-plugin-activation.php:2688
-#, php-format
-msgid "Install %2$s"
-msgstr "Instalar %2$s"
-
-#: class/class-tgm-plugin-activation.php:2693
-#, php-format
-msgid "Update %2$s"
-msgstr "Atualizar %2$s"
-
-#: class/class-tgm-plugin-activation.php:2699
-#, php-format
-msgid "Activate %2$s"
-msgstr "Ativar %2$s"
-
-#: class/class-tgm-plugin-activation.php:2769
-msgid "Upgrade message from the plugin author:"
-msgstr "Mensagem de atualização do autor do plug-in:"
-
-#: class/class-tgm-plugin-activation.php:2802
-msgid "Install"
-msgstr "Instalar"
-
-#: class/class-tgm-plugin-activation.php:2808
-msgid "Update"
-msgstr "Atualizar"
-
-#: class/class-tgm-plugin-activation.php:2811
-msgid "Activate"
-msgstr "Ativar"
-
-#: class/class-tgm-plugin-activation.php:2842
-msgid "No plugins were selected to be installed. No action taken."
-msgstr "Nenhum plugin foi selecionado para ser instalado. Nenhuma ação tomada."
-
-#: class/class-tgm-plugin-activation.php:2844
-msgid "No plugins were selected to be updated. No action taken."
-msgstr ""
-"Nenhum plugin foi selecionado para ser atualizado. Nenhuma ação tomada."
-
-#: class/class-tgm-plugin-activation.php:2885
-msgid "No plugins are available to be installed at this time."
-msgstr "Nenhum plugin está disponível para ser instalado neste momento."
-
-#: class/class-tgm-plugin-activation.php:2887
-msgid "No plugins are available to be updated at this time."
-msgstr "Nenhum plugin está disponível para ser atualizado no momento."
-
-#: class/class-tgm-plugin-activation.php:2993
-msgid "No plugins were selected to be activated. No action taken."
-msgstr "Nenhum plugin foi selecionado para ser ativado. Nenhuma ação tomada."
-
-#: class/class-tgm-plugin-activation.php:3019
-msgid "No plugins are available to be activated at this time."
-msgstr "Nenhum plugin está disponível para ser ativado neste momento."
-
-#: class/class-tgm-plugin-activation.php:3243
-msgid "Plugin activation failed."
-msgstr "A ativação do plugin falhou."
-
-#: class/class-tgm-plugin-activation.php:3583
-#, php-format
-msgid "Updating Plugin %1$s (%2$d/%3$d)"
-msgstr "Atualizando o Plugin %1$s (%2$d/%3$d)"
-
-#: class/class-tgm-plugin-activation.php:3586
-#, php-format
-msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr "Ocorreu um erro durante a instalação de %1$s: <strong>%2$s</ strong>."
-
-#: class/class-tgm-plugin-activation.php:3588
-#, php-format
-msgid "The installation of %1$s failed."
-msgstr "A instalação de %1$s falhou."
-
-#: class/class-tgm-plugin-activation.php:3592
-msgid ""
-"The installation and activation process is starting. This process may take a "
-"while on some hosts, so please be patient."
-msgstr ""
-"O processo de instalação e ativação está sendo iniciado. Esse processo pode "
-"demorar um pouco em alguns hosts, então, por favor, seja paciente."
-
-#: class/class-tgm-plugin-activation.php:3594
-#, php-format
-msgid "%1$s installed and activated successfully."
-msgstr "%1$s instalado e ativado com sucesso."
-
-#: class/class-tgm-plugin-activation.php:3594
-#: class/class-tgm-plugin-activation.php:3602
-msgid "Show Details"
-msgstr "Mostrar detalhes"
-
-#: class/class-tgm-plugin-activation.php:3594
-#: class/class-tgm-plugin-activation.php:3602
-msgid "Hide Details"
-msgstr "Detalhes ocultos"
-
-#: class/class-tgm-plugin-activation.php:3595
-msgid "All installations and activations have been completed."
-msgstr "Todas as instalações e ativações foram concluídas."
-
-#: class/class-tgm-plugin-activation.php:3597
-#, php-format
-msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr "Instalando e ativando o plug-in %1$s (%2$d/%3$d)"
-
-#: class/class-tgm-plugin-activation.php:3600
-msgid ""
-"The installation process is starting. This process may take a while on some "
-"hosts, so please be patient."
-msgstr ""
-"O processo de instalação está começando. Esse processo pode demorar um pouco "
-"em alguns hosts, então, por favor, seja paciente."
-
-#: class/class-tgm-plugin-activation.php:3602
-#, php-format
-msgid "%1$s installed successfully."
-msgstr "%1$s instalado com sucesso."
-
-#: class/class-tgm-plugin-activation.php:3603
-msgid "All installations have been completed."
-msgstr "Todas as instalações foram concluídas."
-
-#: class/class-tgm-plugin-activation.php:3605
-#, php-format
-msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr "Instalando o plug-in %1$s (%2$d/%3$d)"
-
-#: class/class-wp-bootstrap-navwalker.php:366
-msgid "Add a menu"
-msgstr "Adicionar um menu"
-
 #: comments.php:23
 msgid "Comments"
 msgstr "Comentários"
@@ -414,808 +35,1267 @@ msgstr "Comentários estão fechados."
 msgid "Leave a comment."
 msgstr "Deixe um comentário."
 
+#: footer.php:39
+msgid "All rights reserved."
+msgstr "Todos os direitos reservados."
+
 #: functions.php:24
 msgid "Main Menu"
 msgstr "Menu principal"
 
-#: functions.php:99
+#: functions.php:85
 msgid "Footer Column One"
 msgstr "Coluna Um do Rodapé"
 
-#: functions.php:101 functions.php:110 functions.php:119 functions.php:128
-#: functions.php:139 functions.php:148 functions.php:157 functions.php:166
-#: functions.php:177
+#: functions.php:87 functions.php:94 functions.php:101 functions.php:108
+#: functions.php:115 functions.php:122 functions.php:129 functions.php:136
+#: functions.php:143
 msgid "Add some widget."
 msgstr "Adicione algum widget."
 
-#: functions.php:108
+#: functions.php:92
 msgid "Footer Column Two"
 msgstr "Coluna Dois do Rodapé"
 
-#: functions.php:117
+#: functions.php:99
 msgid "Footer Column Three"
 msgstr "Coluna Três do Rodapé"
 
-#: functions.php:126
+#: functions.php:106
 msgid "Footer Column Four"
 msgstr "Coluna Quatro do Rodapé"
 
-#: functions.php:137
+#: functions.php:113
 msgid "Frontpage Widget One"
 msgstr "Coluna Um Página Inicial"
 
-#: functions.php:146
+#: functions.php:120
 msgid "Frontpage Widget Two"
 msgstr "Coluna Dois Página Inicial"
 
-#: functions.php:155
+#: functions.php:127
 msgid "Frontpage Widget Three"
 msgstr "Coluna Três Página Inicial"
 
-#: functions.php:164
+#: functions.php:134
 msgid "Frontpage Widget Four"
 msgstr "Coluna Quatro Página Inicial"
 
-#: functions.php:175
+#: functions.php:141
 msgid "Blog Sidebar"
 msgstr "Barra Lateral do Blog"
 
-#: header-frontpage.php:111 header.php:111 kirki/kirki-control-contacts.php:31
-#: template-parts/sections/section-contact.php:29
-#: templates/template-contact-over-map.php:23
+#: header-frontpage.php:101 header.php:101
+#: includes/kirki/kirki-control-contacts.php:37
+#: partials/sections/section-contact.php:29 templates/contact-over-map.php:24
 msgid "Phone"
 msgstr "Telefone"
 
-#: header-frontpage.php:130
+#: header-frontpage.php:120
 msgid "My picture"
 msgstr "Minha Foto"
 
-#: inc/meta-boxes.php:14
-msgid "Additional Information"
-msgstr "Informações adicionais"
-
-#: inc/meta-boxes.php:23 kirki/kirki-control-header.php:26
-#: kirki/kirki-control-skills.php:26
-msgid "Subtitle"
-msgstr "Subtítulos"
-
-#: inc/meta-boxes.php:32
-msgid "Degree Details"
-msgstr "Detalhes do Diploma"
-
-#: inc/meta-boxes.php:41
-msgid "Beginning of the course"
-msgstr "Inicio do Curso"
-
-#: inc/meta-boxes.php:47
-msgid "End of the course"
-msgstr "Fim do Curso"
-
-#: inc/meta-boxes.php:52 template-parts/sections/section-resume.php:72
-msgid "Ongoing"
-msgstr "Em andamento"
-
-#: inc/meta-boxes.php:54
-msgid "Is this course in progress?"
-msgstr "Este curso está em andamento?"
-
-#: inc/meta-boxes.php:59
-msgid "Educational Institution"
-msgstr "Instituição educacional"
-
-#: inc/meta-boxes.php:67
-msgid "Experience Details"
-msgstr "Detalhes da experiência"
-
-#: inc/meta-boxes.php:76
-msgid "Beginning of the experience"
-msgstr "Início da experiência"
-
-#: inc/meta-boxes.php:82
-msgid "End of the experience"
-msgstr "Fim da experiência"
-
-#: inc/meta-boxes.php:87
-msgid "Current Employment"
-msgstr "Emprego atual"
-
-#: inc/meta-boxes.php:89
-msgid "Is this your current job?"
-msgstr "Este é seu emprego atual?"
-
-#: inc/meta-boxes.php:94
-msgid "Company Name"
-msgstr "Nome da empresa"
-
-#: inc/meta-boxes.php:99 inc/post-type.php:123 inc/post-type.php:124
-#: inc/post-type.php:125 inc/post-type.php:126 inc/post-type.php:152
-#: template-parts/sections/section-portfolio.php:21
-msgid "Portfolio"
-msgstr "Portfólio"
-
-#: inc/meta-boxes.php:100
-msgid "Portfolio works you did at this company"
-msgstr "Trabalhos do portfólio que você fez nesta empresa"
-
-#: inc/meta-boxes.php:110
-msgid "Portfolio Details"
-msgstr "Detalhes do portfólio"
-
-#: inc/meta-boxes.php:119
-msgid "Client"
-msgstr "Cliente"
-
-#: inc/meta-boxes.php:120
-msgid "Client's name"
-msgstr "Nome do cliente"
-
-#: inc/meta-boxes.php:125
-msgid "Client's URL"
-msgstr "URL do cliente"
-
-#: inc/meta-boxes.php:126
-msgid "Link to client website"
-msgstr "Link para o site do cliente"
-
-#: inc/meta-boxes.php:131
-msgid "Designer's Name"
-msgstr "Nome do Designer"
-
-#: inc/meta-boxes.php:136
-msgid "Designer's URL"
-msgstr "URL do designer"
-
-#: inc/meta-boxes.php:137
-msgid "Link to designer website or social network"
-msgstr "Link para site de designer ou rede social"
-
-#: inc/meta-boxes.php:142
-msgid "This Work's URL"
-msgstr "URL deste trabalho"
-
-#: inc/meta-boxes.php:143
-msgid "Link to this work in production site"
-msgstr "Link para este trabalho no site de produção"
-
-#: inc/meta-boxes.php:148
-msgid "Date"
-msgstr "Data"
-
-#: inc/meta-boxes.php:149
-msgid "Job Creation Date"
-msgstr "Data de criação do trabalho"
-
-#: inc/post-type.php:7
-msgid "Education Degrees"
-msgstr "Diplomas"
-
-#: inc/post-type.php:8 inc/post-type.php:9 inc/post-type.php:10
-#: inc/post-type.php:36
-msgid "Education Degree"
-msgstr "Diplomas"
-
-#: inc/post-type.php:11
-msgid "Education Degree Archives"
-msgstr "Arquivos de Diplomas"
-
-#: inc/post-type.php:12
-msgid "Education Degree Attributes"
-msgstr "Atributos do Diploma"
-
-#: inc/post-type.php:13
-msgid "Parent Education Degree:"
-msgstr "Diploma pai:"
-
-#: inc/post-type.php:14
-msgid "All Education Degree"
-msgstr "Todos os Diplomas"
-
-#: inc/post-type.php:15
-msgid "Add New Education Degree"
-msgstr "Adicionar novo diploma"
-
-#: inc/post-type.php:16
-msgid "Add Education Degree"
-msgstr "Adicionar Diploma"
-
-#: inc/post-type.php:17
-msgid "New Education Degree"
-msgstr "Novo diploma"
-
-#: inc/post-type.php:18
-msgid "Edit Education Degree"
-msgstr "Editar diploma"
-
-#: inc/post-type.php:19
-msgid "Update Education Degree"
-msgstr "Atualizar diploma"
-
-#: inc/post-type.php:20
-msgid "View Education Degree"
-msgstr "Exibir Diploma"
-
-#: inc/post-type.php:21
-msgid "View Education Degrees"
-msgstr "Exibir os diplomas"
-
-#: inc/post-type.php:22
-msgid "Search Education Degree"
-msgstr "Pesquisar diploma"
-
-#: inc/post-type.php:23 inc/post-type.php:81 inc/post-type.php:139
-msgid "Not found"
-msgstr "Não encontrado"
-
-#: inc/post-type.php:24 inc/post-type.php:82 inc/post-type.php:140
-msgid "Not found in Trash"
-msgstr "Não encontrado na lixeira"
-
-#: inc/post-type.php:25 inc/post-type.php:83 inc/post-type.php:141
-msgid "Featured Image"
-msgstr "Imagem em destaque"
-
-#: inc/post-type.php:26 inc/post-type.php:84 inc/post-type.php:142
-msgid "Set featured image"
-msgstr "Definir imagem em destaque"
-
-#: inc/post-type.php:27 inc/post-type.php:85 inc/post-type.php:143
-msgid "Remove featured image"
-msgstr "Remover imagem em destaque"
-
-#: inc/post-type.php:28 inc/post-type.php:86 inc/post-type.php:144
-msgid "Use as featured image"
-msgstr "Use como imagem em destaque"
-
-#: inc/post-type.php:29
-msgid "Insert into education degree"
-msgstr "Inserir no diploma"
-
-#: inc/post-type.php:30
-msgid "Uploaded to this education degree"
-msgstr "Carregado para este diploma"
-
-#: inc/post-type.php:31
-msgid "Items list"
-msgstr "Lista de itens"
-
-#: inc/post-type.php:32
-msgid "Education Degrees list navigation"
-msgstr "Navegação na lista de diplomas"
-
-#: inc/post-type.php:33
-msgid "Filter degrees list"
-msgstr "Filtrar lista de diplomas"
-
-#: inc/post-type.php:37
-msgid "Educational Background"
-msgstr "Experiência educacional"
-
-#: inc/post-type.php:65 inc/post-type.php:67
-msgid "Experiences"
-msgstr "Experiências"
-
-#: inc/post-type.php:66 inc/post-type.php:68 inc/post-type.php:94
-msgid "Experience"
-msgstr "Experiência"
-
-#: inc/post-type.php:69
-msgid "Experiences Archives"
-msgstr "Arquivos das Experiências"
-
-#: inc/post-type.php:70
-msgid "Experiences Attributes"
-msgstr "Atributos das Experiências"
-
-#: inc/post-type.php:71
-msgid "Parent  Experience:"
-msgstr "Experiência Pai:"
-
-#: inc/post-type.php:72
-msgid "All Experiences"
-msgstr "Todas Experiências"
-
-#: inc/post-type.php:73
-msgid "Add New Experience"
-msgstr "Adicionar nova Experiência"
-
-#: inc/post-type.php:74
-msgid "Add Experience"
-msgstr "Adicionar Experiência"
-
-#: inc/post-type.php:75
-msgid "New Experience"
-msgstr "Nova Experiência"
-
-#: inc/post-type.php:76
-msgid "Edit Experience"
-msgstr "Editar Experiência"
-
-#: inc/post-type.php:77
-msgid "Update Experience"
-msgstr "Atualizar Experiência"
-
-#: inc/post-type.php:78
-msgid "View Experience"
-msgstr "Exibir Experiência"
-
-#: inc/post-type.php:79
-msgid "View Experiences"
-msgstr "Exibir Experiências"
-
-#: inc/post-type.php:80
-msgid "Search Experience"
-msgstr "Pesquisar Experiência"
-
-#: inc/post-type.php:87
-msgid "Insert into item"
-msgstr "Inserir no item"
-
-#: inc/post-type.php:88
-msgid "Uploaded to this work experience"
-msgstr "Carregado para esta experiência de trabalho"
-
-#: inc/post-type.php:89
-msgid "Experiences list"
-msgstr "Lista de Experiências"
-
-#: inc/post-type.php:90
-msgid "Experiences list navigation"
-msgstr "Navegação na lista de experiências"
-
-#: inc/post-type.php:91
-msgid "Filter Experiences list"
-msgstr "Filtrar lista de experiências"
-
-#: inc/post-type.php:95
-msgid "Career Experiences"
-msgstr "Experiências da Carreira"
-
-#: inc/post-type.php:127
-msgid "Portfolio Archives"
-msgstr "Arquivos do portfólio"
-
-#: inc/post-type.php:128
-msgid "Portfolio Attributes"
-msgstr "Atributos do portfólio"
-
-#: inc/post-type.php:129
-msgid "Portfolio Parent Item:"
-msgstr "Item pai do portfólio:"
-
-#: inc/post-type.php:130
-msgid "All Portfolio Items"
-msgstr "Todos os itens do portfólio"
-
-#: inc/post-type.php:131
-msgid "Add New Portfolio Item"
-msgstr "Adicionar novo item de portfólio"
-
-#: inc/post-type.php:132
-msgid "Add New Item"
-msgstr "Adicionar novo item"
-
-#: inc/post-type.php:133
-msgid "New Portfolio Item"
-msgstr "Novo item de portfólio"
-
-#: inc/post-type.php:134
-msgid "Edit Portfolio Item"
-msgstr "Editar item de portfólio"
-
-#: inc/post-type.php:135
-msgid "Update Portfolio Item"
-msgstr "Atualizar item de portfólio"
-
-#: inc/post-type.php:136
-msgid "View Portfolio Item"
-msgstr "Exibir item do portfólio"
-
-#: inc/post-type.php:137
-msgid "View Portfolio Items"
-msgstr "Exibir Itens de portfólio"
-
-#: inc/post-type.php:138
-msgid "Search Portfolio Item"
-msgstr "Pesquisar item de portfólio"
-
-#: inc/post-type.php:145
-msgid "Insert into portfolio item"
-msgstr "Inserir no item de portfólio"
-
-#: inc/post-type.php:146
-msgid "Uploaded to this portfolio item"
-msgstr "Carregar para esse item de portfólio"
-
-#: inc/post-type.php:147
-msgid "Portfolio Items list"
-msgstr "Lista de itens de portfólio"
-
-#: inc/post-type.php:148
-msgid "Portfolio Items list navigation"
-msgstr "Navegação na lista de itens do portfólio"
-
-#: inc/post-type.php:149
-msgid "Filter Portfolio items list"
-msgstr "Filtrar lista de itens do portfólio"
-
-#: inc/post-type.php:153
-msgid "Portfolio Works"
-msgstr "Trabalhos no Portfólio"
-
-#: inc/taxonomy.php:7 inc/taxonomy.php:9
-msgid "Education Categories"
-msgstr "Categorias de Diplomas"
-
-#: inc/taxonomy.php:8
-msgid "Education Category"
-msgstr "Categoria de Diploma"
-
-#: inc/taxonomy.php:10
-msgid "All Education Categories"
-msgstr "Todas Categorias de Diplomas"
-
-#: inc/taxonomy.php:11
-msgid "Parent Education Categories"
-msgstr "Categorias de Diploma Pai"
-
-#: inc/taxonomy.php:12
-msgid "Parent Education Categories:"
-msgstr "Categorias de Diploma Pai:"
-
-#: inc/taxonomy.php:13
-msgid "New Education Category Name"
-msgstr "Nome da nova categoria de diploma"
-
-#: inc/taxonomy.php:14
-msgid "Add New Education Category"
-msgstr "Adicionar nova categoria educacional"
-
-#: inc/taxonomy.php:15
-msgid "Edit Education Category"
-msgstr "Editar categoria educacional"
-
-#: inc/taxonomy.php:16
-msgid "Update Education Category"
-msgstr "Atualizar categoria educacional"
-
-#: inc/taxonomy.php:17
-msgid "View Education Category"
-msgstr "Exibir categoria educacional"
-
-#: inc/taxonomy.php:18 inc/taxonomy.php:58
-msgid "Separate categories with commas"
-msgstr "Separe categorias com vírgulas"
-
-#: inc/taxonomy.php:19 inc/taxonomy.php:59
-msgid "Add or remove categories"
-msgstr "Adicionar ou remover categorias"
-
-#: inc/taxonomy.php:20 inc/taxonomy.php:60
-msgid "Choose from the most used"
-msgstr "Escolha entre os mais usados"
-
-#: inc/taxonomy.php:21
-msgid "Popular Education Categories"
-msgstr "Categorias populares de diploma"
-
-#: inc/taxonomy.php:22
-msgid "Search Education Categories"
-msgstr "Pesquisar categorias de diploma"
-
-#: inc/taxonomy.php:23 inc/taxonomy.php:63
-#: template-parts/header/header-hgroup.php:17
-msgid "Not Found"
-msgstr "Não encontrado"
-
-#: inc/taxonomy.php:24 inc/taxonomy.php:64
-msgid "No categories"
-msgstr "Nenhuma categoria"
-
-#: inc/taxonomy.php:25
-msgid "Education Categories list"
-msgstr "Lista de categorias de diploma"
-
-#: inc/taxonomy.php:26
-msgid "Education Categories list navigation"
-msgstr "Navegação na lista Categorias de Diplomas"
-
-#: inc/taxonomy.php:47 inc/taxonomy.php:49
-msgid "Portfolio Categories"
-msgstr "Categorias do portfólio"
-
-#: inc/taxonomy.php:48
-msgid "Portfolio Category"
-msgstr "Categoria de Portfólio"
-
-#: inc/taxonomy.php:50
-msgid "All Portfolio Categories"
-msgstr "Todas Categorias de Portfólio"
-
-#: inc/taxonomy.php:51
-msgid "Parent Portfolio Categories"
-msgstr "Categorias pai do portfólio"
-
-#: inc/taxonomy.php:52
-msgid "Parent Portfolio Categories:"
-msgstr "Categorias pai do portfólio:"
-
-#: inc/taxonomy.php:53
-msgid "New Portfolio Category Name"
-msgstr "Nome da nova categoria de portfólio"
-
-#: inc/taxonomy.php:54
-msgid "Add New Portfolio Category"
-msgstr "Adicionar nova categoria de portfólio"
-
-#: inc/taxonomy.php:55
-msgid "Edit Portfolio Category"
-msgstr "Editar categoria do portfólio"
-
-#: inc/taxonomy.php:56
-msgid "Update Portfolio Category"
-msgstr "Atualizar categoria de portfólio"
-
-#: inc/taxonomy.php:57
-msgid "View Portfolio Category"
-msgstr "Exibir categoria de portfólio"
-
-#: inc/taxonomy.php:61
-msgid "Popular Portfolio Categories"
-msgstr "Categorias populares de portfólios"
-
-#: inc/taxonomy.php:62
-msgid "Search Portfolio Categories"
-msgstr "Pesquisar categorias de portfólio"
-
-#: inc/taxonomy.php:65
-msgid "Portfolio Categories list"
-msgstr "Lista de categorias de portfólio"
-
-#: inc/taxonomy.php:66
-msgid "Portfolio Categories list navigation"
-msgstr "Navegação na lista Categorias de portfólio"
-
-#: inc/wp-bootstrap4.1-pagination.php:39
-msgid "« Previous"
-msgstr "« Anterior"
-
-#: inc/wp-bootstrap4.1-pagination.php:40
-msgid "Next »"
-msgstr "Próximo »"
-
-#: kirki/kirki-control-contacts.php:4
+#: includes/classes/class-tgm-plugin-activation.php:334
+#: includes/required-plugins.php:65
+msgid "Install Required Plugins"
+msgstr "Instalar plugins necessários"
+
+#: includes/classes/class-tgm-plugin-activation.php:335
+#: includes/required-plugins.php:66
+msgid "Install Plugins"
+msgstr "Instalar plugins"
+
+#: includes/classes/class-tgm-plugin-activation.php:337
+#: includes/required-plugins.php:67
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Instalando o Plugin: %s"
+
+#: includes/classes/class-tgm-plugin-activation.php:339
+#: includes/required-plugins.php:68
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Atualizando o Plugin: %s"
+
+#: includes/classes/class-tgm-plugin-activation.php:340
+#: includes/required-plugins.php:69
+msgid "Something went wrong with the plugin API."
+msgstr "Algo deu errado com a API do plugin."
+
+#: includes/classes/class-tgm-plugin-activation.php:343
+#: includes/required-plugins.php:70
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr "Este tema requer o seguinte plug-in: %1$s ."
+
+#: includes/classes/class-tgm-plugin-activation.php:349
+#: includes/required-plugins.php:71
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr "Este tema recomenda o seguinte plugin: %1$s."
+
+#: includes/classes/class-tgm-plugin-activation.php:355
+#: includes/required-plugins.php:72
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+"O plugin a seguir precisa ser atualizado para sua versão mais recente para "
+"garantir compatibilidade máxima com este tema: %1$s."
+
+#: includes/classes/class-tgm-plugin-activation.php:361
+#: includes/required-plugins.php:73
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr "Existe uma atualização disponível para: %1$s."
+
+#: includes/classes/class-tgm-plugin-activation.php:367
+#: includes/required-plugins.php:74
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr "O plugin necessário seguinte está atualmente inativo: %1$s."
+
+#: includes/classes/class-tgm-plugin-activation.php:373
+#: includes/required-plugins.php:75
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr "O seguinte plugin recomendado está inativo no momento: %1$s ."
+
+#: includes/classes/class-tgm-plugin-activation.php:378
+#: includes/required-plugins.php:76
+msgid "Begin installing plugin"
+msgstr "Comece a instalar o plug-in"
+
+#: includes/classes/class-tgm-plugin-activation.php:383
+#: includes/required-plugins.php:77
+msgid "Begin updating plugin"
+msgstr "Comece a atualizar o plugin"
+
+#: includes/classes/class-tgm-plugin-activation.php:388
+#: includes/required-plugins.php:78
+msgid "Begin activating plugin"
+msgstr "Comece a ativar o plug-in"
+
+#: includes/classes/class-tgm-plugin-activation.php:392
+#: includes/required-plugins.php:79
+msgid "Return to Required Plugins Installer"
+msgstr "Voltar para instalador de Plugins necessários"
+
+#: includes/classes/class-tgm-plugin-activation.php:393
+#: includes/classes/class-tgm-plugin-activation.php:912
+#: includes/classes/class-tgm-plugin-activation.php:2618
+#: includes/classes/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr "Retorne para o Dashboard"
+
+#: includes/classes/class-tgm-plugin-activation.php:394
+#: includes/classes/class-tgm-plugin-activation.php:3244
+#: includes/required-plugins.php:80
+msgid "Plugin activated successfully."
+msgstr "Plugin ativado com sucesso."
+
+#: includes/classes/class-tgm-plugin-activation.php:395
+#: includes/required-plugins.php:81
+msgid "The following plugin was activated successfully:"
+msgstr "O seguinte plugin foi ativado com sucesso:"
+
+#: includes/classes/class-tgm-plugin-activation.php:397
+#: includes/required-plugins.php:82
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Nenhuma ação tomada. O plug-in %1$s já estava ativo."
+
+#: includes/classes/class-tgm-plugin-activation.php:399
+#: includes/required-plugins.php:83
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin não ativado. Uma versão superior do %s é necessária para este tema. "
+"Por favor, atualize o plugin."
+
+#: includes/classes/class-tgm-plugin-activation.php:401
+#: includes/required-plugins.php:84
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos os plugins instalados e ativados com sucesso. %1$s"
+
+#: includes/classes/class-tgm-plugin-activation.php:402
+#: includes/required-plugins.php:85
+msgid "Dismiss this notice"
+msgstr "Descartar essa notificação"
+
+#: includes/classes/class-tgm-plugin-activation.php:403
+#: includes/required-plugins.php:86
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Existem um ou mais plugins necessários ou recomendados para instalar, "
+"atualizar ou ativar."
+
+#: includes/classes/class-tgm-plugin-activation.php:404
+#: includes/required-plugins.php:87
+msgid "Please contact the administrator of this site for help."
+msgstr "Entre em contato com o administrador deste site para obter ajuda."
+
+#: includes/classes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Atualização necessária"
+
+#: includes/classes/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"O pacote de plug-in remoto não contém uma pasta com a lesma desejada e a "
+"renomeação não funcionou."
+
+#: includes/classes/class-tgm-plugin-activation.php:1019
+#: includes/classes/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Entre em contato com o provedor do plug-in e solicite que empacote o plug-in "
+"de acordo com as diretrizes do WordPress."
+
+#: includes/classes/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"O pacote de plug-in remoto consiste em mais de um arquivo, mas os arquivos "
+"não são empacotados em uma pasta."
+
+#: includes/classes/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: includes/classes/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr "Requeridos"
+
+#: includes/classes/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: includes/classes/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr "Repositório do WordPress"
+
+#: includes/classes/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr "Fonte externa"
+
+#: includes/classes/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr "Pré-empacotado"
+
+#: includes/classes/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr "Não instalado"
+
+#: includes/classes/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr "Instalado, mas não ativado"
+
+#: includes/classes/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr "Ativado"
+
+#: includes/classes/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr "Atualização necessária não disponível"
+
+#: includes/classes/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr "Requer atualização"
+
+#: includes/classes/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr "Atualização recomendada"
+
+#: includes/classes/class-tgm-plugin-activation.php:2427
+#, php-format
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: includes/classes/class-tgm-plugin-activation.php:2567
+msgid "unknown"
+msgstr "desconhecido"
+
+#: includes/classes/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr "Versão instalada:"
+
+#: includes/classes/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr "Versão mínima exigida:"
+
+#: includes/classes/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr "Versão disponível:"
+
+#: includes/classes/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr "Não há plugins para instalar, atualizar ou ativar."
+
+#: includes/classes/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr "Plugin"
+
+#: includes/classes/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr "Fonte"
+
+#: includes/classes/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/classes/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr "Versão"
+
+#: includes/classes/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr "Status"
+
+#: includes/classes/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr "Instalar %2$s"
+
+#: includes/classes/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr "Atualizar %2$s"
+
+#: includes/classes/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr "Ativar %2$s"
+
+#: includes/classes/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr "Mensagem de atualização do autor do plug-in:"
+
+#: includes/classes/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr "Instalar"
+
+#: includes/classes/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr "Atualizar"
+
+#: includes/classes/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr "Ativar"
+
+#: includes/classes/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Nenhum plugin foi selecionado para ser instalado. Nenhuma ação tomada."
+
+#: includes/classes/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Nenhum plugin foi selecionado para ser atualizado. Nenhuma ação tomada."
+
+#: includes/classes/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr "Nenhum plugin está disponível para ser instalado neste momento."
+
+#: includes/classes/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr "Nenhum plugin está disponível para ser atualizado no momento."
+
+#: includes/classes/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Nenhum plugin foi selecionado para ser ativado. Nenhuma ação tomada."
+
+#: includes/classes/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr "Nenhum plugin está disponível para ser ativado neste momento."
+
+#: includes/classes/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr "A ativação do plugin falhou."
+
+#: includes/classes/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Atualizando o Plugin %1$s (%2$d/%3$d)"
+
+#: includes/classes/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Ocorreu um erro durante a instalação de %1$s: <strong>%2$s</ strong>."
+
+#: includes/classes/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "A instalação de %1$s falhou."
+
+#: includes/classes/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"O processo de instalação e ativação está sendo iniciado. Esse processo pode "
+"demorar um pouco em alguns hosts, então, por favor, seja paciente."
+
+#: includes/classes/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s instalado e ativado com sucesso."
+
+#: includes/classes/class-tgm-plugin-activation.php:3594
+#: includes/classes/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr "Mostrar detalhes"
+
+#: includes/classes/class-tgm-plugin-activation.php:3594
+#: includes/classes/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr "Detalhes ocultos"
+
+#: includes/classes/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr "Todas as instalações e ativações foram concluídas."
+
+#: includes/classes/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando e ativando o plug-in %1$s (%2$d/%3$d)"
+
+#: includes/classes/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"O processo de instalação está começando. Esse processo pode demorar um pouco "
+"em alguns hosts, então, por favor, seja paciente."
+
+#: includes/classes/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s instalado com sucesso."
+
+#: includes/classes/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr "Todas as instalações foram concluídas."
+
+#: includes/classes/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando o plug-in %1$s (%2$d/%3$d)"
+
+#: includes/classes/class-wp-bootstrap-navwalker.php:366
+msgid "Add a menu"
+msgstr "Adicionar um menu"
+
+#: includes/kirki/kirki-control-contacts.php:5
 msgid "Contacts"
 msgstr "Contatos"
 
-#: kirki/kirki-control-contacts.php:11
+#: includes/kirki/kirki-control-contacts.php:9
+msgid "Contacts Infos"
+msgstr "Informações de Contatos"
+
+#: includes/kirki/kirki-control-contacts.php:17
 msgid "Small Text"
 msgstr "Texto pequeno"
 
-#: kirki/kirki-control-contacts.php:12
+#: includes/kirki/kirki-control-contacts.php:18
 msgid "Short text or phrase to invite people to contact you"
 msgstr ""
 "Texto ou frase curta para convidar pessoas a entrar em contato com você"
 
-#: kirki/kirki-control-contacts.php:21
+#: includes/kirki/kirki-control-contacts.php:27
 msgid "Whatsapp"
 msgstr "Whatsapp"
 
-#: kirki/kirki-control-contacts.php:22
+#: includes/kirki/kirki-control-contacts.php:28
 msgid "Whatsapp number in full phone number in international format"
 msgstr ""
 "Número do Whatsapp em número de telefone completo em formato internacional"
 
-#: kirki/kirki-control-contacts.php:32
+#: includes/kirki/kirki-control-contacts.php:38
 msgid "Phone number in full phone number in international format"
 msgstr "Número de telefone completo em formato internacional"
 
-#: kirki/kirki-control-contacts.php:41
+#: includes/kirki/kirki-control-contacts.php:47
 msgid "Email"
 msgstr "E-mail"
 
-#: kirki/kirki-control-contacts.php:42
+#: includes/kirki/kirki-control-contacts.php:48
 msgid "Email Address"
 msgstr "Endereço de e-mail"
 
-#: kirki/kirki-control-contacts.php:51
+#: includes/kirki/kirki-control-contacts.php:57
 msgid "Contact Form"
 msgstr "Formulário de Contato"
 
-#: kirki/kirki-control-contacts.php:52
+#: includes/kirki/kirki-control-contacts.php:58
 msgid "Paste a contact form shortcode"
 msgstr "Cole um shortcode de formulário de contato"
 
-#: kirki/kirki-control-header.php:5
+#: includes/kirki/kirki-control-contacts.php:65
+#: includes/kirki/kirki-control-header.php:33
+#: includes/kirki/kirki-control-skills.php:33
+msgid "Background"
+msgstr "Plano de Fundo"
+
+#: includes/kirki/kirki-control-contacts.php:73
+#: includes/kirki/kirki-control-header.php:41
+#: includes/kirki/kirki-control-skills.php:41
+msgid "Background Control"
+msgstr "Controles do plano de fundo"
+
+#: includes/kirki/kirki-control-contacts.php:74
+msgid "Background conrols for contact section"
+msgstr "Controles do plano de fundo para a seção de contato"
+
+#: includes/kirki/kirki-control-header.php:5
 msgid "Header"
 msgstr "Cabeçalho"
 
-#: kirki/kirki-control-header.php:9 kirki/kirki-control-skills.php:9
+#: includes/kirki/kirki-control-header.php:9
+#: includes/kirki/kirki-control-skills.php:9
 msgid "Titles"
 msgstr "Títulos"
 
-#: kirki/kirki-control-header.php:17 kirki/kirki-control-skills.php:17
+#: includes/kirki/kirki-control-header.php:17
+#: includes/kirki/kirki-control-skills.php:17
 msgid "Title"
 msgstr "Título"
 
-#: kirki/kirki-control-header.php:19
+#: includes/kirki/kirki-control-header.php:19
 msgid "I Am A Customizable Title"
 msgstr "Eu sou um título personalizável"
 
-#: kirki/kirki-control-header.php:28
+#: includes/kirki/kirki-control-header.php:26
+#: includes/kirki/kirki-control-skills.php:26 includes/meta-boxes.php:23
+msgid "Subtitle"
+msgstr "Subtítulos"
+
+#: includes/kirki/kirki-control-header.php:28
 msgid "I Am A Customizable Sub-Title"
 msgstr "Eu sou um subtítulo personalizável"
 
-#: kirki/kirki-control-header.php:33 kirki/kirki-control-skills.php:33
-msgid "Background"
-msgstr "Plano de fundo"
-
-#: kirki/kirki-control-header.php:41 kirki/kirki-control-skills.php:41
-msgid "Background Control"
-msgstr "Controles de imagem de plano de fundo"
-
-#: kirki/kirki-control-header.php:42
+#: includes/kirki/kirki-control-header.php:42
 msgid "Background image controls for the headers"
-msgstr "Controles de imagem de plano de fundo para os cabeçalhos"
+msgstr "Controles do plano de fundo para os cabeçalhos"
 
-#: kirki/kirki-control-location.php:4
-msgid "Location"
-msgstr "Localização"
-
-#: kirki/kirki-control-location.php:11
-msgid "API Key"
-msgstr "Chave da API"
-
-#: kirki/kirki-control-location.php:12
-msgid "Google Maps API Key"
-msgstr "Chave da API do Google Maps"
-
-#: kirki/kirki-control-location.php:21
-msgid "Address"
-msgstr "Endereço"
-
-#: kirki/kirki-control-location.php:30
-msgid "Latitude"
-msgstr "Latitude"
-
-#: kirki/kirki-control-location.php:39
-msgid "Longitude"
-msgstr "Longitude"
-
-#: kirki/kirki-control-networks.php:4
+#: includes/kirki/kirki-control-networks.php:4
 msgid "Social Networks"
 msgstr "Redes sociais"
 
-#: kirki/kirki-control-networks.php:11
+#: includes/kirki/kirki-control-networks.php:11
 msgid "Facebook"
 msgstr "Facebook"
 
-#: kirki/kirki-control-networks.php:12
+#: includes/kirki/kirki-control-networks.php:12
 msgid "Facebook page URL"
 msgstr "URL da página do Facebook"
 
-#: kirki/kirki-control-networks.php:21
+#: includes/kirki/kirki-control-networks.php:21
 msgid "Twitter"
 msgstr "Twitter"
 
-#: kirki/kirki-control-networks.php:22
+#: includes/kirki/kirki-control-networks.php:22
 msgid "Twitter User"
 msgstr "Usuário do Twitter"
 
-#: kirki/kirki-control-networks.php:31
+#: includes/kirki/kirki-control-networks.php:31
 msgid "Instagram"
 msgstr "Instagram"
 
-#: kirki/kirki-control-networks.php:32
+#: includes/kirki/kirki-control-networks.php:32
 msgid "Instagram page URL"
 msgstr "URL da página do Instagram"
 
-#: kirki/kirki-control-networks.php:41
+#: includes/kirki/kirki-control-networks.php:41
 msgid "Linkedin"
 msgstr "Linkedin"
 
-#: kirki/kirki-control-networks.php:42
+#: includes/kirki/kirki-control-networks.php:42
 msgid "Linkedin page URL"
 msgstr "URL da página do Linkedin"
 
-#: kirki/kirki-control-networks.php:51
+#: includes/kirki/kirki-control-networks.php:51
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: kirki/kirki-control-networks.php:52
+#: includes/kirki/kirki-control-networks.php:52
 msgid "Pinterest page URL"
 msgstr "URL da página do Pinterest"
 
-#: kirki/kirki-control-networks.php:61
+#: includes/kirki/kirki-control-networks.php:61
 msgid "YouTube"
 msgstr "YouTube"
 
-#: kirki/kirki-control-networks.php:62
+#: includes/kirki/kirki-control-networks.php:62
 msgid "YouTube page URL"
 msgstr "URL da página do YouTube"
 
-#: kirki/kirki-control-networks.php:71 kirki/kirki-control-skills.php:92
+#: includes/kirki/kirki-control-networks.php:71
+#: includes/kirki/kirki-control-skills.php:92
 msgid "WordPress"
 msgstr "WordPress"
 
-#: kirki/kirki-control-networks.php:72
+#: includes/kirki/kirki-control-networks.php:72
 msgid "WordPress Profile page URL"
 msgstr "URL da página de perfil do WordPress"
 
-#: kirki/kirki-control-networks.php:81
+#: includes/kirki/kirki-control-networks.php:81
 msgid "GitHub"
 msgstr "GitHub"
 
-#: kirki/kirki-control-networks.php:82
+#: includes/kirki/kirki-control-networks.php:82
 msgid "GitHub page URL"
 msgstr "URL da página do GitHub"
 
-#: kirki/kirki-control-networks.php:91
+#: includes/kirki/kirki-control-networks.php:91
 msgid "GitLab"
 msgstr "GitLab"
 
-#: kirki/kirki-control-networks.php:92
+#: includes/kirki/kirki-control-networks.php:92
 msgid "GitLab page URL"
 msgstr "URL da página do GitLab"
 
-#: kirki/kirki-control-networks.php:101
+#: includes/kirki/kirki-control-networks.php:101
 msgid "Bitbucket"
 msgstr "Bitbucket"
 
-#: kirki/kirki-control-networks.php:102
+#: includes/kirki/kirki-control-networks.php:102
 msgid "Bitbucket page URL"
 msgstr "URL da página Bitbucket"
 
-#: kirki/kirki-control-skills.php:5 kirki/kirki-control-skills.php:19
+#: includes/kirki/kirki-control-skills.php:5
+#: includes/kirki/kirki-control-skills.php:19
 msgid "Skills"
 msgstr "Habilidades"
 
-#: kirki/kirki-control-skills.php:28
+#: includes/kirki/kirki-control-skills.php:28
 msgid "What am i best!"
 msgstr "O que eu sou melhor!"
 
-#: kirki/kirki-control-skills.php:42
+#: includes/kirki/kirki-control-skills.php:42
 msgid "Background image controls for skill section"
-msgstr "Controles da imagem de plano de fundo para a seção de habilidades"
+msgstr "Controles do plano de fundo para a seção de habilidades"
 
-#: kirki/kirki-control-skills.php:61 kirki/kirki-control-skills.php:68
+#: includes/kirki/kirki-control-skills.php:61
+#: includes/kirki/kirki-control-skills.php:68
 msgid "Skills List"
 msgstr "Lista de habilidades"
 
-#: kirki/kirki-control-skills.php:73
+#: includes/kirki/kirki-control-skills.php:73
 msgid "Skill"
 msgstr "Habilidade"
 
-#: kirki/kirki-control-skills.php:76
+#: includes/kirki/kirki-control-skills.php:76
 msgid "Add new skill"
 msgstr "Adicionar nova habilidade"
 
-#: kirki/kirki-control-skills.php:80
+#: includes/kirki/kirki-control-skills.php:80
 msgid "HTML5 / CSS3 / SASS"
 msgstr "HTML5 / CSS3 / SASS"
 
-#: kirki/kirki-control-skills.php:84
+#: includes/kirki/kirki-control-skills.php:84
 msgid "JavaScript / JQuery"
 msgstr "JavaScript / JQuery"
 
-#: kirki/kirki-control-skills.php:88
+#: includes/kirki/kirki-control-skills.php:88
 msgid "PHP / MySQL"
 msgstr "PHP / MySQL"
 
-#: kirki/kirki-control-skills.php:99
+#: includes/kirki/kirki-control-skills.php:99
 msgid "Skill Name"
 msgstr "Nome da habilidade"
 
-#: kirki/kirki-control-skills.php:100
+#: includes/kirki/kirki-control-skills.php:100
 msgid "This will be the label for your skill"
 msgstr "Este será o rótulo para sua habilidade"
 
-#: kirki/kirki-control-skills.php:105
+#: includes/kirki/kirki-control-skills.php:105
 msgid "Skill Level"
 msgstr "Nível de habilidade"
 
-#: kirki/kirki-control-skills.php:106
+#: includes/kirki/kirki-control-skills.php:106
 msgid "This will be the percentage level"
 msgstr "Este será o nível percentual"
+
+#: includes/meta-boxes.php:14
+msgid "Additional Information"
+msgstr "Informações Adicionais"
+
+#: includes/meta-boxes.php:32
+msgid "Degree Details"
+msgstr "Detalhes do Diploma"
+
+#: includes/meta-boxes.php:41
+msgid "Beginning of the course"
+msgstr "Inicio do Curso"
+
+#: includes/meta-boxes.php:47
+msgid "End of the course"
+msgstr "Fim do Curso"
+
+#: includes/meta-boxes.php:52 partials/sections/section-resume.php:72
+msgid "Ongoing"
+msgstr "Em andamento"
+
+#: includes/meta-boxes.php:54
+msgid "Is this course in progress?"
+msgstr "Este curso está em andamento?"
+
+#: includes/meta-boxes.php:59
+msgid "Educational Institution"
+msgstr "Instituição educacional"
+
+#: includes/meta-boxes.php:67
+msgid "Experience Details"
+msgstr "Detalhes da experiência"
+
+#: includes/meta-boxes.php:76
+msgid "Beginning of the experience"
+msgstr "Início da experiência"
+
+#: includes/meta-boxes.php:82
+msgid "End of the experience"
+msgstr "Fim da experiência"
+
+#: includes/meta-boxes.php:87
+msgid "Current Employment"
+msgstr "Emprego atual"
+
+#: includes/meta-boxes.php:89
+msgid "Is this your current job?"
+msgstr "Este é seu emprego atual?"
+
+#: includes/meta-boxes.php:94
+msgid "Company Name"
+msgstr "Nome da empresa"
+
+#: includes/meta-boxes.php:99 includes/post-type.php:123
+#: includes/post-type.php:124 includes/post-type.php:125
+#: includes/post-type.php:126 includes/post-type.php:152
+#: partials/sections/section-portfolio.php:16
+msgid "Portfolio"
+msgstr "Portfólio"
+
+#: includes/meta-boxes.php:100
+msgid "Portfolio works you did at this company"
+msgstr "Trabalhos do portfólio que você fez nesta empresa"
+
+#: includes/meta-boxes.php:110
+msgid "Portfolio Details"
+msgstr "Detalhes do portfólio"
+
+#: includes/meta-boxes.php:119
+msgid "Client"
+msgstr "Cliente"
+
+#: includes/meta-boxes.php:120
+msgid "Client's name"
+msgstr "Nome do cliente"
+
+#: includes/meta-boxes.php:125
+msgid "Client's URL"
+msgstr "URL do cliente"
+
+#: includes/meta-boxes.php:126
+msgid "Link to client website"
+msgstr "Link para o site do cliente"
+
+#: includes/meta-boxes.php:131
+msgid "Designer's Name"
+msgstr "Nome do Designer"
+
+#: includes/meta-boxes.php:136
+msgid "Designer's URL"
+msgstr "URL do designer"
+
+#: includes/meta-boxes.php:137
+msgid "Link to designer website or social network"
+msgstr "Link para site de designer ou rede social"
+
+#: includes/meta-boxes.php:142
+msgid "This Work's URL"
+msgstr "URL deste trabalho"
+
+#: includes/meta-boxes.php:143
+msgid "Link to this work in production site"
+msgstr "Link para este trabalho no site de produção"
+
+#: includes/meta-boxes.php:148
+msgid "Date"
+msgstr "Data"
+
+#: includes/meta-boxes.php:149
+msgid "Job Creation Date"
+msgstr "Data de criação do trabalho"
+
+#: includes/post-type.php:7
+msgid "Education Degrees"
+msgstr "Diplomas"
+
+#: includes/post-type.php:8 includes/post-type.php:9 includes/post-type.php:10
+#: includes/post-type.php:36
+msgid "Education Degree"
+msgstr "Diplomas"
+
+#: includes/post-type.php:11
+msgid "Education Degree Archives"
+msgstr "Arquivos de Diplomas"
+
+#: includes/post-type.php:12
+msgid "Education Degree Attributes"
+msgstr "Atributos do Diploma"
+
+#: includes/post-type.php:13
+msgid "Parent Education Degree:"
+msgstr "Diploma pai:"
+
+#: includes/post-type.php:14
+msgid "All Education Degree"
+msgstr "Todos os Diplomas"
+
+#: includes/post-type.php:15
+msgid "Add New Education Degree"
+msgstr "Adicionar novo diploma"
+
+#: includes/post-type.php:16
+msgid "Add Education Degree"
+msgstr "Adicionar Diploma"
+
+#: includes/post-type.php:17
+msgid "New Education Degree"
+msgstr "Novo diploma"
+
+#: includes/post-type.php:18
+msgid "Edit Education Degree"
+msgstr "Editar diploma"
+
+#: includes/post-type.php:19
+msgid "Update Education Degree"
+msgstr "Atualizar diploma"
+
+#: includes/post-type.php:20
+msgid "View Education Degree"
+msgstr "Exibir Diploma"
+
+#: includes/post-type.php:21
+msgid "View Education Degrees"
+msgstr "Exibir os diplomas"
+
+#: includes/post-type.php:22
+msgid "Search Education Degree"
+msgstr "Pesquisar diploma"
+
+#: includes/post-type.php:23 includes/post-type.php:81
+#: includes/post-type.php:139
+msgid "Not found"
+msgstr "Não encontrado"
+
+#: includes/post-type.php:24 includes/post-type.php:82
+#: includes/post-type.php:140
+msgid "Not found in Trash"
+msgstr "Não encontrado na lixeira"
+
+#: includes/post-type.php:25 includes/post-type.php:83
+#: includes/post-type.php:141
+msgid "Featured Image"
+msgstr "Imagem em destaque"
+
+#: includes/post-type.php:26 includes/post-type.php:84
+#: includes/post-type.php:142
+msgid "Set featured image"
+msgstr "Definir imagem em destaque"
+
+#: includes/post-type.php:27 includes/post-type.php:85
+#: includes/post-type.php:143
+msgid "Remove featured image"
+msgstr "Remover imagem em destaque"
+
+#: includes/post-type.php:28 includes/post-type.php:86
+#: includes/post-type.php:144
+msgid "Use as featured image"
+msgstr "Use como imagem em destaque"
+
+#: includes/post-type.php:29
+msgid "Insert into education degree"
+msgstr "Inserir no diploma"
+
+#: includes/post-type.php:30
+msgid "Uploaded to this education degree"
+msgstr "Carregado para este diploma"
+
+#: includes/post-type.php:31
+msgid "Items list"
+msgstr "Lista de itens"
+
+#: includes/post-type.php:32
+msgid "Education Degrees list navigation"
+msgstr "Navegação na lista de diplomas"
+
+#: includes/post-type.php:33
+msgid "Filter degrees list"
+msgstr "Filtrar lista de diplomas"
+
+#: includes/post-type.php:37
+msgid "Educational Background"
+msgstr "Experiência educacional"
+
+#: includes/post-type.php:65 includes/post-type.php:67
+msgid "Experiences"
+msgstr "Experiências"
+
+#: includes/post-type.php:66 includes/post-type.php:68
+#: includes/post-type.php:94
+msgid "Experience"
+msgstr "Experiência"
+
+#: includes/post-type.php:69
+msgid "Experiences Archives"
+msgstr "Arquivos das Experiências"
+
+#: includes/post-type.php:70
+msgid "Experiences Attributes"
+msgstr "Atributos das Experiências"
+
+#: includes/post-type.php:71
+msgid "Parent  Experience:"
+msgstr "Experiência Pai:"
+
+#: includes/post-type.php:72
+msgid "All Experiences"
+msgstr "Todas Experiências"
+
+#: includes/post-type.php:73
+msgid "Add New Experience"
+msgstr "Adicionar nova Experiência"
+
+#: includes/post-type.php:74
+msgid "Add Experience"
+msgstr "Adicionar Experiência"
+
+#: includes/post-type.php:75
+msgid "New Experience"
+msgstr "Nova Experiência"
+
+#: includes/post-type.php:76
+msgid "Edit Experience"
+msgstr "Editar Experiência"
+
+#: includes/post-type.php:77
+msgid "Update Experience"
+msgstr "Atualizar Experiência"
+
+#: includes/post-type.php:78
+msgid "View Experience"
+msgstr "Exibir Experiência"
+
+#: includes/post-type.php:79
+msgid "View Experiences"
+msgstr "Exibir Experiências"
+
+#: includes/post-type.php:80
+msgid "Search Experience"
+msgstr "Pesquisar Experiência"
+
+#: includes/post-type.php:87
+msgid "Insert into item"
+msgstr "Inserir no item"
+
+#: includes/post-type.php:88
+msgid "Uploaded to this work experience"
+msgstr "Carregado para esta experiência de trabalho"
+
+#: includes/post-type.php:89
+msgid "Experiences list"
+msgstr "Lista de Experiências"
+
+#: includes/post-type.php:90
+msgid "Experiences list navigation"
+msgstr "Navegação na lista de experiências"
+
+#: includes/post-type.php:91
+msgid "Filter Experiences list"
+msgstr "Filtrar lista de experiências"
+
+#: includes/post-type.php:95
+msgid "Career Experiences"
+msgstr "Experiências da Carreira"
+
+#: includes/post-type.php:127
+msgid "Portfolio Archives"
+msgstr "Arquivos do portfólio"
+
+#: includes/post-type.php:128
+msgid "Portfolio Attributes"
+msgstr "Atributos do portfólio"
+
+#: includes/post-type.php:129
+msgid "Portfolio Parent Item:"
+msgstr "Item pai do portfólio:"
+
+#: includes/post-type.php:130
+msgid "All Portfolio Items"
+msgstr "Todos os itens do portfólio"
+
+#: includes/post-type.php:131
+msgid "Add New Portfolio Item"
+msgstr "Adicionar novo item de portfólio"
+
+#: includes/post-type.php:132
+msgid "Add New Item"
+msgstr "Adicionar novo item"
+
+#: includes/post-type.php:133
+msgid "New Portfolio Item"
+msgstr "Novo item de portfólio"
+
+#: includes/post-type.php:134
+msgid "Edit Portfolio Item"
+msgstr "Editar item de portfólio"
+
+#: includes/post-type.php:135
+msgid "Update Portfolio Item"
+msgstr "Atualizar item de portfólio"
+
+#: includes/post-type.php:136
+msgid "View Portfolio Item"
+msgstr "Exibir item do portfólio"
+
+#: includes/post-type.php:137
+msgid "View Portfolio Items"
+msgstr "Exibir Itens de portfólio"
+
+#: includes/post-type.php:138
+msgid "Search Portfolio Item"
+msgstr "Pesquisar item de portfólio"
+
+#: includes/post-type.php:145
+msgid "Insert into portfolio item"
+msgstr "Inserir no item de portfólio"
+
+#: includes/post-type.php:146
+msgid "Uploaded to this portfolio item"
+msgstr "Carregar para esse item de portfólio"
+
+#: includes/post-type.php:147
+msgid "Portfolio Items list"
+msgstr "Lista de itens de portfólio"
+
+#: includes/post-type.php:148
+msgid "Portfolio Items list navigation"
+msgstr "Navegação na lista de itens do portfólio"
+
+#: includes/post-type.php:149
+msgid "Filter Portfolio items list"
+msgstr "Filtrar lista de itens do portfólio"
+
+#: includes/post-type.php:153
+msgid "Portfolio Works"
+msgstr "Trabalhos no Portfólio"
+
+#: includes/taxonomy.php:7 includes/taxonomy.php:9
+msgid "Education Categories"
+msgstr "Categorias de Diplomas"
+
+#: includes/taxonomy.php:8
+msgid "Education Category"
+msgstr "Categoria de Diploma"
+
+#: includes/taxonomy.php:10
+msgid "All Education Categories"
+msgstr "Todas Categorias de Diplomas"
+
+#: includes/taxonomy.php:11
+msgid "Parent Education Categories"
+msgstr "Categorias de Diploma Pai"
+
+#: includes/taxonomy.php:12
+msgid "Parent Education Categories:"
+msgstr "Categorias de Diploma Pai:"
+
+#: includes/taxonomy.php:13
+msgid "New Education Category Name"
+msgstr "Nome da nova categoria de diploma"
+
+#: includes/taxonomy.php:14
+msgid "Add New Education Category"
+msgstr "Adicionar nova categoria educacional"
+
+#: includes/taxonomy.php:15
+msgid "Edit Education Category"
+msgstr "Editar categoria educacional"
+
+#: includes/taxonomy.php:16
+msgid "Update Education Category"
+msgstr "Atualizar categoria educacional"
+
+#: includes/taxonomy.php:17
+msgid "View Education Category"
+msgstr "Exibir categoria educacional"
+
+#: includes/taxonomy.php:18 includes/taxonomy.php:58
+msgid "Separate categories with commas"
+msgstr "Separe categorias com vírgulas"
+
+#: includes/taxonomy.php:19 includes/taxonomy.php:59
+msgid "Add or remove categories"
+msgstr "Adicionar ou remover categorias"
+
+#: includes/taxonomy.php:20 includes/taxonomy.php:60
+msgid "Choose from the most used"
+msgstr "Escolha entre os mais usados"
+
+#: includes/taxonomy.php:21
+msgid "Popular Education Categories"
+msgstr "Categorias populares de diploma"
+
+#: includes/taxonomy.php:22
+msgid "Search Education Categories"
+msgstr "Pesquisar categorias de diploma"
+
+#: includes/taxonomy.php:23 includes/taxonomy.php:63
+#: partials/header/header-hgroup.php:17
+msgid "Not Found"
+msgstr "Não encontrado"
+
+#: includes/taxonomy.php:24 includes/taxonomy.php:64
+msgid "No categories"
+msgstr "Nenhuma categoria"
+
+#: includes/taxonomy.php:25
+msgid "Education Categories list"
+msgstr "Lista de categorias de diploma"
+
+#: includes/taxonomy.php:26
+msgid "Education Categories list navigation"
+msgstr "Navegação na lista Categorias de Diplomas"
+
+#: includes/taxonomy.php:47 includes/taxonomy.php:49
+msgid "Portfolio Categories"
+msgstr "Categorias do portfólio"
+
+#: includes/taxonomy.php:48
+msgid "Portfolio Category"
+msgstr "Categoria de Portfólio"
+
+#: includes/taxonomy.php:50
+msgid "All Portfolio Categories"
+msgstr "Todas Categorias de Portfólio"
+
+#: includes/taxonomy.php:51
+msgid "Parent Portfolio Categories"
+msgstr "Categorias pai do portfólio"
+
+#: includes/taxonomy.php:52
+msgid "Parent Portfolio Categories:"
+msgstr "Categorias pai do portfólio:"
+
+#: includes/taxonomy.php:53
+msgid "New Portfolio Category Name"
+msgstr "Nome da nova categoria de portfólio"
+
+#: includes/taxonomy.php:54
+msgid "Add New Portfolio Category"
+msgstr "Adicionar nova categoria de portfólio"
+
+#: includes/taxonomy.php:55
+msgid "Edit Portfolio Category"
+msgstr "Editar categoria do portfólio"
+
+#: includes/taxonomy.php:56
+msgid "Update Portfolio Category"
+msgstr "Atualizar categoria de portfólio"
+
+#: includes/taxonomy.php:57
+msgid "View Portfolio Category"
+msgstr "Exibir categoria de portfólio"
+
+#: includes/taxonomy.php:61
+msgid "Popular Portfolio Categories"
+msgstr "Categorias populares de portfólios"
+
+#: includes/taxonomy.php:62
+msgid "Search Portfolio Categories"
+msgstr "Pesquisar categorias de portfólio"
+
+#: includes/taxonomy.php:65
+msgid "Portfolio Categories list"
+msgstr "Lista de categorias de portfólio"
+
+#: includes/taxonomy.php:66
+msgid "Portfolio Categories list navigation"
+msgstr "Navegação na lista Categorias de portfólio"
+
+#: includes/wp-bootstrap4.1-pagination.php:39
+msgid "« Previous"
+msgstr "« Anterior"
+
+#: includes/wp-bootstrap4.1-pagination.php:40
+msgid "Next »"
+msgstr "Próximo »"
+
+#: partials/content/content-excerpt.php:68
+msgid "Read more"
+msgstr "Leia mais"
+
+#: partials/content/content-none.php:8
+msgid "No content to display"
+msgstr "Nenhum conteúdo para exibir"
+
+#: partials/header/header-hgroup.php:5
+msgid "Search results for:"
+msgstr "Resultados da pesquisa por:"
+
+#: partials/header/header-hgroup.php:13
+msgid "Blog"
+msgstr "Blog"
+
+#: partials/sections/section-contact.php:8
+msgid "Contact"
+msgstr "Contato"
+
+#: partials/sections/section-contact.php:10 templates/contact-over-map.php:57
+msgid "Get in touch!"
+msgstr "Entre em contato!"
+
+#: partials/sections/section-portfolio.php:18
+msgid "My Latest Works"
+msgstr "Meus trabalhos mais recentes"
+
+#: partials/sections/section-portfolio.php:44
+msgid "See More"
+msgstr "Ver Mais"
+
+#: partials/sections/section-resume.php:47
+msgid "Resume"
+msgstr "Currículo"
+
+#: partials/sections/section-resume.php:49
+msgid "Latest in my career"
+msgstr "Últimas da minha carreira"
+
+#: partials/sections/section-resume.php:60
+msgid "Education"
+msgstr "Educação"
+
+#: partials/sections/section-resume.php:91
+msgid "Work Experience"
+msgstr "Experiência"
+
+#: partials/sections/section-resume.php:103
+msgid "Currently"
+msgstr "Atualmente"
 
 #: searchform.php:11
 msgid "Search"
@@ -1245,62 +1325,27 @@ msgstr "Design por:"
 msgid "Created in:"
 msgstr "Criado em:"
 
-#: single-portfolio.php:80
+#: single-portfolio.php:78
 msgid "See Online"
 msgstr "Veja Online"
 
-#: template-parts/content/content-excerpt.php:68
-msgid "Read more"
-msgstr "Leia mais"
+#~ msgid "Location"
+#~ msgstr "Localização"
 
-#: template-parts/content/content-none.php:8
-msgid "No content to display"
-msgstr "Nenhum conteúdo para exibir"
+#~ msgid "API Key"
+#~ msgstr "Chave da API"
 
-#: template-parts/header/header-hgroup.php:5
-msgid "Search results for:"
-msgstr "Resultados da pesquisa por:"
+#~ msgid "Google Maps API Key"
+#~ msgstr "Chave da API do Google Maps"
 
-#: template-parts/header/header-hgroup.php:13
-msgid "Blog"
-msgstr "Blog"
+#~ msgid "Address"
+#~ msgstr "Endereço"
 
-#: template-parts/sections/section-contact.php:8
-msgid "Contact"
-msgstr "Contato"
+#~ msgid "Latitude"
+#~ msgstr "Latitude"
 
-#: template-parts/sections/section-contact.php:10
-#: templates/template-contact-over-map.php:57
-msgid "Get in touch!"
-msgstr "Entre em contato!"
-
-#: template-parts/sections/section-portfolio.php:23
-msgid "My Latest Works"
-msgstr "Meus trabalhos mais recentes"
-
-#: template-parts/sections/section-portfolio.php:47
-msgid "See More"
-msgstr "Ver Mais"
-
-#: template-parts/sections/section-resume.php:47
-msgid "Resume"
-msgstr "Currículo"
-
-#: template-parts/sections/section-resume.php:49
-msgid "Latest in my career"
-msgstr "Últimas da minha carreira"
-
-#: template-parts/sections/section-resume.php:60
-msgid "Education"
-msgstr "Educação"
-
-#: template-parts/sections/section-resume.php:91
-msgid "Work Experience"
-msgstr "Experiência"
-
-#: template-parts/sections/section-resume.php:103
-msgid "Currently"
-msgstr "Atualmente"
+#~ msgid "Longitude"
+#~ msgstr "Longitude"
 
 #~ msgid "portfolio"
 #~ msgstr "portfólio"

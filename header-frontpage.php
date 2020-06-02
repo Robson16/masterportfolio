@@ -11,18 +11,8 @@
 
         <?php get_template_part( 'partials/navbar/main-menu' ); ?>
 
-        <?php $header_bg = get_theme_mod( 'setting_header_background' ); ?>
-        <style>
-            .header-wrap {
-                color: #FFF;
-                background-color: <?php echo $header_bg['background-color']; ?>;
-                background-image: linear-gradient(<?php echo $header_bg['background-color']; ?>, <?php echo $header_bg['background-color']; ?>), url(<?php echo $header_bg['background-image']; ?>); 
-                background-repeat: <?php echo $header_bg['background-repeat']; ?>;
-                background-position: <?php echo $header_bg['background-position']; ?>;
-                background-size: <?php echo $header_bg['background-size']; ?>;
-                background-attachment:<?php echo $header_bg['background-attachment']; ?>;
-            }
-        </style>
+        <?php the_element_background( 'setting_header_background', 'div.header-wrap' ); ?>
+        
         <header id="header">
             <div class="header-wrap">
                 <div class="container text-center pt-md-5 pb-5 mb-5">

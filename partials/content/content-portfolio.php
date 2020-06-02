@@ -5,24 +5,19 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class('mb-4'); ?>>
-
     <?php if (has_post_thumbnail()): ?>
-        <figure class="border" title="<?php the_title_attribute(); ?>">
-            <a class="thumbnail" href="<?php the_permalink(); ?>">
+        <figure class="" title="<?php the_title_attribute(); ?>">
+            <a class="thumbnail " href="<?php the_permalink(); ?>">
                 <?php
                 the_post_thumbnail('thumbnails_portfolio', array(
-                    'class' => 'img-fluid',
+                    'class' => 'img-fluid border',
                     'alt' => get_the_title(),
                 ));
                 ?>
             </a>
+            <a href="<?php the_permalink(); ?>">
+                <figcaption class="h5 text-center mt-3"><?php echo get_the_title(); ?></figcaption>
+            </a>
         </figure>
     <?php endif; ?>
-
-    <a class="" href="<?php the_permalink(); ?>">
-        <?php the_title('<h5 class="text-center my-3">', '</h5>'); ?>
-    </a>
-
 </article><!-- #post-<?php the_ID(); ?> -->
-
-

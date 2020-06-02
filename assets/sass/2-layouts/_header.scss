@@ -1,10 +1,6 @@
 #header {
     .header-wrap {
         color: #fff;
-        background-position: center center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        @include background-cover;
     }
 
     .header-content {

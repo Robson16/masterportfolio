@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Contact Over Map
+ * Template Name: Contact
  * Template Post Type: page
  * 
  * Global template for use in contact page,
@@ -49,26 +49,25 @@
             <!-- /.container -->
         </div>
         <!--/.bg-light-->
+    </section>
 
-        <div class="contact-over-map">
-            <div id="map" class="bg-google-map" data-lat="<?php echo get_theme_mod('setting_latitude') ?>" data-lng="<?php echo get_theme_mod('setting_longitude') ?>"></div>
-            <div class="container py-5">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="title text-white text-center mb-5"><?php _e('Get in touch!', 'masterportfolio'); ?></h3>
-                    </div>
-                    <!-- /.col -->
-
-                    <div class="col-12 col-lg-8 offset-lg-2">
-                        <?php echo do_shortcode(get_theme_mod('setting_contact_form')); ?>
-                    </div>
-                    <!-- /.col -->
+    <?php the_element_background( 'setting_contact_background', 'section#contact' ); ?>
+    <section id="contact">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="title text-white text-center mb-5"><?php _e('Get in touch!', 'masterportfolio'); ?></h3>
                 </div>
-                <!--/.row-->
+                <!-- /.col -->
+
+                <div class="col-12 col-lg-8 offset-lg-2">
+                    <?php echo do_shortcode(get_theme_mod('setting_contact_form')); ?>
+                </div>
+                <!-- /.col -->
             </div>
-            <!--/.container-->
+            <!--/.row-->
         </div>
-        <!--/.contact-over-map-->
+        <!--/.container-->
     </section>
 </main>
 

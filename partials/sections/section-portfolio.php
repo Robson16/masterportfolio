@@ -31,7 +31,9 @@ $portfolio_items = new WP_Query(array(
                                     ) );
                                     ?>
                                 </a>
-                                <figcaption class="text-center text-white mt-3"><?php echo get_the_title(); ?></figcaption>
+                                <a href="<?php the_permalink(); ?>">
+                                    <figcaption class="text-center text-white mt-3"><?php echo get_the_title(); ?></figcaption>
+                                </a>
                             </figure>
                         <?php endif; ?>
                     </div>

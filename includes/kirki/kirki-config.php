@@ -7,11 +7,10 @@ function masterportfolio_kirki() {
             'option_type' => 'theme_mod',
         ) );
 
-        require_once get_template_directory() . '/includes/kirki/kirki-control-skills.php';
         require_once get_template_directory() . '/includes/kirki/kirki-control-header.php';
+        require_once get_template_directory() . '/includes/kirki/kirki-control-skills.php';
         require_once get_template_directory() . '/includes/kirki/kirki-control-networks.php';
         require_once get_template_directory() . '/includes/kirki/kirki-control-contacts.php';
-        require_once get_template_directory() . '/includes/kirki/kirki-control-location.php';
     }
 }
 
