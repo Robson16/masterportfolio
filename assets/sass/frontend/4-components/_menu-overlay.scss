@@ -1,0 +1,133 @@
+/* Menu Overlay */
+
+.custom-logo-link {
+  display: block;
+  text-align: center;
+}
+
+.menu-overlay {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 0;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  z-index: 1080;
+}
+
+.menu-overlay-inner {
+  width: 100vw;
+  padding: 0 15px;
+
+  @media (min-width: 768px) {
+    width: 50vw;
+  }
+
+  @media (min-width: 992px) {
+    width: 30vw;
+  }
+
+  .search-form {
+    margin-top: 40px;
+    padding: 15px;
+    border: 2px solid $color1;
+    text-align: center;
+
+    label,
+    input {
+      color: #ffffff;
+    }
+
+    input {
+      &:-webkit-autofill,
+      &:-webkit-autofill:hover,
+      &:-webkit-autofill:focus {
+        -webkit-text-fill-color: #ffffff;
+      }
+    }
+
+    button[type="submit"] {
+      display: block;
+      margin: 15px auto 0;
+    }
+  }
+}
+
+.menu-overlay-open,
+.menu-overlay-close {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 15px;
+  width: 60px;
+  height: 60px;
+  line-height: 1;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  opacity: 1;
+
+  @media (min-width: 576px) {
+    right: 45px;
+  }
+
+  &:focus,
+  &:hover,
+  &:active {
+    opacity: 0.8;
+    text-decoration: none;
+  }
+}
+
+.logged-in {
+  .menu-overlay-open,
+  .menu-overlay-close {
+    top: 45px;
+  }
+}
+
+.menu-overlay-open {
+  left: 15px;
+  font-size: 40px;
+  z-index: 1080;
+}
+
+.menu-overlay-close {
+  right: 15px;
+  font-size: 60px;
+}
+
+.menu-overlay-links {
+  margin-top: 30px;
+  text-align: center;
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    display: block;
+    padding: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #818181;
+
+    @media (min-width: 576px) {
+      font-size: 36px;
+    }
+
+    &:focus,
+    &:hover {
+      color: $color1;
+    }
+  }
+}

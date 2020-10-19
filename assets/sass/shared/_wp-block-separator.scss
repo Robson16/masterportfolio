@@ -1,0 +1,10 @@
+// WP Separator
+
+.wp-block-separator {
+    &:not(.is-style-wide) {
+        &:not(.is-style-dots) {
+            width: 50px !important;
+            height: 3px !important;
+        }
+    }
+}

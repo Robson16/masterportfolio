@@ -1,0 +1,33 @@
+// WP Block Button
+
+.is-style-outline {
+    .wp-block-button__link {
+        transition:
+            color .15s ease-in-out,
+            background-color .15s ease-in-out,
+            border-color .15s ease-in-out,
+            box-shadow .15s ease-in-out;
+
+        @each $name,
+        $color in $colors {
+            &.has-#{$name}-color {
+
+                &:hover,
+                &:focus,
+                &:active {
+                    @if $color==#117d67 or $color==#093d33 or $color==#000000 {
+                        color: #ffffff !important;
+                    }
+
+                    @else {
+                        color: #000000 !important;
+                    }
+
+                    border-color: $color;
+                    background-color: $color !important;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

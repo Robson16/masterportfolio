@@ -1,0 +1,11 @@
+/* Read More */
+
+.read-more {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 2px solid $color4;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $color4;
+    @include btn-hover(white, $color4);
+}

@@ -26,29 +26,24 @@ function masterportfolio_register_required_plugins() {
     $plugins = array(
         // This is how to include a plugin from the WordPress Plugin Repository.
         array(
-            'name' => 'Meta Box – WordPress Custom Fields Framework',
-            'slug' => 'meta-box',
-            'required' => true,
-        ),
-        array(
             'name' => 'Kirki Customizer Framework',
             'slug' => 'kirki',
             'required' => true,
         ),
         array(
-            'name' => 'Classic Editor',
-            'slug' => 'classic-editor',
+            'name' => 'Font Awesome',
+            'slug' => 'font-awesome',
             'required' => false,
         ),
         array(
             'name' => 'Contact Form 7',
             'slug' => 'contact-form-7',
-            'required' => true,
+            'required' => false,
         ),
         array(
             'name' => 'Flamingo',
             'slug' => 'flamingo',
-            'required' => true,
+            'required' => false,
         ),
     );
 

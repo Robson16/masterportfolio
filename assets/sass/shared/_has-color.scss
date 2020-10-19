@@ -1,0 +1,12 @@
+// Gutenberg Color Options
+
+@each $name,
+$color in $colors {
+	.has-#{$name}-color {
+		color: $color !important;
+	}
+
+	.has-#{$name}-background-color {
+		background-color: $color !important;
+	}
+}

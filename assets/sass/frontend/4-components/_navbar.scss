@@ -1,0 +1,194 @@
+/* Navbar */
+.navbar {
+    padding: 1rem 0;
+    background-color: #222222;
+    z-index: 1080;
+    transition: 0.3s;
+
+    &.sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: #000000 !important;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.navbar-brand {
+    display: flex;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+
+    .navbar-toggler-icon {
+        content: "";
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        background: no-repeat center center;
+        background-size: 100% 100%;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='512' height='512' fill='%23fff' xmlns:v='https://vecta.io/nano'%3E%3Cpath d='M492 236H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20zm0-160H20C8.954 76 0 84.954 0 96s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20zm0 320H20c-11.046 0-20 8.954-20 20s8.954 20 20 20h472c11.046 0 20-8.954 20-20s-8.954-20-20-20z'/%3E%3C/svg%3E");
+    }
+
+    @media (min-width: 992px) {
+        display: none;
+    }
+}
+
+.navbar-collapse {
+    display: flex;
+    flex-basis: 100%;
+    flex-grow: 1;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // height: 0;
+    // width: 100%;
+    // padding: 15px;
+    // background: #222;
+    // z-index: 1080;
+    // transition: 0.5s;
+
+    &:not(.show) {
+        display: none;
+    }
+
+    @media (min-width: 992px) {
+        display: flex !important;
+        flex-basis: auto;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        z-index: 1080;
+
+        @media (min-width: 992px) {
+            flex-direction: row;
+        }
+
+        &.has-dropdown-menu-to-left {
+            .dropdown-menu {
+                right: 0;
+
+                .dropdown-menu {
+                    top: 0;
+                    right: 100%;
+                }
+            }
+        }
+
+        &.has-dropdown-menu-to-right {
+            .dropdown-menu {
+                left: 0;
+
+                .dropdown-menu {
+                    top: 0;
+                    left: 100%;
+                }
+            }
+        }
+
+        .active>.nav-link {
+            color: $color1 !important;
+        }
+
+        .nav-link {
+            display: block;
+            padding: .5rem 0;
+            text-decoration: none;
+            color: #818181;
+
+            &:hover,
+            &:focus {
+                color: lighten($color1, 20%) !important;
+            }
+
+            @media (min-width: 992px) {
+                padding: .5rem;
+            }
+        }
+    }
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+    // OBS: Precisa ser melhorado com JS
+    &::after {
+        content: '';
+        position: absolute;
+        top: 45%;
+        right: 15px;
+        border-style: solid;
+        border-width: 0 2px 2px 0;
+        border-color: #ffffff;
+        display: inline-block;
+        padding: 3px;
+        transform: translateY(-50%) rotate(45deg);
+        -webkit-transform: translateY(-50%) rotate(45deg);
+
+        @media (min-width: 992px) {
+            right: -5px;
+        }
+    }
+
+    .dropdown-menu {
+        display: none;
+        min-width: 160px;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        list-style: none;
+        background-color: #222222;
+
+        .dropdown-item {
+            padding: .75rem 1.5rem;
+            color: white;
+        }
+
+        a {
+            display: block;
+            padding: 8px 15px;
+
+            &:hover {
+                background-color: lighten(#222222, 5%);
+            }
+        }
+
+        @media (min-width: 992px) {
+            position: absolute;
+        }
+    }
+
+    // Show the dropdown menu
+    &:hover {
+        &>.dropdown-menu {
+            display: block;
+        }
+    }
+}

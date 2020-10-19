@@ -1,0 +1,16 @@
+// Mixins
+
+@mixin btn-hover($color, $bg-color) {
+    transition:
+        color .15s ease-in-out,
+        background-color .15s ease-in-out,
+        border-color .15s ease-in-out,
+        box-shadow .15s ease-in-out;
+
+    &:hover {
+        border-color: $bg-color;
+        color: $color;
+        background-color: $bg-color;
+        text-decoration: none;
+    }
+}

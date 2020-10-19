@@ -15,48 +15,41 @@ if (post_password_required()) {
 ?>
 
 <div class="comments">
+    <?php
+    if ( have_comments() ) :
+    ?>
+        <h4 class="comments-title">
+            <?php _e( 'Comments', 'masterportfolio' ); ?>
+        </h4>
 
-    <div class="row my-5">
-        <div class="col-12">
-            <?php if (have_comments()) : ?>
-                <h3 class="text-cursive comments-title">
-                    <?php _e('Comments', 'masterportfolio'); ?>
-                </h3>
-                <?php the_comments_navigation(); ?>
-                <ul class="comment-list">
-                    <?php
-                    wp_list_comments(array(
-                        'style' => 'ul',
-                        'short_ping' => true,
-                        'avatar_size' => 46,
-                    ));
-                    ?>
-                </ul>
-                <!-- .comment-list -->
-                <?php the_comments_navigation(); ?>
-            <?php endif; ?>
-            <?php // Se os comentários estão fechados, mas existe algum, deixamos um pequeno aviso. ?>
-            <?php if (!comments_open() && get_comments_number() && post_type_supports(get_post_type(), 'comments')) : ?>
-                <p class="no-comments"><?php _e('Comments closed.', 'masterportfolio'); ?></p>
-            <?php endif; ?>
-        </div>
-        <!--/.col-->
-    </div>
-    <!--/.row-->
-    
-    <div class="row">
-        <div class="col-12">
+        <?php the_comments_navigation(); ?>
+
+        <ul class="comment-list">
             <?php
-            comment_form(array(
-                'title_reply_before' => '<h2 id="reply-title" class="text-cursive comment-reply-title">',
-                'title_reply' => __('Leave a comment.', 'masterportfolio'),
-                'title_reply_after' => '</h2>',
-            ));
+            wp_list_comments( array(
+                'style' => 'ul',
+                'short_ping' => true,
+                'avatar_size' => 46,
+            ) );
             ?>
-        </div>
-        <!--/.col-->
-    </div>
-    <!--/.row-->
+        </ul>
+        <!-- .comment-list -->
+    <?php 
+        the_comments_navigation();
+    endif; 
+    
+    // If the comments are closed, but there are some, we leave a small warning.
+    if ( !comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) :
+    ?>
+        <p class="no-comments"><?php _e( 'Comments closed.', 'masterportfolio' ); ?></p>
+    <?php
+    endif;
 
+    comment_form( array(
+        'title_reply_before' => '<h4 id="reply-title" class="comment-reply-title">',
+        'title_reply' => __( 'Leave a comment.', 'masterportfolio' ),
+        'title_reply_after' => '</h4>',
+    ) );
+    ?>
 </div>
 <!-- /.comments -->

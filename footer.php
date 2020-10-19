@@ -1,62 +1,39 @@
-<footer class="footer bg-color-four">
-
-    <div class="container py-5">
-        <div class="row flex-column flex-sm-row">
+<footer id="footer">
+    <div class="container">
+        <div class="footer-widgets">
             <?php if (is_active_sidebar('footer-column-one')) : ?> 
-                <div class="col">
+                <div>
                     <?php dynamic_sidebar('footer-column-one'); ?>
                 </div>
-                <!-- /.col -->
             <?php endif; ?>
             <?php if (is_active_sidebar('footer-column-two')) : ?> 
-                <div class="col">
+                <div>
                     <?php dynamic_sidebar('footer-column-two'); ?>
                 </div>
-                <!-- /.col -->
             <?php endif; ?>
             <?php if (is_active_sidebar('footer-column-three')) : ?> 
-                <div class="col">
+                <div>
                     <?php dynamic_sidebar('footer-column-three'); ?>
                 </div>
-                <!-- /.col -->
             <?php endif; ?>
             <?php if (is_active_sidebar('footer-column-four')) : ?> 
-                <div class="col">
+                <div >
                     <?php dynamic_sidebar('footer-column-four'); ?>
                 </div>
-                <!-- /.col -->
             <?php endif; ?>
         </div>
-        <!-- /.row -->
     </div>
     <!-- /.container -->
 
-    <div class="bg-color-five">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
-                    <p class="text-center font-weight-light py-3 m-0">
-                        &copy; <?php echo date('Y') . ' ' . get_bloginfo('name') . ' - ' . __( 'All rights reserved.', 'masterportfolio' ); ?>
-                    </p>
-                </div>
-                <!-- /.col -->
-            </div>
-            <!-- /.row -->
+    <div class="footer-copyright">
+        <div class="container">
+            <p>&copy; <?php echo date('Y') . ' ' . get_bloginfo('name') . ' - ' . __( 'All rights reserved.', 'masterportfolio' ); ?></p>
         </div>
-        <!-- /.container-fluid -->
     </div>
 
 </footer>
 
 <?php wp_footer(); ?>
-
-<script>
-    WebFont.load({
-        google: {
-            families: ['Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i', 'Merienda+One']
-        }
-    });
-</script>
 
 </body>
 

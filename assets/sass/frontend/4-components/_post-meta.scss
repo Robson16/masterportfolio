@@ -1,0 +1,40 @@
+// Post Meta
+
+.post-meta-wrapper {
+  margin: 15px 0;
+  color: #6d6d6e;
+
+  a {
+    color: inherit;
+    font-weight: 500;
+    text-decoration: underline;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $color3;
+      text-decoration: none;
+    }
+  }
+}
+
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.8;
+
+  .meta-wrapper {
+    display: inline;
+
+    &:not(:last-child) {
+      margin-right: 12px;
+    }
+  }
+
+  .meta-icon {
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,56 @@
+/* Footer */
+
+#footer {
+  color: #fff;
+  background-color: $color4;
+
+  a {
+    color: #fff !important;
+
+    &:hover,
+    &:active,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+
+  li {
+    border-color: rgba(white, 0.3) !important;
+  }
+
+  .tag-cloud-link {
+    border: 2px solid white !important;
+    color: white !important;
+
+    &:hover {
+      background-color: white !important;
+      color: $color3 !important;
+    }
+  }
+}
+
+.footer-widgets {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 30px 15px;
+
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.footer-copyright {
+  padding: 15px;
+  text-align: center;
+  background-color: $color5;
+
+  p {
+    margin: 0;
+  }
+}

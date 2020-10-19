@@ -1,141 +1,194 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Robson Portfolio 1.0\n"
-"POT-Creation-Date: 2020-05-28 20:44-0300\n"
-"PO-Revision-Date: 2020-05-28 20:44-0300\n"
+"POT-Creation-Date: 2020-10-19 17:59-0300\n"
+"PO-Revision-Date: 2020-10-19 18:01-0300\n"
 "Last-Translator: Robson H Rodrigues <contato@robsonhrodrigues.com.br>\n"
 "Language-Team: Robson\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.4.1\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-KeywordsList: __;_e;_x;esc_html__;_n_noop\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: .git\n"
 
-#: 404.php:16
+#: 404.php:14
 msgid "This is somewhat embarrassing, isn’t it?"
 msgstr "Isso é um pouco embaraçoso, não é?"
 
-#: 404.php:17
+#: 404.php:15
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr "Parece que nada foi encontrado neste local. Tente uma pesquisa?"
 
-#: comments.php:23
+#: comments.php:22
 msgid "Comments"
 msgstr "Comentários"
 
-#: comments.php:40
+#: comments.php:44
 msgid "Comments closed."
 msgstr "Comentários estão fechados."
 
-#: comments.php:52
+#: comments.php:50
 msgid "Leave a comment."
 msgstr "Deixe um comentário."
 
-#: footer.php:39
+#: footer.php:30
 msgid "All rights reserved."
 msgstr "Todos os direitos reservados."
 
-#: functions.php:24
+#: functions.php:39
 msgid "Main Menu"
 msgstr "Menu principal"
 
-#: functions.php:85
+#: functions.php:74
+msgid "White"
+msgstr "Branco"
+
+#: functions.php:79
+msgid "Caribbean Green"
+msgstr "Verde Caribenho"
+
+#: functions.php:84
+msgid "Mountain Meadow"
+msgstr "Vende Montanha"
+
+#: functions.php:89
+msgid "Zomp"
+msgstr "Zomp"
+
+#: functions.php:94
+msgid "Generic Viridian"
+msgstr "Viridian genérico"
+
+#: functions.php:99
+msgid "MSU Green"
+msgstr "Verde MSU"
+
+#: functions.php:104
+msgid "Black"
+msgstr "Preto"
+
+#: functions.php:113
+msgid "Small"
+msgstr "Pequeno"
+
+#: functions.php:118
+msgid "Normal"
+msgstr "Normal"
+
+#: functions.php:123
+msgid "Medium"
+msgstr "Médio"
+
+#: functions.php:128
+msgid "Big"
+msgstr "Grande"
+
+#: functions.php:133
+msgid "Huge"
+msgstr "Enorme"
+
+#: functions.php:163
 msgid "Footer Column One"
 msgstr "Coluna Um do Rodapé"
 
-#: functions.php:87 functions.php:94 functions.php:101 functions.php:108
-#: functions.php:115 functions.php:122 functions.php:129 functions.php:136
-#: functions.php:143
+#: functions.php:165 functions.php:172 functions.php:179 functions.php:186
+#: functions.php:193
 msgid "Add some widget."
 msgstr "Adicione algum widget."
 
-#: functions.php:92
+#: functions.php:170
 msgid "Footer Column Two"
 msgstr "Coluna Dois do Rodapé"
 
-#: functions.php:99
+#: functions.php:177
 msgid "Footer Column Three"
 msgstr "Coluna Três do Rodapé"
 
-#: functions.php:106
+#: functions.php:184
 msgid "Footer Column Four"
 msgstr "Coluna Quatro do Rodapé"
 
-#: functions.php:113
-msgid "Frontpage Widget One"
-msgstr "Coluna Um Página Inicial"
-
-#: functions.php:120
-msgid "Frontpage Widget Two"
-msgstr "Coluna Dois Página Inicial"
-
-#: functions.php:127
-msgid "Frontpage Widget Three"
-msgstr "Coluna Três Página Inicial"
-
-#: functions.php:134
-msgid "Frontpage Widget Four"
-msgstr "Coluna Quatro Página Inicial"
-
-#: functions.php:141
+#: functions.php:191
 msgid "Blog Sidebar"
 msgstr "Barra Lateral do Blog"
 
-#: header-frontpage.php:101 header.php:101
-#: includes/kirki/kirki-control-contacts.php:37
-#: partials/sections/section-contact.php:29 templates/contact-over-map.php:24
-msgid "Phone"
-msgstr "Telefone"
+#: header.php:13
+msgid "Open menu"
+msgstr "Abrir menu"
 
-#: header-frontpage.php:120
-msgid "My picture"
-msgstr "Minha Foto"
+#: header.php:21
+msgid "Close menu"
+msgstr "Fechar menu"
+
+#: header.php:50
+msgid "Category: "
+msgstr "Categoria: "
+
+#: header.php:52 includes/kirki/kirki-control-header.php:33
+#: includes/post-type.php:6 includes/post-type.php:7 includes/post-type.php:8
+#: includes/post-type.php:9 includes/post-type.php:35
+msgid "Portfolio"
+msgstr "Portfólio"
+
+#: header.php:56
+msgid "Search results for:"
+msgstr "Resultados da pesquisa por:"
+
+#: header.php:57
+msgid "Blog"
+msgstr "Blog"
+
+#: header.php:58 includes/taxonomy.php:23
+msgid "Not Found"
+msgstr "Não encontrado"
 
 #: includes/classes/class-tgm-plugin-activation.php:334
-#: includes/required-plugins.php:65
+#: includes/required-plugins.php:60
 msgid "Install Required Plugins"
 msgstr "Instalar plugins necessários"
 
 #: includes/classes/class-tgm-plugin-activation.php:335
-#: includes/required-plugins.php:66
+#: includes/required-plugins.php:61
 msgid "Install Plugins"
 msgstr "Instalar plugins"
 
 #: includes/classes/class-tgm-plugin-activation.php:337
-#: includes/required-plugins.php:67
+#: includes/required-plugins.php:62
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr "Instalando o Plugin: %s"
 
 #: includes/classes/class-tgm-plugin-activation.php:339
-#: includes/required-plugins.php:68
+#: includes/required-plugins.php:63
 #, php-format
 msgid "Updating Plugin: %s"
 msgstr "Atualizando o Plugin: %s"
 
 #: includes/classes/class-tgm-plugin-activation.php:340
-#: includes/required-plugins.php:69
+#: includes/required-plugins.php:64
 msgid "Something went wrong with the plugin API."
 msgstr "Algo deu errado com a API do plugin."
 
 #: includes/classes/class-tgm-plugin-activation.php:343
-#: includes/required-plugins.php:70
+#: includes/required-plugins.php:65
 #, php-format
 msgid "This theme requires the following plugin: %1$s."
 msgstr "Este tema requer o seguinte plug-in: %1$s ."
 
 #: includes/classes/class-tgm-plugin-activation.php:349
-#: includes/required-plugins.php:71
+#: includes/required-plugins.php:66
 #, php-format
 msgid "This theme recommends the following plugin: %1$s."
 msgstr "Este tema recomenda o seguinte plugin: %1$s."
 
 #: includes/classes/class-tgm-plugin-activation.php:355
-#: includes/required-plugins.php:72
+#: includes/required-plugins.php:67
 #, php-format
 msgid ""
 "The following plugin needs to be updated to its latest version to ensure "
@@ -145,40 +198,40 @@ msgstr ""
 "garantir compatibilidade máxima com este tema: %1$s."
 
 #: includes/classes/class-tgm-plugin-activation.php:361
-#: includes/required-plugins.php:73
+#: includes/required-plugins.php:68
 #, php-format
 msgid "There is an update available for: %1$s."
 msgstr "Existe uma atualização disponível para: %1$s."
 
 #: includes/classes/class-tgm-plugin-activation.php:367
-#: includes/required-plugins.php:74
+#: includes/required-plugins.php:69
 #, php-format
 msgid "The following required plugin is currently inactive: %1$s."
 msgstr "O plugin necessário seguinte está atualmente inativo: %1$s."
 
 #: includes/classes/class-tgm-plugin-activation.php:373
-#: includes/required-plugins.php:75
+#: includes/required-plugins.php:70
 #, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgstr "O seguinte plugin recomendado está inativo no momento: %1$s ."
 
 #: includes/classes/class-tgm-plugin-activation.php:378
-#: includes/required-plugins.php:76
+#: includes/required-plugins.php:71
 msgid "Begin installing plugin"
 msgstr "Comece a instalar o plug-in"
 
 #: includes/classes/class-tgm-plugin-activation.php:383
-#: includes/required-plugins.php:77
+#: includes/required-plugins.php:72
 msgid "Begin updating plugin"
 msgstr "Comece a atualizar o plugin"
 
 #: includes/classes/class-tgm-plugin-activation.php:388
-#: includes/required-plugins.php:78
+#: includes/required-plugins.php:73
 msgid "Begin activating plugin"
 msgstr "Comece a ativar o plug-in"
 
 #: includes/classes/class-tgm-plugin-activation.php:392
-#: includes/required-plugins.php:79
+#: includes/required-plugins.php:74
 msgid "Return to Required Plugins Installer"
 msgstr "Voltar para instalador de Plugins necessários"
 
@@ -191,23 +244,23 @@ msgstr "Retorne para o Dashboard"
 
 #: includes/classes/class-tgm-plugin-activation.php:394
 #: includes/classes/class-tgm-plugin-activation.php:3244
-#: includes/required-plugins.php:80
+#: includes/required-plugins.php:75
 msgid "Plugin activated successfully."
 msgstr "Plugin ativado com sucesso."
 
 #: includes/classes/class-tgm-plugin-activation.php:395
-#: includes/required-plugins.php:81
+#: includes/required-plugins.php:76
 msgid "The following plugin was activated successfully:"
 msgstr "O seguinte plugin foi ativado com sucesso:"
 
 #: includes/classes/class-tgm-plugin-activation.php:397
-#: includes/required-plugins.php:82
+#: includes/required-plugins.php:77
 #, php-format
 msgid "No action taken. Plugin %1$s was already active."
 msgstr "Nenhuma ação tomada. O plug-in %1$s já estava ativo."
 
 #: includes/classes/class-tgm-plugin-activation.php:399
-#: includes/required-plugins.php:83
+#: includes/required-plugins.php:78
 #, php-format
 msgid ""
 "Plugin not activated. A higher version of %s is needed for this theme. "
@@ -217,18 +270,18 @@ msgstr ""
 "Por favor, atualize o plugin."
 
 #: includes/classes/class-tgm-plugin-activation.php:401
-#: includes/required-plugins.php:84
+#: includes/required-plugins.php:79
 #, php-format
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr "Todos os plugins instalados e ativados com sucesso. %1$s"
 
 #: includes/classes/class-tgm-plugin-activation.php:402
-#: includes/required-plugins.php:85
+#: includes/required-plugins.php:80
 msgid "Dismiss this notice"
 msgstr "Descartar essa notificação"
 
 #: includes/classes/class-tgm-plugin-activation.php:403
-#: includes/required-plugins.php:86
+#: includes/required-plugins.php:81
 msgid ""
 "There are one or more required or recommended plugins to install, update or "
 "activate."
@@ -237,7 +290,7 @@ msgstr ""
 "atualizar ou ativar."
 
 #: includes/classes/class-tgm-plugin-activation.php:404
-#: includes/required-plugins.php:87
+#: includes/required-plugins.php:82
 msgid "Please contact the administrator of this site for help."
 msgstr "Entre em contato com o administrador deste site para obter ajuda."
 
@@ -497,96 +550,42 @@ msgstr "Instalando o plug-in %1$s (%2$d/%3$d)"
 msgid "Add a menu"
 msgstr "Adicionar um menu"
 
-#: includes/kirki/kirki-control-contacts.php:5
-msgid "Contacts"
-msgstr "Contatos"
-
-#: includes/kirki/kirki-control-contacts.php:9
-msgid "Contacts Infos"
-msgstr "Informações de Contatos"
-
-#: includes/kirki/kirki-control-contacts.php:17
-msgid "Small Text"
-msgstr "Texto pequeno"
-
-#: includes/kirki/kirki-control-contacts.php:18
-msgid "Short text or phrase to invite people to contact you"
-msgstr ""
-"Texto ou frase curta para convidar pessoas a entrar em contato com você"
-
-#: includes/kirki/kirki-control-contacts.php:27
-msgid "Whatsapp"
-msgstr "Whatsapp"
-
-#: includes/kirki/kirki-control-contacts.php:28
-msgid "Whatsapp number in full phone number in international format"
-msgstr ""
-"Número do Whatsapp em número de telefone completo em formato internacional"
-
-#: includes/kirki/kirki-control-contacts.php:38
-msgid "Phone number in full phone number in international format"
-msgstr "Número de telefone completo em formato internacional"
-
-#: includes/kirki/kirki-control-contacts.php:47
-msgid "Email"
-msgstr "E-mail"
-
-#: includes/kirki/kirki-control-contacts.php:48
-msgid "Email Address"
-msgstr "Endereço de e-mail"
-
-#: includes/kirki/kirki-control-contacts.php:57
-msgid "Contact Form"
-msgstr "Formulário de Contato"
-
-#: includes/kirki/kirki-control-contacts.php:58
-msgid "Paste a contact form shortcode"
-msgstr "Cole um shortcode de formulário de contato"
-
-#: includes/kirki/kirki-control-contacts.php:65
-#: includes/kirki/kirki-control-header.php:33
-#: includes/kirki/kirki-control-skills.php:33
-msgid "Background"
-msgstr "Plano de Fundo"
-
-#: includes/kirki/kirki-control-contacts.php:73
-#: includes/kirki/kirki-control-header.php:41
-#: includes/kirki/kirki-control-skills.php:41
-msgid "Background Control"
-msgstr "Controles do plano de fundo"
-
-#: includes/kirki/kirki-control-contacts.php:74
-msgid "Background conrols for contact section"
-msgstr "Controles do plano de fundo para a seção de contato"
-
 #: includes/kirki/kirki-control-header.php:5
 msgid "Header"
 msgstr "Cabeçalho"
 
-#: includes/kirki/kirki-control-header.php:9
-#: includes/kirki/kirki-control-skills.php:9
-msgid "Titles"
-msgstr "Títulos"
+#: includes/kirki/kirki-control-header.php:11
+msgid "Featured Image Options"
+msgstr "Opções de Imagem Destacada"
 
-#: includes/kirki/kirki-control-header.php:17
-#: includes/kirki/kirki-control-skills.php:17
-msgid "Title"
-msgstr "Título"
+#: includes/kirki/kirki-control-header.php:13
+msgid "Check where to use the featured image as the header background image."
+msgstr ""
+"Marque onde usar a imagem em destaque como a imagem de fundo do cabeçalho."
 
-#: includes/kirki/kirki-control-header.php:19
-msgid "I Am A Customizable Title"
-msgstr "Eu sou um título personalizável"
+#: includes/kirki/kirki-control-header.php:20
+msgid "Post"
+msgstr "Post"
+
+#: includes/kirki/kirki-control-header.php:25
+#: includes/kirki/kirki-control-header.php:38
+msgid "Yes"
+msgstr "Sim"
 
 #: includes/kirki/kirki-control-header.php:26
-#: includes/kirki/kirki-control-skills.php:26 includes/meta-boxes.php:23
-msgid "Subtitle"
-msgstr "Subtítulos"
+#: includes/kirki/kirki-control-header.php:39
+msgid "No"
+msgstr "Não"
 
-#: includes/kirki/kirki-control-header.php:28
-msgid "I Am A Customizable Sub-Title"
-msgstr "Eu sou um subtítulo personalizável"
+#: includes/kirki/kirki-control-header.php:46
+msgid "Background"
+msgstr "Plano de Fundo"
 
-#: includes/kirki/kirki-control-header.php:42
+#: includes/kirki/kirki-control-header.php:54
+msgid "Background Control"
+msgstr "Controles do plano de fundo"
+
+#: includes/kirki/kirki-control-header.php:55
 msgid "Background image controls for the headers"
 msgstr "Controles do plano de fundo para os cabeçalhos"
 
@@ -643,7 +642,6 @@ msgid "YouTube page URL"
 msgstr "URL da página do YouTube"
 
 #: includes/kirki/kirki-control-networks.php:71
-#: includes/kirki/kirki-control-skills.php:92
 msgid "WordPress"
 msgstr "WordPress"
 
@@ -675,659 +673,656 @@ msgstr "Bitbucket"
 msgid "Bitbucket page URL"
 msgstr "URL da página Bitbucket"
 
-#: includes/kirki/kirki-control-skills.php:5
-#: includes/kirki/kirki-control-skills.php:19
-msgid "Skills"
-msgstr "Habilidades"
-
-#: includes/kirki/kirki-control-skills.php:28
-msgid "What am i best!"
-msgstr "O que eu sou melhor!"
-
-#: includes/kirki/kirki-control-skills.php:42
-msgid "Background image controls for skill section"
-msgstr "Controles do plano de fundo para a seção de habilidades"
-
-#: includes/kirki/kirki-control-skills.php:61
-#: includes/kirki/kirki-control-skills.php:68
-msgid "Skills List"
-msgstr "Lista de habilidades"
-
-#: includes/kirki/kirki-control-skills.php:73
-msgid "Skill"
-msgstr "Habilidade"
-
-#: includes/kirki/kirki-control-skills.php:76
-msgid "Add new skill"
-msgstr "Adicionar nova habilidade"
-
-#: includes/kirki/kirki-control-skills.php:80
-msgid "HTML5 / CSS3 / SASS"
-msgstr "HTML5 / CSS3 / SASS"
-
-#: includes/kirki/kirki-control-skills.php:84
-msgid "JavaScript / JQuery"
-msgstr "JavaScript / JQuery"
-
-#: includes/kirki/kirki-control-skills.php:88
-msgid "PHP / MySQL"
-msgstr "PHP / MySQL"
-
-#: includes/kirki/kirki-control-skills.php:99
-msgid "Skill Name"
-msgstr "Nome da habilidade"
-
-#: includes/kirki/kirki-control-skills.php:100
-msgid "This will be the label for your skill"
-msgstr "Este será o rótulo para sua habilidade"
-
-#: includes/kirki/kirki-control-skills.php:105
-msgid "Skill Level"
-msgstr "Nível de habilidade"
-
-#: includes/kirki/kirki-control-skills.php:106
-msgid "This will be the percentage level"
-msgstr "Este será o nível percentual"
-
-#: includes/meta-boxes.php:14
-msgid "Additional Information"
-msgstr "Informações Adicionais"
-
-#: includes/meta-boxes.php:32
-msgid "Degree Details"
-msgstr "Detalhes do Diploma"
-
-#: includes/meta-boxes.php:41
-msgid "Beginning of the course"
-msgstr "Inicio do Curso"
-
-#: includes/meta-boxes.php:47
-msgid "End of the course"
-msgstr "Fim do Curso"
-
-#: includes/meta-boxes.php:52 partials/sections/section-resume.php:72
-msgid "Ongoing"
-msgstr "Em andamento"
-
-#: includes/meta-boxes.php:54
-msgid "Is this course in progress?"
-msgstr "Este curso está em andamento?"
-
-#: includes/meta-boxes.php:59
-msgid "Educational Institution"
-msgstr "Instituição educacional"
-
-#: includes/meta-boxes.php:67
-msgid "Experience Details"
-msgstr "Detalhes da experiência"
-
-#: includes/meta-boxes.php:76
-msgid "Beginning of the experience"
-msgstr "Início da experiência"
-
-#: includes/meta-boxes.php:82
-msgid "End of the experience"
-msgstr "Fim da experiência"
-
-#: includes/meta-boxes.php:87
-msgid "Current Employment"
-msgstr "Emprego atual"
-
-#: includes/meta-boxes.php:89
-msgid "Is this your current job?"
-msgstr "Este é seu emprego atual?"
-
-#: includes/meta-boxes.php:94
-msgid "Company Name"
-msgstr "Nome da empresa"
-
-#: includes/meta-boxes.php:99 includes/post-type.php:123
-#: includes/post-type.php:124 includes/post-type.php:125
-#: includes/post-type.php:126 includes/post-type.php:152
-#: partials/sections/section-portfolio.php:16
-msgid "Portfolio"
-msgstr "Portfólio"
-
-#: includes/meta-boxes.php:100
-msgid "Portfolio works you did at this company"
-msgstr "Trabalhos do portfólio que você fez nesta empresa"
-
-#: includes/meta-boxes.php:110
-msgid "Portfolio Details"
-msgstr "Detalhes do portfólio"
-
-#: includes/meta-boxes.php:119
-msgid "Client"
-msgstr "Cliente"
-
-#: includes/meta-boxes.php:120
-msgid "Client's name"
-msgstr "Nome do cliente"
-
-#: includes/meta-boxes.php:125
-msgid "Client's URL"
-msgstr "URL do cliente"
-
-#: includes/meta-boxes.php:126
-msgid "Link to client website"
-msgstr "Link para o site do cliente"
-
-#: includes/meta-boxes.php:131
-msgid "Designer's Name"
-msgstr "Nome do Designer"
-
-#: includes/meta-boxes.php:136
-msgid "Designer's URL"
-msgstr "URL do designer"
-
-#: includes/meta-boxes.php:137
-msgid "Link to designer website or social network"
-msgstr "Link para site de designer ou rede social"
-
-#: includes/meta-boxes.php:142
-msgid "This Work's URL"
-msgstr "URL deste trabalho"
-
-#: includes/meta-boxes.php:143
-msgid "Link to this work in production site"
-msgstr "Link para este trabalho no site de produção"
-
-#: includes/meta-boxes.php:148
-msgid "Date"
-msgstr "Data"
-
-#: includes/meta-boxes.php:149
-msgid "Job Creation Date"
-msgstr "Data de criação do trabalho"
-
-#: includes/post-type.php:7
-msgid "Education Degrees"
-msgstr "Diplomas"
-
-#: includes/post-type.php:8 includes/post-type.php:9 includes/post-type.php:10
-#: includes/post-type.php:36
-msgid "Education Degree"
-msgstr "Diplomas"
-
-#: includes/post-type.php:11
-msgid "Education Degree Archives"
-msgstr "Arquivos de Diplomas"
-
-#: includes/post-type.php:12
-msgid "Education Degree Attributes"
-msgstr "Atributos do Diploma"
-
-#: includes/post-type.php:13
-msgid "Parent Education Degree:"
-msgstr "Diploma pai:"
-
-#: includes/post-type.php:14
-msgid "All Education Degree"
-msgstr "Todos os Diplomas"
-
-#: includes/post-type.php:15
-msgid "Add New Education Degree"
-msgstr "Adicionar novo diploma"
-
-#: includes/post-type.php:16
-msgid "Add Education Degree"
-msgstr "Adicionar Diploma"
-
-#: includes/post-type.php:17
-msgid "New Education Degree"
-msgstr "Novo diploma"
-
-#: includes/post-type.php:18
-msgid "Edit Education Degree"
-msgstr "Editar diploma"
-
-#: includes/post-type.php:19
-msgid "Update Education Degree"
-msgstr "Atualizar diploma"
-
-#: includes/post-type.php:20
-msgid "View Education Degree"
-msgstr "Exibir Diploma"
-
-#: includes/post-type.php:21
-msgid "View Education Degrees"
-msgstr "Exibir os diplomas"
-
-#: includes/post-type.php:22
-msgid "Search Education Degree"
-msgstr "Pesquisar diploma"
-
-#: includes/post-type.php:23 includes/post-type.php:81
-#: includes/post-type.php:139
-msgid "Not found"
-msgstr "Não encontrado"
-
-#: includes/post-type.php:24 includes/post-type.php:82
-#: includes/post-type.php:140
-msgid "Not found in Trash"
-msgstr "Não encontrado na lixeira"
-
-#: includes/post-type.php:25 includes/post-type.php:83
-#: includes/post-type.php:141
-msgid "Featured Image"
-msgstr "Imagem em destaque"
-
-#: includes/post-type.php:26 includes/post-type.php:84
-#: includes/post-type.php:142
-msgid "Set featured image"
-msgstr "Definir imagem em destaque"
-
-#: includes/post-type.php:27 includes/post-type.php:85
-#: includes/post-type.php:143
-msgid "Remove featured image"
-msgstr "Remover imagem em destaque"
-
-#: includes/post-type.php:28 includes/post-type.php:86
-#: includes/post-type.php:144
-msgid "Use as featured image"
-msgstr "Use como imagem em destaque"
-
-#: includes/post-type.php:29
-msgid "Insert into education degree"
-msgstr "Inserir no diploma"
-
-#: includes/post-type.php:30
-msgid "Uploaded to this education degree"
-msgstr "Carregado para este diploma"
-
-#: includes/post-type.php:31
-msgid "Items list"
-msgstr "Lista de itens"
-
-#: includes/post-type.php:32
-msgid "Education Degrees list navigation"
-msgstr "Navegação na lista de diplomas"
-
-#: includes/post-type.php:33
-msgid "Filter degrees list"
-msgstr "Filtrar lista de diplomas"
-
-#: includes/post-type.php:37
-msgid "Educational Background"
-msgstr "Experiência educacional"
-
-#: includes/post-type.php:65 includes/post-type.php:67
-msgid "Experiences"
-msgstr "Experiências"
-
-#: includes/post-type.php:66 includes/post-type.php:68
-#: includes/post-type.php:94
-msgid "Experience"
-msgstr "Experiência"
-
-#: includes/post-type.php:69
-msgid "Experiences Archives"
-msgstr "Arquivos das Experiências"
-
-#: includes/post-type.php:70
-msgid "Experiences Attributes"
-msgstr "Atributos das Experiências"
-
-#: includes/post-type.php:71
-msgid "Parent  Experience:"
-msgstr "Experiência Pai:"
-
-#: includes/post-type.php:72
-msgid "All Experiences"
-msgstr "Todas Experiências"
-
-#: includes/post-type.php:73
-msgid "Add New Experience"
-msgstr "Adicionar nova Experiência"
-
-#: includes/post-type.php:74
-msgid "Add Experience"
-msgstr "Adicionar Experiência"
-
-#: includes/post-type.php:75
-msgid "New Experience"
-msgstr "Nova Experiência"
-
-#: includes/post-type.php:76
-msgid "Edit Experience"
-msgstr "Editar Experiência"
-
-#: includes/post-type.php:77
-msgid "Update Experience"
-msgstr "Atualizar Experiência"
-
-#: includes/post-type.php:78
-msgid "View Experience"
-msgstr "Exibir Experiência"
-
-#: includes/post-type.php:79
-msgid "View Experiences"
-msgstr "Exibir Experiências"
-
-#: includes/post-type.php:80
-msgid "Search Experience"
-msgstr "Pesquisar Experiência"
-
-#: includes/post-type.php:87
-msgid "Insert into item"
-msgstr "Inserir no item"
-
-#: includes/post-type.php:88
-msgid "Uploaded to this work experience"
-msgstr "Carregado para esta experiência de trabalho"
-
-#: includes/post-type.php:89
-msgid "Experiences list"
-msgstr "Lista de Experiências"
-
-#: includes/post-type.php:90
-msgid "Experiences list navigation"
-msgstr "Navegação na lista de experiências"
-
-#: includes/post-type.php:91
-msgid "Filter Experiences list"
-msgstr "Filtrar lista de experiências"
-
-#: includes/post-type.php:95
-msgid "Career Experiences"
-msgstr "Experiências da Carreira"
-
-#: includes/post-type.php:127
+#: includes/post-type.php:10
 msgid "Portfolio Archives"
 msgstr "Arquivos do portfólio"
 
-#: includes/post-type.php:128
+#: includes/post-type.php:11
 msgid "Portfolio Attributes"
 msgstr "Atributos do portfólio"
 
-#: includes/post-type.php:129
+#: includes/post-type.php:12
 msgid "Portfolio Parent Item:"
 msgstr "Item pai do portfólio:"
 
-#: includes/post-type.php:130
+#: includes/post-type.php:13
 msgid "All Portfolio Items"
 msgstr "Todos os itens do portfólio"
 
-#: includes/post-type.php:131
+#: includes/post-type.php:14
 msgid "Add New Portfolio Item"
 msgstr "Adicionar novo item de portfólio"
 
-#: includes/post-type.php:132
+#: includes/post-type.php:15
 msgid "Add New Item"
 msgstr "Adicionar novo item"
 
-#: includes/post-type.php:133
+#: includes/post-type.php:16
 msgid "New Portfolio Item"
 msgstr "Novo item de portfólio"
 
-#: includes/post-type.php:134
+#: includes/post-type.php:17
 msgid "Edit Portfolio Item"
 msgstr "Editar item de portfólio"
 
-#: includes/post-type.php:135
+#: includes/post-type.php:18
 msgid "Update Portfolio Item"
 msgstr "Atualizar item de portfólio"
 
-#: includes/post-type.php:136
+#: includes/post-type.php:19
 msgid "View Portfolio Item"
 msgstr "Exibir item do portfólio"
 
-#: includes/post-type.php:137
+#: includes/post-type.php:20
 msgid "View Portfolio Items"
 msgstr "Exibir Itens de portfólio"
 
-#: includes/post-type.php:138
+#: includes/post-type.php:21
 msgid "Search Portfolio Item"
 msgstr "Pesquisar item de portfólio"
 
-#: includes/post-type.php:145
+#: includes/post-type.php:22
+msgid "Not found"
+msgstr "Não encontrado"
+
+#: includes/post-type.php:23
+msgid "Not found in Trash"
+msgstr "Não encontrado na lixeira"
+
+#: includes/post-type.php:24
+msgid "Featured Image"
+msgstr "Imagem em destaque"
+
+#: includes/post-type.php:25
+msgid "Set featured image"
+msgstr "Definir imagem em destaque"
+
+#: includes/post-type.php:26
+msgid "Remove featured image"
+msgstr "Remover imagem em destaque"
+
+#: includes/post-type.php:27
+msgid "Use as featured image"
+msgstr "Use como imagem em destaque"
+
+#: includes/post-type.php:28
 msgid "Insert into portfolio item"
 msgstr "Inserir no item de portfólio"
 
-#: includes/post-type.php:146
+#: includes/post-type.php:29
 msgid "Uploaded to this portfolio item"
 msgstr "Carregar para esse item de portfólio"
 
-#: includes/post-type.php:147
+#: includes/post-type.php:30
 msgid "Portfolio Items list"
 msgstr "Lista de itens de portfólio"
 
-#: includes/post-type.php:148
+#: includes/post-type.php:31
 msgid "Portfolio Items list navigation"
 msgstr "Navegação na lista de itens do portfólio"
 
-#: includes/post-type.php:149
+#: includes/post-type.php:32
 msgid "Filter Portfolio items list"
 msgstr "Filtrar lista de itens do portfólio"
 
-#: includes/post-type.php:153
+#: includes/post-type.php:36
 msgid "Portfolio Works"
 msgstr "Trabalhos no Portfólio"
 
 #: includes/taxonomy.php:7 includes/taxonomy.php:9
-msgid "Education Categories"
-msgstr "Categorias de Diplomas"
+msgid "Portfolio Categories"
+msgstr "Categorias do portfólio"
 
 #: includes/taxonomy.php:8
-msgid "Education Category"
-msgstr "Categoria de Diploma"
+msgid "Portfolio Category"
+msgstr "Categoria de Portfólio"
 
 #: includes/taxonomy.php:10
-msgid "All Education Categories"
-msgstr "Todas Categorias de Diplomas"
+msgid "All Portfolio Categories"
+msgstr "Todas Categorias de Portfólio"
 
 #: includes/taxonomy.php:11
-msgid "Parent Education Categories"
-msgstr "Categorias de Diploma Pai"
+msgid "Parent Portfolio Categories"
+msgstr "Categorias pai do portfólio"
 
 #: includes/taxonomy.php:12
-msgid "Parent Education Categories:"
-msgstr "Categorias de Diploma Pai:"
+msgid "Parent Portfolio Categories:"
+msgstr "Categorias pai do portfólio:"
 
 #: includes/taxonomy.php:13
-msgid "New Education Category Name"
-msgstr "Nome da nova categoria de diploma"
+msgid "New Portfolio Category Name"
+msgstr "Nome da nova categoria de portfólio"
 
 #: includes/taxonomy.php:14
-msgid "Add New Education Category"
-msgstr "Adicionar nova categoria educacional"
+msgid "Add New Portfolio Category"
+msgstr "Adicionar nova categoria de portfólio"
 
 #: includes/taxonomy.php:15
-msgid "Edit Education Category"
-msgstr "Editar categoria educacional"
+msgid "Edit Portfolio Category"
+msgstr "Editar categoria do portfólio"
 
 #: includes/taxonomy.php:16
-msgid "Update Education Category"
-msgstr "Atualizar categoria educacional"
+msgid "Update Portfolio Category"
+msgstr "Atualizar categoria de portfólio"
 
 #: includes/taxonomy.php:17
-msgid "View Education Category"
-msgstr "Exibir categoria educacional"
+msgid "View Portfolio Category"
+msgstr "Exibir categoria de portfólio"
 
-#: includes/taxonomy.php:18 includes/taxonomy.php:58
+#: includes/taxonomy.php:18
 msgid "Separate categories with commas"
 msgstr "Separe categorias com vírgulas"
 
-#: includes/taxonomy.php:19 includes/taxonomy.php:59
+#: includes/taxonomy.php:19
 msgid "Add or remove categories"
 msgstr "Adicionar ou remover categorias"
 
-#: includes/taxonomy.php:20 includes/taxonomy.php:60
+#: includes/taxonomy.php:20
 msgid "Choose from the most used"
 msgstr "Escolha entre os mais usados"
 
 #: includes/taxonomy.php:21
-msgid "Popular Education Categories"
-msgstr "Categorias populares de diploma"
+msgid "Popular Portfolio Categories"
+msgstr "Categorias populares de portfólios"
 
 #: includes/taxonomy.php:22
-msgid "Search Education Categories"
-msgstr "Pesquisar categorias de diploma"
+msgid "Search Portfolio Categories"
+msgstr "Pesquisar categorias de portfólio"
 
-#: includes/taxonomy.php:23 includes/taxonomy.php:63
-#: partials/header/header-hgroup.php:17
-msgid "Not Found"
-msgstr "Não encontrado"
-
-#: includes/taxonomy.php:24 includes/taxonomy.php:64
+#: includes/taxonomy.php:24
 msgid "No categories"
 msgstr "Nenhuma categoria"
 
 #: includes/taxonomy.php:25
-msgid "Education Categories list"
-msgstr "Lista de categorias de diploma"
-
-#: includes/taxonomy.php:26
-msgid "Education Categories list navigation"
-msgstr "Navegação na lista Categorias de Diplomas"
-
-#: includes/taxonomy.php:47 includes/taxonomy.php:49
-msgid "Portfolio Categories"
-msgstr "Categorias do portfólio"
-
-#: includes/taxonomy.php:48
-msgid "Portfolio Category"
-msgstr "Categoria de Portfólio"
-
-#: includes/taxonomy.php:50
-msgid "All Portfolio Categories"
-msgstr "Todas Categorias de Portfólio"
-
-#: includes/taxonomy.php:51
-msgid "Parent Portfolio Categories"
-msgstr "Categorias pai do portfólio"
-
-#: includes/taxonomy.php:52
-msgid "Parent Portfolio Categories:"
-msgstr "Categorias pai do portfólio:"
-
-#: includes/taxonomy.php:53
-msgid "New Portfolio Category Name"
-msgstr "Nome da nova categoria de portfólio"
-
-#: includes/taxonomy.php:54
-msgid "Add New Portfolio Category"
-msgstr "Adicionar nova categoria de portfólio"
-
-#: includes/taxonomy.php:55
-msgid "Edit Portfolio Category"
-msgstr "Editar categoria do portfólio"
-
-#: includes/taxonomy.php:56
-msgid "Update Portfolio Category"
-msgstr "Atualizar categoria de portfólio"
-
-#: includes/taxonomy.php:57
-msgid "View Portfolio Category"
-msgstr "Exibir categoria de portfólio"
-
-#: includes/taxonomy.php:61
-msgid "Popular Portfolio Categories"
-msgstr "Categorias populares de portfólios"
-
-#: includes/taxonomy.php:62
-msgid "Search Portfolio Categories"
-msgstr "Pesquisar categorias de portfólio"
-
-#: includes/taxonomy.php:65
 msgid "Portfolio Categories list"
 msgstr "Lista de categorias de portfólio"
 
-#: includes/taxonomy.php:66
+#: includes/taxonomy.php:26
 msgid "Portfolio Categories list navigation"
 msgstr "Navegação na lista Categorias de portfólio"
 
-#: includes/wp-bootstrap4.1-pagination.php:39
-msgid "« Previous"
-msgstr "« Anterior"
+#: includes/utils.php:56
+msgid "Post Author"
+msgstr "Autor do Post"
 
-#: includes/wp-bootstrap4.1-pagination.php:40
-msgid "Next »"
-msgstr "Próximo »"
+#: includes/utils.php:62
+#, php-format
+msgid "By %s"
+msgstr "Por %s"
 
-#: partials/content/content-excerpt.php:68
+#: includes/utils.php:74
+msgid "Publication date"
+msgstr "Data de Publicação"
+
+#: includes/utils.php:110
+msgid "Post categories"
+msgstr "Categorias de post"
+
+#: includes/utils.php:116
+#, php-format
+msgid "In %s"
+msgstr "Em %s"
+
+#: includes/utils.php:132
+msgid "Post tags"
+msgstr "Tags do post"
+
+#: includes/utils.php:147
+msgid "No comment"
+msgstr "Sem comentários"
+
+#: includes/utils.php:149
+msgid "1 comment"
+msgstr "1 Comentário"
+
+#: includes/utils.php:151
+#, php-format
+msgid "%s comments"
+msgstr "%s Comentários"
+
+#: includes/utils.php:157
+msgid "Total comments"
+msgstr "Total de comentários"
+
+#: partials/content/content-excerpt.php:32
 msgid "Read more"
 msgstr "Leia mais"
 
-#: partials/content/content-none.php:8
+#: partials/content/content-none.php:7
 msgid "No content to display"
 msgstr "Nenhum conteúdo para exibir"
 
-#: partials/header/header-hgroup.php:5
-msgid "Search results for:"
-msgstr "Resultados da pesquisa por:"
-
-#: partials/header/header-hgroup.php:13
-msgid "Blog"
-msgstr "Blog"
-
-#: partials/sections/section-contact.php:8
-msgid "Contact"
-msgstr "Contato"
-
-#: partials/sections/section-contact.php:10 templates/contact-over-map.php:57
-msgid "Get in touch!"
-msgstr "Entre em contato!"
-
-#: partials/sections/section-portfolio.php:18
-msgid "My Latest Works"
-msgstr "Meus trabalhos mais recentes"
-
-#: partials/sections/section-portfolio.php:44
-msgid "See More"
-msgstr "Ver Mais"
-
-#: partials/sections/section-resume.php:47
-msgid "Resume"
-msgstr "Currículo"
-
-#: partials/sections/section-resume.php:49
-msgid "Latest in my career"
-msgstr "Últimas da minha carreira"
-
-#: partials/sections/section-resume.php:60
-msgid "Education"
-msgstr "Educação"
-
-#: partials/sections/section-resume.php:91
-msgid "Work Experience"
-msgstr "Experiência"
-
-#: partials/sections/section-resume.php:103
-msgid "Currently"
-msgstr "Atualmente"
-
-#: searchform.php:11
+#: searchform.php:9
 msgid "Search"
 msgstr "Pesquisar"
 
-#: searchform.php:16
+#: searchform.php:15
 msgid "Search for"
 msgstr "Procurar por"
 
-#: searchform.php:18
+#: searchform.php:17
 msgid "Search term input"
 msgstr "Entrada do termo da pesquisa"
 
-#: searchform.php:23
+#: searchform.php:20
 msgid "Go"
 msgstr "Ir"
 
-#: single-portfolio.php:46
-msgid "Client:"
-msgstr "Cliente:"
+#: single.php:23
+msgid "Next Post"
+msgstr "Próximo Post"
 
-#: single-portfolio.php:56
-msgid "Design by:"
-msgstr "Design por:"
+#: single.php:24
+msgid "Previous Post"
+msgstr "Post Anterior"
 
-#: single-portfolio.php:66
-msgid "Created in:"
-msgstr "Criado em:"
+#~ msgid "My picture"
+#~ msgstr "Minha Foto"
 
-#: single-portfolio.php:78
-msgid "See Online"
-msgstr "Veja Online"
+#~ msgid "Titles"
+#~ msgstr "Títulos"
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid "I Am A Customizable Title"
+#~ msgstr "Eu sou um título personalizável"
+
+#~ msgid "Subtitle"
+#~ msgstr "Subtítulos"
+
+#~ msgid "I Am A Customizable Sub-Title"
+#~ msgstr "Eu sou um subtítulo personalizável"
+
+#~ msgid "Education Categories"
+#~ msgstr "Categorias de Diplomas"
+
+#~ msgid "All Education Categories"
+#~ msgstr "Todas Categorias de Diplomas"
+
+#~ msgid "Parent Education Categories"
+#~ msgstr "Categorias de Diploma Pai"
+
+#~ msgid "Parent Education Categories:"
+#~ msgstr "Categorias de Diploma Pai:"
+
+#~ msgid "New Education Category Name"
+#~ msgstr "Nome da nova categoria de diploma"
+
+#~ msgid "Add New Education Category"
+#~ msgstr "Adicionar nova categoria educacional"
+
+#~ msgid "Edit Education Category"
+#~ msgstr "Editar categoria educacional"
+
+#~ msgid "Update Education Category"
+#~ msgstr "Atualizar categoria educacional"
+
+#~ msgid "View Education Category"
+#~ msgstr "Exibir categoria educacional"
+
+#~ msgid "Popular Education Categories"
+#~ msgstr "Categorias populares de diploma"
+
+#~ msgid "Search Education Categories"
+#~ msgstr "Pesquisar categorias de diploma"
+
+#~ msgid "Education Categories list"
+#~ msgstr "Lista de categorias de diploma"
+
+#~ msgid "Education Categories list navigation"
+#~ msgstr "Navegação na lista Categorias de Diplomas"
+
+#, fuzzy
+#~| msgid "Comments"
+#~ msgid "comment2"
+#~ msgstr "Comentários"
+
+#, fuzzy
+#~| msgid "Recommended"
+#~ msgid "command"
+#~ msgstr "Recomendado"
+
+#, fuzzy
+#~| msgid "Comments"
+#~ msgid "Commands:"
+#~ msgstr "Comentários"
+
+#, fuzzy
+#~| msgid "Required"
+#~ msgid "required"
+#~ msgstr "Requeridos"
+
+#, fuzzy
+#~| msgid "Plugin activation failed."
+#~ msgid "Implications failed:"
+#~ msgstr "A ativação do plugin falhou."
+
+#~ msgid "Frontpage Widget One"
+#~ msgstr "Coluna Um Página Inicial"
+
+#~ msgid "Frontpage Widget Two"
+#~ msgstr "Coluna Dois Página Inicial"
+
+#~ msgid "Frontpage Widget Three"
+#~ msgstr "Coluna Três Página Inicial"
+
+#~ msgid "Frontpage Widget Four"
+#~ msgstr "Coluna Quatro Página Inicial"
+
+#~ msgid "Phone"
+#~ msgstr "Telefone"
+
+#~ msgid "Contacts"
+#~ msgstr "Contatos"
+
+#~ msgid "Contacts Infos"
+#~ msgstr "Informações de Contatos"
+
+#~ msgid "Short text or phrase to invite people to contact you"
+#~ msgstr ""
+#~ "Texto ou frase curta para convidar pessoas a entrar em contato com você"
+
+#~ msgid "Whatsapp"
+#~ msgstr "Whatsapp"
+
+#~ msgid "Whatsapp number in full phone number in international format"
+#~ msgstr ""
+#~ "Número do Whatsapp em número de telefone completo em formato internacional"
+
+#~ msgid "Phone number in full phone number in international format"
+#~ msgstr "Número de telefone completo em formato internacional"
+
+#~ msgid "Email"
+#~ msgstr "E-mail"
+
+#~ msgid "Email Address"
+#~ msgstr "Endereço de e-mail"
+
+#~ msgid "Contact Form"
+#~ msgstr "Formulário de Contato"
+
+#~ msgid "Paste a contact form shortcode"
+#~ msgstr "Cole um shortcode de formulário de contato"
+
+#~ msgid "Background conrols for contact section"
+#~ msgstr "Controles do plano de fundo para a seção de contato"
+
+#~ msgid "Skills"
+#~ msgstr "Habilidades"
+
+#~ msgid "What am i best!"
+#~ msgstr "O que eu sou melhor!"
+
+#~ msgid "Background image controls for skill section"
+#~ msgstr "Controles do plano de fundo para a seção de habilidades"
+
+#~ msgid "Skills List"
+#~ msgstr "Lista de habilidades"
+
+#~ msgid "Skill"
+#~ msgstr "Habilidade"
+
+#~ msgid "Add new skill"
+#~ msgstr "Adicionar nova habilidade"
+
+#~ msgid "HTML5 / CSS3 / SASS"
+#~ msgstr "HTML5 / CSS3 / SASS"
+
+#~ msgid "JavaScript / JQuery"
+#~ msgstr "JavaScript / JQuery"
+
+#~ msgid "PHP / MySQL"
+#~ msgstr "PHP / MySQL"
+
+#~ msgid "Skill Name"
+#~ msgstr "Nome da habilidade"
+
+#~ msgid "This will be the label for your skill"
+#~ msgstr "Este será o rótulo para sua habilidade"
+
+#~ msgid "Skill Level"
+#~ msgstr "Nível de habilidade"
+
+#~ msgid "This will be the percentage level"
+#~ msgstr "Este será o nível percentual"
+
+#~ msgid "Additional Information"
+#~ msgstr "Informações Adicionais"
+
+#~ msgid "Degree Details"
+#~ msgstr "Detalhes do Diploma"
+
+#~ msgid "Beginning of the course"
+#~ msgstr "Inicio do Curso"
+
+#~ msgid "End of the course"
+#~ msgstr "Fim do Curso"
+
+#~ msgid "Ongoing"
+#~ msgstr "Em andamento"
+
+#~ msgid "Is this course in progress?"
+#~ msgstr "Este curso está em andamento?"
+
+#~ msgid "Educational Institution"
+#~ msgstr "Instituição educacional"
+
+#~ msgid "Experience Details"
+#~ msgstr "Detalhes da experiência"
+
+#~ msgid "Beginning of the experience"
+#~ msgstr "Início da experiência"
+
+#~ msgid "End of the experience"
+#~ msgstr "Fim da experiência"
+
+#~ msgid "Current Employment"
+#~ msgstr "Emprego atual"
+
+#~ msgid "Is this your current job?"
+#~ msgstr "Este é seu emprego atual?"
+
+#~ msgid "Company Name"
+#~ msgstr "Nome da empresa"
+
+#~ msgid "Portfolio works you did at this company"
+#~ msgstr "Trabalhos do portfólio que você fez nesta empresa"
+
+#~ msgid "Portfolio Details"
+#~ msgstr "Detalhes do portfólio"
+
+#~ msgid "Client"
+#~ msgstr "Cliente"
+
+#~ msgid "Client's name"
+#~ msgstr "Nome do cliente"
+
+#~ msgid "Client's URL"
+#~ msgstr "URL do cliente"
+
+#~ msgid "Link to client website"
+#~ msgstr "Link para o site do cliente"
+
+#~ msgid "Designer's Name"
+#~ msgstr "Nome do Designer"
+
+#~ msgid "Designer's URL"
+#~ msgstr "URL do designer"
+
+#~ msgid "Link to designer website or social network"
+#~ msgstr "Link para site de designer ou rede social"
+
+#~ msgid "This Work's URL"
+#~ msgstr "URL deste trabalho"
+
+#~ msgid "Link to this work in production site"
+#~ msgstr "Link para este trabalho no site de produção"
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "Job Creation Date"
+#~ msgstr "Data de criação do trabalho"
+
+#~ msgid "Education Degrees"
+#~ msgstr "Diplomas"
+
+#~ msgid "Education Degree"
+#~ msgstr "Diplomas"
+
+#~ msgid "Education Degree Archives"
+#~ msgstr "Arquivos de Diplomas"
+
+#~ msgid "Education Degree Attributes"
+#~ msgstr "Atributos do Diploma"
+
+#~ msgid "Parent Education Degree:"
+#~ msgstr "Diploma pai:"
+
+#~ msgid "All Education Degree"
+#~ msgstr "Todos os Diplomas"
+
+#~ msgid "Add New Education Degree"
+#~ msgstr "Adicionar novo diploma"
+
+#~ msgid "Add Education Degree"
+#~ msgstr "Adicionar Diploma"
+
+#~ msgid "New Education Degree"
+#~ msgstr "Novo diploma"
+
+#~ msgid "Edit Education Degree"
+#~ msgstr "Editar diploma"
+
+#~ msgid "Update Education Degree"
+#~ msgstr "Atualizar diploma"
+
+#~ msgid "View Education Degree"
+#~ msgstr "Exibir Diploma"
+
+#~ msgid "View Education Degrees"
+#~ msgstr "Exibir os diplomas"
+
+#~ msgid "Search Education Degree"
+#~ msgstr "Pesquisar diploma"
+
+#~ msgid "Insert into education degree"
+#~ msgstr "Inserir no diploma"
+
+#~ msgid "Uploaded to this education degree"
+#~ msgstr "Carregado para este diploma"
+
+#~ msgid "Items list"
+#~ msgstr "Lista de itens"
+
+#~ msgid "Education Degrees list navigation"
+#~ msgstr "Navegação na lista de diplomas"
+
+#~ msgid "Filter degrees list"
+#~ msgstr "Filtrar lista de diplomas"
+
+#~ msgid "Educational Background"
+#~ msgstr "Experiência educacional"
+
+#~ msgid "Experiences"
+#~ msgstr "Experiências"
+
+#~ msgid "Experience"
+#~ msgstr "Experiência"
+
+#~ msgid "Experiences Archives"
+#~ msgstr "Arquivos das Experiências"
+
+#~ msgid "Experiences Attributes"
+#~ msgstr "Atributos das Experiências"
+
+#~ msgid "Parent  Experience:"
+#~ msgstr "Experiência Pai:"
+
+#~ msgid "All Experiences"
+#~ msgstr "Todas Experiências"
+
+#~ msgid "Add New Experience"
+#~ msgstr "Adicionar nova Experiência"
+
+#~ msgid "Add Experience"
+#~ msgstr "Adicionar Experiência"
+
+#~ msgid "New Experience"
+#~ msgstr "Nova Experiência"
+
+#~ msgid "Edit Experience"
+#~ msgstr "Editar Experiência"
+
+#~ msgid "Update Experience"
+#~ msgstr "Atualizar Experiência"
+
+#~ msgid "View Experience"
+#~ msgstr "Exibir Experiência"
+
+#~ msgid "View Experiences"
+#~ msgstr "Exibir Experiências"
+
+#~ msgid "Search Experience"
+#~ msgstr "Pesquisar Experiência"
+
+#~ msgid "Insert into item"
+#~ msgstr "Inserir no item"
+
+#~ msgid "Uploaded to this work experience"
+#~ msgstr "Carregado para esta experiência de trabalho"
+
+#~ msgid "Experiences list"
+#~ msgstr "Lista de Experiências"
+
+#~ msgid "Experiences list navigation"
+#~ msgstr "Navegação na lista de experiências"
+
+#~ msgid "Filter Experiences list"
+#~ msgstr "Filtrar lista de experiências"
+
+#~ msgid "Career Experiences"
+#~ msgstr "Experiências da Carreira"
+
+#~ msgid "Contact"
+#~ msgstr "Contato"
+
+#~ msgid "Get in touch!"
+#~ msgstr "Entre em contato!"
+
+#~ msgid "My Latest Works"
+#~ msgstr "Meus trabalhos mais recentes"
+
+#~ msgid "See More"
+#~ msgstr "Ver Mais"
+
+#~ msgid "Resume"
+#~ msgstr "Currículo"
+
+#~ msgid "Latest in my career"
+#~ msgstr "Últimas da minha carreira"
+
+#~ msgid "Education"
+#~ msgstr "Educação"
+
+#~ msgid "Work Experience"
+#~ msgstr "Experiência"
+
+#~ msgid "Currently"
+#~ msgstr "Atualmente"
+
+#~ msgid "Client:"
+#~ msgstr "Cliente:"
+
+#~ msgid "Design by:"
+#~ msgstr "Design por:"
+
+#~ msgid "Created in:"
+#~ msgstr "Criado em:"
+
+#~ msgid "See Online"
+#~ msgstr "Veja Online"
 
 #~ msgid "Location"
 #~ msgstr "Localização"

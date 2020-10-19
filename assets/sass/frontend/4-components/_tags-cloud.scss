@@ -1,0 +1,24 @@
+/* Tag Cloud */
+.tagcloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .tag-cloud-link {
+        display: block;
+        padding: 8px;
+        margin: 3px;
+        border: 2px solid $color3;
+        box-sizing: border-box;
+        font-size: 1em !important;
+        font-weight: bold;
+        color: $color3;
+
+        &:hover {
+            background-color: $color3;
+            color: white;
+            text-decoration: none !important;
+            transition: .5s ease;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.portfolio-grid {
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    figcaption {
+        margin-top: 15px;
+        text-align: center;
+        font-weight: bold;
+        color: inherit;
+    }
+}

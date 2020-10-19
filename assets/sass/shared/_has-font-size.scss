@@ -1,0 +1,14 @@
+// Has Font Size
+
+@each $name,
+$size in $sizes {
+    .has-#{$name}-font-size {
+        font-size: $size;
+    }
+}
+
+.has-huge-font-size {
+    @media (max-width: 767.98px) {
+        font-size: 48px;
+    }
+}

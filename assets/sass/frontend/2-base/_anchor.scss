@@ -1,0 +1,17 @@
+/* Anchor */
+
+a {
+  color: $color5;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $color3;
+    text-decoration: underline;
+  }
+}

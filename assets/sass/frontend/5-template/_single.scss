@@ -1,0 +1,14 @@
+// Post Excerpt
+
+.entry-header {
+    .post-image-overlayer {
+        &::before {
+            top: 0;
+            right: 15px;
+            left: 15px;
+            bottom: 0;
+            width: unset;
+            height: unset;
+        }
+    }
+}
