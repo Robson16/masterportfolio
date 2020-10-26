@@ -1,19 +1,21 @@
 // Variables
 
 // Fonts-Size
-$sizes: ("small": 12px,
-    "normal": 16px,
-    "medium": 20px,
-    "big": 32px,
-    "huge": 72px,
+$sizes: (
+  "small": 12px,
+  "normal": 16px,
+  "medium": 20px,
+  "big": 32px,
+  "huge": 48px,
 );
 
 // Coolors Palette - coolors.co/1cc9a7-1abd9c-17a387-117d67-093d33
-$colors: ("white": #ffffff,
-    "caribbean-green": #1cc9a7,
-    "mountain-meadow": #1abd9c,
-    "zomp": #17a387,
-    "generic-viridian": #117d67,
-    "msu-green": #093d33,
-    "black": #000000,
+$colors: (
+  "white": #ffffff,
+  "caribbean-green": #1cc9a7,
+  "mountain-meadow": #1abd9c,
+  "zomp": #17a387,
+  "generic-viridian": #117d67,
+  "msu-green": #093d33,
+  "black": #000000,
 );

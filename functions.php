@@ -131,7 +131,7 @@ if (!function_exists('masterportfolio_setup')) {
             ),
             array(
                 'name' => __( 'Huge', 'masterportfolio' ),
-                'size' => 72,
+                'size' => 48,
                 'slug' => 'huge',
             ),
         ) );
