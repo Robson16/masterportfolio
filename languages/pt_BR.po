@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Robson Portfolio 1.0\n"
-"POT-Creation-Date: 2020-10-19 17:59-0300\n"
-"PO-Revision-Date: 2020-10-19 18:01-0300\n"
+"POT-Creation-Date: 2021-04-03 13:34-0300\n"
+"PO-Revision-Date: 2021-04-03 13:34-0300\n"
 "Last-Translator: Robson H Rodrigues <contato@robsonhrodrigues.com.br>\n"
 "Language-Team: Robson\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-KeywordsList: __;_e;_x;esc_html__;_n_noop\n"
@@ -41,80 +41,84 @@ msgstr "Deixe um comentário."
 msgid "All rights reserved."
 msgstr "Todos os direitos reservados."
 
-#: functions.php:39
+#: functions.php:40
 msgid "Main Menu"
 msgstr "Menu principal"
 
-#: functions.php:74
+#: functions.php:75
 msgid "White"
 msgstr "Branco"
 
-#: functions.php:79
+#: functions.php:80
 msgid "Caribbean Green"
 msgstr "Verde Caribenho"
 
-#: functions.php:84
+#: functions.php:85
 msgid "Mountain Meadow"
 msgstr "Vende Montanha"
 
-#: functions.php:89
+#: functions.php:90
 msgid "Zomp"
 msgstr "Zomp"
 
-#: functions.php:94
+#: functions.php:95
 msgid "Generic Viridian"
 msgstr "Viridian genérico"
 
-#: functions.php:99
+#: functions.php:100
 msgid "MSU Green"
 msgstr "Verde MSU"
 
-#: functions.php:104
+#: functions.php:105
 msgid "Black"
 msgstr "Preto"
 
-#: functions.php:113
+#: functions.php:114
 msgid "Small"
 msgstr "Pequeno"
 
-#: functions.php:118
+#: functions.php:119
 msgid "Normal"
 msgstr "Normal"
 
-#: functions.php:123
+#: functions.php:124
 msgid "Medium"
 msgstr "Médio"
 
-#: functions.php:128
+#: functions.php:129
 msgid "Big"
 msgstr "Grande"
 
-#: functions.php:133
+#: functions.php:134
 msgid "Huge"
 msgstr "Enorme"
 
-#: functions.php:163
+#: functions.php:152
+msgid "Rounded with border"
+msgstr "Arredondado com borda"
+
+#: functions.php:175
 msgid "Footer Column One"
 msgstr "Coluna Um do Rodapé"
 
-#: functions.php:165 functions.php:172 functions.php:179 functions.php:186
-#: functions.php:193
+#: functions.php:177 functions.php:184 functions.php:191 functions.php:198
+#: functions.php:205
 msgid "Add some widget."
 msgstr "Adicione algum widget."
 
-#: functions.php:170
+#: functions.php:182
 msgid "Footer Column Two"
 msgstr "Coluna Dois do Rodapé"
 
-#: functions.php:177
+#: functions.php:189
 msgid "Footer Column Three"
 msgstr "Coluna Três do Rodapé"
 
-#: functions.php:184
+#: functions.php:196
 msgid "Footer Column Four"
 msgstr "Coluna Quatro do Rodapé"
 
-#: functions.php:191
+#: functions.php:203
 msgid "Blog Sidebar"
 msgstr "Barra Lateral do Blog"
 

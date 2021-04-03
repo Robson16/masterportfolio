@@ -20,10 +20,11 @@ add_action('wp_enqueue_scripts', 'masterportfolio_scripts');
 /**
  * Gutenberg Assets
  * @see https://www.billerickson.net/block-styles-in-gutenberg/
+ * 
+ *  The webfonts need to be enqueue on this hook for the editor to be able to use them.
  */
 function masterportfolio_gutenberg_assets() {
     wp_enqueue_style( 'masterportfolio-webfonts', get_template_directory_uri() . '/assets/css/shared/webfonts.css', array(), wp_get_theme()->get( 'Version' ), 'all' );
-    wp_enqueue_script('masterportfolio-editor-script', get_stylesheet_directory_uri() . '/assets/js/admin/register-block-styles.js', array('wp-blocks', 'wp-dom'), '1.0', true);
 }
 add_action('enqueue_block_editor_assets', 'masterportfolio_gutenberg_assets');
 
@@ -138,7 +139,18 @@ if (!function_exists('masterportfolio_setup')) {
 
         // Custom image sizes
         add_image_size( 'narrow_large', 1200, 500, true );
-        add_image_size( 'thumbnails_portfolio' , 420, 320, true );
+        add_image_size( 'thumbnails_portfolio' , 480, 270, true );
+
+        /**
+         * Custom blocks styles.
+         * 
+         * @see https://wpblockz.com/tutorial/register-block-styles-in-wordpress/
+         * @link https://developer.wordpress.org/block-editor/reference-guides/filters/block-filters/
+         */
+        register_block_style( 'core/image', array(
+            'name' => 'rounded-with-border',
+            'label' => __( 'Rounded with border', 'masterportfolio' ),            
+        ));
     }
 }
 add_action( 'after_setup_theme', 'masterportfolio_setup' );

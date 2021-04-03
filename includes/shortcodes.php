@@ -26,7 +26,7 @@ function portfolio_shortcode( $atts ) {
 
         $portfolio_html .= "<article id='post-" .  get_the_ID() . "' class='portfolio-item'>";
         $portfolio_html .= "<figure>"; 
-        $portfolio_html .= "<a class='post-image-overlayer' href='" . esc_url( get_permalink( get_the_ID() ) ) . "'>";
+        $portfolio_html .= "<a href='" . esc_url( get_permalink( get_the_ID() ) ) . "'>";
         $portfolio_html .= get_the_post_thumbnail( $portfolio_items->the_ID, 'thumbnails_portfolio', array( 'alt' => get_the_title() ) );
         $portfolio_html .= "</a>";
         $portfolio_html .= "<figcaption>" . get_the_title() . "</figcaption>";
